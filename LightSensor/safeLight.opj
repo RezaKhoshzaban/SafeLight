@@ -28,6 +28,52 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (MPSSessionName "rezak")
   (PartMRUSelector
+    (GND
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (VDDS
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (FerriteBead
+      (FullPartName "FerriteBead.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDDR
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (IND
+      (FullPartName "IND.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGE_CON_IN
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (JTAG
+      (FullPartName "JTAG.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGE_CON_OUT
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (ANTENNA
+      (FullPartName "ANTENNA.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL_32768
+      (FullPartName "CRYSTAL_32768.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL_24M
+      (FullPartName "CRYSTAL_24M.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
     (CC2640
       (FullPartName "CC2640.Normal")
       (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
@@ -40,21 +86,22 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\safelight.dsn")
-      (Path "Design Resources" ".\safelight.dsn" "SafeLight")
+      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn")
+      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn"
+         "SafeLight")
       (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 274"))
+        (Placement "44 0 1 -1 -1 -8 -31 239 439 117 391"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1460 130 443")
-        (Scroll "-156 10")
-        (Zoom "100")
+        (Placement "44 2 3 0 405 -8 -31 0 985 0 386")
+        (Scroll "-24 165")
+        (Zoom "112")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
       (Schematic "SafeLight")
