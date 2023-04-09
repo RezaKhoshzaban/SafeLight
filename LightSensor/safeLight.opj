@@ -28,6 +28,10 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (MPSSessionName "rezak")
   (PartMRUSelector
+    (CC2640
+      (FullPartName "CC2640.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
     (TI_CC2640R2F_RSM
       (FullPartName "TI_CC2640R2F_RSM-2.Normal")
       (LibraryName
@@ -38,9 +42,7 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\safelight.dsn")
       (Path "Design Resources" ".\safelight.dsn" "SafeLight")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\safelight.dsn" "SafeLight"
-         "Microcontroller"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -51,11 +53,10 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1460 130 443")
-        (Scroll "-156 200")
+        (Scroll "-156 10")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
       (Schematic "SafeLight")
       (Page "Microcontroller")))
-  (LastUsedLibraryBrowseDirectory
-     "L:\Material Second year First semester\Electronic Systems Engineering\PROJECT\2020_12_10_Cadence Lab 8\LAB8"))
+  (LastUsedLibraryBrowseDirectory "C:\SafeLight\MyLib"))
