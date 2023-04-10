@@ -28,6 +28,30 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (MPSSessionName "rezak")
   (PartMRUSelector
+    (RES
+      (FullPartName "RES.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (MAX1759
+      (FullPartName "MAX1759.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (MCP73832T-2ACI_OT
+      (FullPartName "MCP73832T-2ACI_OT.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (BQ27441DRZR-G1A
+      (FullPartName "BQ27441DRZR-G1A.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    ("BATTERY CONNECTOR"
+      (FullPartName "BATTERY CONNECTOR.Normal")
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
       (DeviceIndex "0"))
@@ -89,21 +113,35 @@
       (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn")
       (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn"
          "SafeLight")
-      (Path "Design Resources" "Library"))
+      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn"
+         "Design Cache")
+      (Select "Design Resources" "c:\safelight\lightsensor\safelight.dsn"
+         "Design Cache" "MCP73832T-2ACI_OT"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 239 439 117 391"))
+        (Placement "44 2 3 -1 -1 -8 -31 239 439 117 391"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 0 405 -8 -31 0 985 0 386")
-        (Scroll "-24 165")
+        (Placement "44 0 1 0 405 -8 -31 0 985 0 386")
+        (Scroll "0 386")
         (Zoom "112")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
       (Schematic "SafeLight")
-      (Page "Microcontroller")))
-  (LastUsedLibraryBrowseDirectory "C:\SafeLight\MyLib"))
+      (Page "Microcontroller"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1408 78 391")
+        (Scroll "47 400")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
+      (Schematic "SafeLight")
+      (Page "Power")))
+  (LastUsedLibraryBrowseDirectory
+     "L:\Material Second year First semester\Electronic Systems Engineering\PROJECT\Light Sensor\Material\downloadedFootprints\BQ27441DRZR-G1A\Capture"))

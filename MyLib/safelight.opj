@@ -13,10 +13,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\safelight.olb"))
+      (Path "Design Resources" ".\safelight.olb")
+      (Select "Design Resources" ".\safelight.olb" "MCP73832T-2ACI_OT"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 270"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 270"))
       (Tab 0))))
