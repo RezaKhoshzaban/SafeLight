@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : SAMTEC_FTSH-105-01-L-D-K.dra                  )
+(    Drawing          : EG1218.dra                                    )
 (    Software Version : 17.2S078                                      )
-(    Date/Time        : Sat Apr 15 15:42:57 2023                      )
+(    Date/Time        : Sat Apr 15 15:44:10 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Sat Apr 15 15:42:57 2023				Page     1
+Sat Apr 15 15:44:10 2023				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/SAMTEC_FTSH-105-01-L-D-K.dra'
+Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/EG1218.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -43,12 +43,8 @@ PADPATH =  .
 
 ------ Pad Stack Refresh Messages ------
 
-'T_N71_101_M101'  pad stack refresh starting.
+'T_N90_167_M167'  pad stack refresh starting.
 
-     'T_N71_101_M101'  pad stack refreshed successfully.
-     
-'T_Q71_101_M101'  pad stack refresh starting.
-
-     'T_Q71_101_M101'  pad stack refreshed successfully.
+     'T_N90_167_M167'  pad stack refreshed successfully.
      
 Completed refreshing all pad stacks successfully.

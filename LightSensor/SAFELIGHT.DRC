@@ -1,0 +1,80 @@
+Date and Time : 04/15/23 19:34:34
+
+--------------------------------------------------
+Checking Schematic:  SafeLight
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict 0  Power Connected to Bidirectional
+                    SafeLight, Peripherals  (0.80, 5.10) 
+WARNING(ORCAP-1829): Possible pin type conflict J1,5  Bidirectional Connected to Power
+                    SafeLight, Peripherals  (1.40, 4.60) 
+WARNING(ORCAP-1829): Possible pin type conflict J1,3  Bidirectional Connected to Power
+                    SafeLight, Peripherals  (1.40, 4.50) 
+WARNING(ORCAP-1829): Possible pin type conflict J1,9  Bidirectional Connected to Power
+                    SafeLight, Peripherals  (1.40, 4.80) 
+WARNING(ORCAP-1829): Possible pin type conflict GND  Power Connected to Bidirectional
+                    SafeLight, Microcontroller  (7.90, 5.10) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,VSS3  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (1.10, 4.40) 
+WARNING(ORCAP-1829): Possible pin type conflict CYS1,2  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (7.50, 1.70) 
+WARNING(ORCAP-1829): Possible pin type conflict CYS1,4  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (7.40, 1.70) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,EGP  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (1.10, 4.80) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,VSS4  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (1.10, 4.60) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,VSS1  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (1.10, 4.00) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,VSS0  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (1.10, 3.80) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,VSS2  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (1.10, 4.20) 
+WARNING(ORCAP-1829): Possible pin type conflict FG1,CTG  Bidirectional Connected to Power
+                    SafeLight, Power  (6.60, 5.00) 
+WARNING(ORCAP-1829): Possible pin type conflict FG1,GND  Bidirectional Connected to Power
+                    SafeLight, Power  (6.60, 5.10) 
+WARNING(ORCAP-1829): Possible pin type conflict FG1,QSTRT  Bidirectional Connected to Power
+                    SafeLight, Power  (7.50, 5.10) 
+WARNING(ORCAP-1829): Possible pin type conflict FG1,EGP  Bidirectional Connected to Power
+                    SafeLight, Power  (6.60, 5.20) 
+WARNING(ORCAP-1829): Possible pin type conflict VR1,FB  Bidirectional Connected to Power
+                    SafeLight, Power  (7.10, 1.10) 
+WARNING(ORCAP-1829): Possible pin type conflict CHC1,GND  Bidirectional Connected to Power
+                    SafeLight, Power  (3.10, 5.20) 
+WARNING(ORCAP-1829): Possible pin type conflict VR1,PGND  Bidirectional Connected to Power
+                    SafeLight, Power  (7.10, 1.90) 
+WARNING(ORCAP-1829): Possible pin type conflict VR1,GND  Bidirectional Connected to Power
+                    SafeLight, Power  (5.90, 1.90) 
+WARNING(ORCAP-1829): Possible pin type conflict CHC1,DC  Bidirectional Connected to Power
+                    SafeLight, Power  (3.10, 5.00) 
+WARNING(ORCAP-1829): Possible pin type conflict USB1,+  Power Connected to Bidirectional
+                    SafeLight, Power  (1.30, 5.00) 
+WARNING(ORCAP-1829): Possible pin type conflict VCC  Power Connected to Bidirectional
+                    SafeLight, Microcontroller  (7.20, 4.20) 
+WARNING(ORCAP-1829): Possible pin type conflict VR1,OUT  Bidirectional Connected to Power
+                    SafeLight, Power  (7.10, 1.30) 
+WARNING(ORCAP-1829): Possible pin type conflict J1,1  Bidirectional Connected to Power
+                    SafeLight, Peripherals  (1.40, 4.40) 
+WARNING(ORCAP-1829): Possible pin type conflict VDDS  Power Connected to Bidirectional
+                    SafeLight, Microcontroller  (3.00, 0.40) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,VDDS  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (2.50, 0.60) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,VDDS2  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (2.50, 0.80) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,VDDS_DCDC  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (2.50, 1.00) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,DIO_1  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (1.10, 0.80) 
+WARNING(ORCAP-1829): Possible pin type conflict LS1,PS  Power Connected to Bidirectional
+                    SafeLight, Peripherals  (1.30, 1.20) 
+WARNING(ORCAP-1829): Possible pin type conflict VDDR  Power Connected to Bidirectional
+                    SafeLight, Microcontroller  (3.40, 0.40) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,VDDR2  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (2.50, 1.40) 
+WARNING(ORCAP-1829): Possible pin type conflict M1,VDDR  Bidirectional Connected to Power
+                    SafeLight, Microcontroller  (2.50, 1.20) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets

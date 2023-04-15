@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : EG1218.dra                                    )
+(    Drawing          : 0402_C.dra                                    )
 (    Software Version : 17.2S078                                      )
-(    Date/Time        : Sat Apr 15 15:44:10 2023                      )
+(    Date/Time        : Sat Apr 15 15:46:17 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Sat Apr 15 15:44:10 2023				Page     1
+Sat Apr 15 15:46:17 2023				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/EG1218.dra'
+Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/0402_C.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -43,8 +43,12 @@ PADPATH =  .
 
 ------ Pad Stack Refresh Messages ------
 
-'T_N90_167_M167'  pad stack refresh starting.
+'SMD_0D6_0D5'  pad stack refresh starting.
 
-     'T_N90_167_M167'  pad stack refreshed successfully.
+     'SMD_0D6_0D5'  pad stack refreshed successfully.
+     
+'SMD_0D7_0D95'  pad stack refresh starting.
+
+     'SMD_0D7_0D95'  pad stack refreshed successfully.
      
 Completed refreshing all pad stacks successfully.

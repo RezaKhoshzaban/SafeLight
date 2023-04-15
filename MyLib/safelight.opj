@@ -13,11 +13,19 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "c:\safelight\mylib\safelight.olb")
-      (Select "Design Resources" "c:\safelight\mylib\safelight.olb" "SIS"))
+      (Path "Design Resources" ".\safelight.olb")
+      (Select "Design Resources" ".\safelight.olb" "PDV-P8001"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 200 0 270"))
-      (Tab 0))))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1134 104 387"))
+      (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (Package "PDV-P8001")
+      (PartType "1")))
+  (ISPCBBASICLICENSE "false"))
