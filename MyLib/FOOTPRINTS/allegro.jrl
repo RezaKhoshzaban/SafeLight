@@ -1,42 +1,47 @@
 \t (00:00:00) allegro 17.2 S078 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Sat Apr 15 15:46:07 2023
-\t (00:00:00)         Host=DESKTOP-CK2AQQI User=rezak Pid=20956 CPUs=8
-\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\0402_C.dra
+\t (00:00:00)     Journal start - Sat Apr 15 18:55:17 2023
+\t (00:00:00)         Host=DESKTOP-CK2AQQI User=rezak Pid=24172 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\0805_C.dra
 \t (00:00:00) 
    (00:00:00) Loading axlcore.cxt 
 \t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged 0402_C
-\d (00:00:03) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/0402_C.dra
-\i (00:00:03) trapsize 130
-\i (00:00:03) trapsize 133
-\i (00:00:03) trapsize 130
-\i (00:00:04) trapsize 101
-\i (00:00:04) trapsize 114
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged 0805_C
+\d (00:00:03) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/0805_C.dra
+\i (00:00:03) trapsize 518
+\i (00:00:03) trapsize 533
+\i (00:00:03) trapsize 518
+\i (00:00:04) trapsize 405
+\i (00:00:04) trapsize 454
 \i (00:00:04) etchedit 
-\i (00:00:09) refresh padstack 
-\i (00:00:10) setwindow form.rf_pad
-\i (00:00:10) FORM rf_pad execute  
-\t (00:00:10) Starting Refreshing padstacks...
-\t (00:00:10) Opening existing design...
-\i (00:00:10) setwindow pcb
-\i (00:00:10) trapsize 114
-\i (00:00:10) trapsize 116
-\i (00:00:10) trapsize 114
-\t (00:00:11) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
-\i (00:00:11) trapsize 120
-\i (00:00:12) setwindow form.rf_pad
-\i (00:00:12) FORM rf_pad cancel  
-\i (00:00:12) setwindow pcb
-\i (00:00:12) etchedit 
-\i (00:00:13) prepopup -0.6765 0.0377
-\i (00:00:14) pop dyn_option_select '@:@Show element' 
-\i (00:00:14) show element 
-\i (00:00:14) etchedit 
-\i (00:00:16) setwindow text
-\i (00:00:16) close
-\i (00:00:17) save 
-\i (00:00:18) fillin yes 
-\t (00:00:18) Symbol '0402_c.psm' created.
-\i (00:00:18) etchedit 
-\i (00:00:19) exit 
-\t (00:00:20)     Journal end - Sat Apr 15 15:46:26 2023
+\i (00:00:09) prepopup -1.1923 0.4225
+\i (00:00:10) pop dyn_option_select '@:@Show element' 
+\i (00:00:10) show element 
+\i (00:00:10) etchedit 
+\i (00:00:38) setwindow text
+\i (00:00:38) close
+\i (00:00:42) refresh padstack 
+\i (00:00:43) setwindow form.rf_pad
+\i (00:00:43) FORM rf_pad execute  
+\t (00:00:43) Starting Refreshing padstacks...
+\t (00:00:44) Opening existing design...
+\i (00:00:44) setwindow pcb
+\i (00:00:44) trapsize 454
+\i (00:00:44) trapsize 464
+\i (00:00:44) trapsize 454
+\t (00:00:44) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:00:44) trapsize 478
+\i (00:00:46) setwindow form.rf_pad
+\i (00:00:46) FORM rf_pad cancel  
+\i (00:00:46) setwindow pcb
+\i (00:00:46) etchedit 
+\i (00:00:47) prepopup -1.1173 0.1014
+\i (00:00:48) pop dyn_option_select '@:@Show element' 
+\i (00:00:48) show element 
+\i (00:00:48) etchedit 
+\i (00:00:51) setwindow text
+\i (00:00:51) close
+\i (00:00:53) exit 
+\e (00:00:53) Do you want to save the changes you made to C:/SafeLight/MyLib/FOOTPRINTS/0805_C.dra?
+\i (00:00:55) fillin yes 
+\t (00:00:55) Symbol '0805_c.psm' created.
+\t (00:00:56)     Journal end - Sat Apr 15 18:56:12 2023
