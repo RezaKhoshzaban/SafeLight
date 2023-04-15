@@ -147,7 +147,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1408 78 391")
-        (Scroll "-54 96")
+        (Scroll "-54 25")
         (Zoom "121")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
@@ -156,8 +156,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1408 78 391")
-        (Scroll "-4 27")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1408 78 391")
+        (Scroll "-156 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
