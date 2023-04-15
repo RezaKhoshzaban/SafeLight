@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MAX17048.dra                                  )
+(    Software Version : 17.2S078                                      )
+(    Date/Time        : Sat Apr 15 15:20:43 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/SafeLight/MyLib/FOOTPRINTS
+    Name      = max17048.psm
+    User      = rezak
+    Machine   = DESKTOP-CK2AQQI
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,54 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : SAMTEC_FTSH-105-01-L-D-K.dra                  )
+(    Software Version : 17.2S078                                      )
+(    Date/Time        : Sat Apr 15 15:42:57 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Apr 15 15:42:57 2023				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/SAMTEC_FTSH-105-01-L-D-K.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/symbols 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           L:/Material Second year First semester/Electronic Systems Engineering/PROJECT/LibraryLoader/psm 
+           C:/SafeLight/MyLib/FOOTPRINTS/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/padstacks 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           L:/Material Second year First semester/Electronic Systems Engineering/PROJECT/LibraryLoader/pad 
+           C:/SafeLight/MyLib/PADSTACKS/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'T_N71_101_M101'  pad stack refresh starting.
+
+     'T_N71_101_M101'  pad stack refreshed successfully.
+     
+'T_Q71_101_M101'  pad stack refresh starting.
+
+     'T_Q71_101_M101'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

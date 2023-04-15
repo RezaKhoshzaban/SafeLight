@@ -1,0 +1,17 @@
+\t (00:00:02) allegro 17.2 S078 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Apr 15 15:44:25 2023
+\t (00:00:02)         Host=DESKTOP-CK2AQQI User=rezak Pid=19276 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\EG1218.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged EG1218
+\d (00:00:05) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/EG1218.dra
+\i (00:00:05) trapsize 4220
+\i (00:00:05) trapsize 4344
+\i (00:00:05) trapsize 4220
+\i (00:00:05) trapsize 3299
+\i (00:00:05) trapsize 3299
+\i (00:00:05) etchedit 
+\i (00:00:15) exit 
+\t (00:00:16)     Journal end - Sat Apr 15 15:44:38 2023

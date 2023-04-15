@@ -1,80 +1,42 @@
 \t (00:00:00) allegro 17.2 S078 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Fri Apr 14 16:36:30 2023
-\t (00:00:00)         Host=DESKTOP-CK2AQQI User=rezak Pid=20556 CPUs=8
-\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\cc2640r2frsm.dra
+\t (00:00:00)     Journal start - Sat Apr 15 15:46:07 2023
+\t (00:00:00)         Host=DESKTOP-CK2AQQI User=rezak Pid=20956 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\0402_C.dra
 \t (00:00:00) 
-   (00:00:01) Loading axlcore.cxt 
+   (00:00:00) Loading axlcore.cxt 
 \t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged cc2640r2frsm
-\d (00:00:03) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/cc2640r2frsm.dra
-\i (00:00:03) trapsize 468
-\i (00:00:03) trapsize 482
-\i (00:00:04) trapsize 468
-\i (00:00:04) trapsize 366
-\i (00:00:04) trapsize 834
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged 0402_C
+\d (00:00:03) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/0402_C.dra
+\i (00:00:03) trapsize 130
+\i (00:00:03) trapsize 133
+\i (00:00:03) trapsize 130
+\i (00:00:04) trapsize 101
+\i (00:00:04) trapsize 114
 \i (00:00:04) etchedit 
-\i (00:00:18) prepopup -1.1997 1.1020
-\i (00:00:21) prepopup -1.1830 1.0520
-\i (00:00:24) pop dyn_option_select '@:@Add connect' 
-\i (00:00:24) add connect 
-\t (00:00:24) Pick first element.
-\t (00:00:24) last pick:  0.0000 0.0000
-\i (00:00:25) mouse_pos -0.3991 1.6024
-\i (00:00:25) mouse_pos -0.3157 1.6691
-\i (00:00:25) mouse_pos -0.0155 1.5857
-\i (00:00:26) mouse_pos 0.0179 1.6024
-\i (00:00:26) mouse_pos -0.0488 1.5690
-\i (00:00:27) mouse_pos -0.2156 0.9519
-\i (00:00:28) prepopup 0.1513 0.5850
-\i (00:00:30) cancel 
-\i (00:00:30) etchedit 
-\i (00:00:30) pick grid 5.9722 2.3863
-\t (00:00:30) last pick:  5.7150 2.5400
-\i (00:00:32) prepopup 1.0186 0.8685
-\i (00:00:35) pop dyn_option_select '@:@Show element' 
-\i (00:00:35) show element 
-\i (00:00:35) etchedit 
-\i (00:00:59) setwindow text
-\i (00:00:59) close
-\i (00:01:00) prepopup -0.6159 -0.5659
-\i (00:01:04) pick grid 0.0179 0.0512
-\t (00:01:04) last pick:  0.0000 0.0000
-\i (00:02:44) prepopup 1.9359 0.2681
-\i (00:02:46) pop dyn_option_select '@:@Show element' 
-\i (00:02:46) show element 
-\i (00:02:46) etchedit 
-\i (00:02:51) setwindow text
-\i (00:02:51) close
-\i (00:02:52) prepopup 0.2347 1.0186
-\i (00:02:53) pick grid -0.1656 0.9019
-\t (00:02:53) last pick:  0.0000 0.6350
-\i (00:02:53) prepopup -0.1656 0.9019
-\i (00:02:55) pop dyn_option_select '@:@Show element' 
-\i (00:02:55) show element 
-\i (00:02:55) etchedit 
-\i (00:03:01) setwindow text
-\i (00:03:01) close
-\i (00:03:11) prepopup 0.5516 0.5683
-\i (00:03:12) pop dyn_option_select '@:@Show element' 
-\i (00:03:12) show element 
-\i (00:03:12) etchedit 
-\i (00:04:10) setwindow text
-\i (00:04:10) close
-\i (00:04:14) prepopup 0.4682 0.4515
-\i (00:04:16) pop dyn_option_select '@:@Show element' 
-\i (00:04:16) show element 
-\i (00:04:16) etchedit 
-\i (00:04:26) setwindow text
-\i (00:04:26) close
-\i (00:04:27) pick grid 2.1361 0.6016
-\t (00:04:27) last pick:  1.9050 0.6350
-\i (00:04:27) prepopup 2.1361 0.6016
-\i (00:04:29) pop dyn_option_select '@:@Show element' 
-\i (00:04:29) show element 
-\i (00:04:29) etchedit 
-\i (00:11:06) setwindow text
-\i (00:11:06) close
-\i (00:16:07) exit 
-\e (00:16:07) Do you want to save the changes you made to cc2640r2frsm.dra?
-\i (00:16:10) fillin no 
-\t (00:16:10)     Journal end - Fri Apr 14 16:52:40 2023
+\i (00:00:09) refresh padstack 
+\i (00:00:10) setwindow form.rf_pad
+\i (00:00:10) FORM rf_pad execute  
+\t (00:00:10) Starting Refreshing padstacks...
+\t (00:00:10) Opening existing design...
+\i (00:00:10) setwindow pcb
+\i (00:00:10) trapsize 114
+\i (00:00:10) trapsize 116
+\i (00:00:10) trapsize 114
+\t (00:00:11) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (00:00:11) trapsize 120
+\i (00:00:12) setwindow form.rf_pad
+\i (00:00:12) FORM rf_pad cancel  
+\i (00:00:12) setwindow pcb
+\i (00:00:12) etchedit 
+\i (00:00:13) prepopup -0.6765 0.0377
+\i (00:00:14) pop dyn_option_select '@:@Show element' 
+\i (00:00:14) show element 
+\i (00:00:14) etchedit 
+\i (00:00:16) setwindow text
+\i (00:00:16) close
+\i (00:00:17) save 
+\i (00:00:18) fillin yes 
+\t (00:00:18) Symbol '0402_c.psm' created.
+\i (00:00:18) etchedit 
+\i (00:00:19) exit 
+\t (00:00:20)     Journal end - Sat Apr 15 15:46:26 2023

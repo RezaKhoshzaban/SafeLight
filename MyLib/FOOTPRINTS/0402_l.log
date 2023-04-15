@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 0402_L.dra                                    )
+(    Software Version : 17.2S078                                      )
+(    Date/Time        : Sat Apr 15 14:52:57 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/SafeLight/MyLib/FOOTPRINTS
+    Name      = 0402_l.psm
+    User      = rezak
+    Machine   = DESKTOP-CK2AQQI
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

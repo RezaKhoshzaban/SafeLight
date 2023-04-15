@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : tsx-3225_xtal.dra                             )
+(    Software Version : 17.2S078                                      )
+(    Date/Time        : Sat Apr 15 14:41:21 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/SafeLight/MyLib/FOOTPRINTS
+    Name      = tsx-3225_xtal.psm
+    User      = rezak
+    Machine   = DESKTOP-CK2AQQI
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

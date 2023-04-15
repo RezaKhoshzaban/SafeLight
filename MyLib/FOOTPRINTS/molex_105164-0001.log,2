@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MOLEX_105164-0001.dra                         )
+(    Software Version : 17.2S078                                      )
+(    Date/Time        : Sat Apr 15 15:34:23 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/SafeLight/MyLib/FOOTPRINTS
+    Name      = molex_105164-0001.psm
+    User      = rezak
+    Machine   = DESKTOP-CK2AQQI
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

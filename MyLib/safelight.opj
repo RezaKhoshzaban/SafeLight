@@ -14,10 +14,25 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "c:\safelight\mylib\safelight.olb")
-      (Select "Design Resources" "c:\safelight\mylib\safelight.olb"))
+      (Select "Design Resources" "c:\safelight\mylib\safelight.olb"
+         "AT-1127-ST-2-R"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 270"))
-      (Tab 0))))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1064 78 373"))
+      (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (Package "ANTENNA")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1090 104 399"))
+      (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (Package "AT-1127-ST-2-R")
+      (PartType "1"))))
