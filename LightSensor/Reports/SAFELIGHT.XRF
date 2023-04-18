@@ -9,7 +9,7 @@ Reza_Khoshzaban Pouyan_Asgari          Revision: 1.0
 
 Design Name:  C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN
 
-Cross Reference            April 15,2023      19:20:17	Page1
+Cross Reference            April 17,2023      15:36:23	Page1
 
 Item	Part	Reference	SchematicName	Sheet	Library
 ____________________________________________________________________________
@@ -52,14 +52,13 @@ ____________________________________________________________________________
 36	AT-1127-ST-2-R	BUZ1	/Microcontroller/Power/Peripherals	2	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
 37	FerriteBead	L2	/Microcontroller	1	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
 38	GEN	LED1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-39	HARWIN M50-3530242	CON2	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-40	JST B2B-XH-A LF SN	CON1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-41	MAXIM MAX1555	CHC1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-42	MAXIM MAX1759	VR1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-43	MAXIM MAX17048	FG1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-44	MOLEX 1051640001	USB1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-45	PDV-P8001	LS1	/Microcontroller/Power/Peripherals	2	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-46	SAMTEC FTSH-105-01-L-D-K	J1	/Microcontroller/Power/Peripherals	2	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-47	SIS	SW1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-48	TI AN043	A1	/Microcontroller	1	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
-49	TI CC2640R2F RSM	M1	/Microcontroller	1	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
+39	JST B2B-XH-A LF SN	CON1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
+40	MAXIM MAX1555	CHC1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
+41	MAXIM MAX1759	VR1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
+42	MAXIM MAX17048	FG1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
+43	MOLEX 1051640001	USB1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
+44	PDV-P8001	LS1	/Microcontroller/Power/Peripherals	2	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
+45	SAMTEC FTSH-105-01-L-D-K	J1	/Microcontroller/Power/Peripherals	2	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
+46	SIS	SW1	/Microcontroller/Power	3	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
+47	TI AN043	A1	/Microcontroller	1	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	
+48	TI CC2640R2F RSM	M1	/Microcontroller	1	C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB	

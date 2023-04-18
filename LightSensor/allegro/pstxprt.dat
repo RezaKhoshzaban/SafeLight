@@ -1,0 +1,490 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Apr-17-2023 at 15:40:12 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SAFELIGHT';
+ POST_TIME='Sep 13 2021 14:16:54';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ A1 'ANTENNA_AN043_PATCH_ANTENNA_TI':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS191922@SAFELIGHT.ANTENNA.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins191922@safelight.\antenna.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins191922@safelight.\antenna.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ BUZ1 'AT-1127-ST-2-R_XDCR_AT-1127-ST-':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS179153@SAFELIGHT.AT-1127-ST-2-R.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins179153@safelight.\at-1127-st-2-r.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page2_ins179153@safelight.\at-1127-st-2-r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP_0402_C_12P':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS172484@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins172484@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins172484@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP_0603_C_100NF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS175104@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins175104@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins175104@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP_0402_C_12PF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS173126@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins173126@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins173126@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP_0402_C_1.2PF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS173158@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins173158@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins173158@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP_0402_C_1.2PF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS173142@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins173142@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins173142@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP_0805_C_10UF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS187091@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins187091@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page2_ins187091@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP_0603_C_100NF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS186677@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins186677@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page2_ins186677@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP_0603_C_330NF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS180327@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins180327@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins180327@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP_0805_C_10UF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS181171@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins181171@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins181171@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP_0805_C_10UF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS181279@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins181279@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins181279@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP_0805_C_1UF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS181711@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins181711@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins181711@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP_0402_C_12P':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS172500@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins172500@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins172500@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP_0603_C_100NF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS185273@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins185273@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins185273@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP_0805_C_1UF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS181868@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins181868@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins181868@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP_0805_C_1UF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS171987@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins171987@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins171987@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP_0805_C_100UF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS175734@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins175734@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins175734@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP_0603_C_100NF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS175750@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins175750@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins175750@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP_0603_C_100NF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS175766@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins175766@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins175766@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP_0805_C_10UF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS175782@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins175782@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins175782@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP_0805_C_10UF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS175072@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins175072@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins175072@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP_0603_C_100NF':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS175088@SAFELIGHT.CAP.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins175088@safelight.\cap.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins175088@safelight.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CHC1 'MAX1555_SMD_MAX1555_MAXIM MAX15':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS197619@SAFELIGHT.MAX1555.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins197619@safelight.\max1555.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins197619@safelight.\max1555.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CON1 'JST B2B-XH-A LF SN_B2B-XH-A_JST':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS195095@SAFELIGHT.JST B2B-XH-A LF SN.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins195095@safelight.\jst b2b-xh-a lf sn.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins195095@safelight.\jst b2b-xh-a lf sn.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CYS1 'CRYSTAL_24M_TSX-3225_XTAL_24MHZ':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS172211@SAFELIGHT.CRYSTAL_24M.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins172211@safelight.\crystal_24m.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins172211@safelight.\crystal_24m.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CYS2 'CRYSTAL_32768_SC-20S_XTAL_32.76':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS172459@SAFELIGHT.CRYSTAL_32768.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins172459@safelight.\crystal_32768.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins172459@safelight.\crystal_32768.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ FG1 'MAXIM MAX17048_MAX17048_MAXIM M':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS198603@SAFELIGHT.MAXIM MAX17048.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins198603@safelight.\maxim max17048.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins198603@safelight.\maxim max17048.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'SAMTEC FTSH-105-01-L-D-K_SAMTEC':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS186285@SAFELIGHT.SAMTEC FTSH-105-01-L-D-K.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins186285@safelight.\samtec ftsh-105-01-l-d-k.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page2_ins186285@safelight.\samtec ftsh-105-01-l-d-k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'IND_0603_L_10UH':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS175129@SAFELIGHT.IND.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins175129@safelight.\ind.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins175129@safelight.\ind.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'FERRITEBEAD_0402_L_FERRITEBEAD':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS175692@SAFELIGHT.FERRITEBEAD.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins175692@safelight.\ferritebead.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins175692@safelight.\ferritebead.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'IND_0603_L_15NH':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS173471@SAFELIGHT.IND.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins173471@safelight.\ind.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins173471@safelight.\ind.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'IND_0603_L_2NH':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS173324@SAFELIGHT.IND.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins173324@safelight.\ind.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins173324@safelight.\ind.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED1 'LED_0603_LED_GEN':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS182050@SAFELIGHT.LED.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins182050@safelight.\led.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins182050@safelight.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS1 'PDV-P8001_XDCR_PDV-P9003-1_PDV-':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS187993@SAFELIGHT.PDV-P8001.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins187993@safelight.\pdv-p8001.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page2_ins187993@safelight.\pdv-p8001.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ M1 'CC2640_CC2640R2FRSM_TI CC2640R2':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS171560@SAFELIGHT.CC2640.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins171560@safelight.\cc2640.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page1_ins171560@safelight.\cc2640.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RES_0603_R_2K':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS188060@SAFELIGHT.RES.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins188060@safelight.\res.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page2_ins188060@safelight.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RES_0603_R_100K':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS186748@SAFELIGHT.RES.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins186748@safelight.\res.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page2_ins186748@safelight.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RES_0603_R_33K':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS184406@SAFELIGHT.RES.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins184406@safelight.\res.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins184406@safelight.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RES_0603_R_33K':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS183547@SAFELIGHT.RES.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins183547@safelight.\res.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins183547@safelight.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RES_0603_R_3.3K':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS185612@SAFELIGHT.RES.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins185612@safelight.\res.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins185612@safelight.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RES_0603_R_220':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS185792@SAFELIGHT.RES.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins185792@safelight.\res.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins185792@safelight.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RES_0603_R_220':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS185818@SAFELIGHT.RES.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins185818@safelight.\res.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins185818@safelight.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RES_0603_R_200':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS182099@SAFELIGHT.RES.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins182099@safelight.\res.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins182099@safelight.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'RES_0603_R_33K':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS183531@SAFELIGHT.RES.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins183531@safelight.\res.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins183531@safelight.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SIS_EG1218_SIS':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS179686@SAFELIGHT.SIS.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins179686@safelight.\sis.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins179686@safelight.\sis.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ USB1 'MOLEX 1051640001_MOLEX_105164-0':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS196177@SAFELIGHT.MOLEX 1051640001.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins196177@safelight.\molex 1051640001.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins196177@safelight.\molex 1051640001.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ VR1 'MAX1759_MAX1759_MAXIM MAX1759':;
+
+SECTION_NUMBER 1
+ '@SAFELIGHT.SAFELIGHT(SCH_1):INS178465@SAFELIGHT.MAX1759.NORMAL(CHIPS)':
+ C_PATH='@safelight.safelight(sch_1):ins178465@safelight.\max1759.normal\(chips)',
+ P_PATH='@safelight.safelight(sch_1):page3_ins178465@safelight.\max1759.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
