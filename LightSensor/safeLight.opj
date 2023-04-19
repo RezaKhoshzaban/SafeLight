@@ -132,6 +132,12 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (MPSSessionName "rezak")
   (PartMRUSelector
+    (OFFPAGE_CON_IN
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGE_CON_OUT
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
       (DeviceIndex "0"))
@@ -160,12 +166,6 @@
       (DeviceIndex "0"))
     (ANTENNA
       (FullPartName "ANTENNA.Normal")
-      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGE_CON_IN
-      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGE_CON_OUT
       (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
       (DeviceIndex "0"))
     (RES
@@ -233,20 +233,26 @@
       (Path "Design Resources" ".\safelight.dsn" "SafeLight")
       (Path "Design Resources" ".\safelight.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources" ".\safelight.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 239 439 117 391"))
+        (Placement "44 2 3 -1 -1 -8 -31 239 439 117 391"))
       (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1319 52 383"))
+      (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (Package "CC2640")
+      (PartType "1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 0 405 -8 -31 0 985 0 386")
-        (Scroll "0 77")
-        (Zoom "112")
+        (Scroll "0 448")
+        (Zoom "126")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
       (Schematic "SafeLight")
@@ -255,7 +261,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1408 78 391")
-        (Scroll "0 0")
+        (Scroll "769 1145")
         (Zoom "224")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
@@ -265,7 +271,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1408 78 391")
-        (Scroll "0 124")
+        (Scroll "779 1155")
         (Zoom "224")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
