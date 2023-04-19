@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : 0603_LED.dra                                  )
+(    Drawing          : SOT95P240X120-3N.dra                          )
 (    Software Version : 17.2S078                                      )
-(    Date/Time        : Sat Apr 15 19:45:49 2023                      )
+(    Date/Time        : Wed Apr 19 17:11:12 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Sat Apr 15 19:45:49 2023				Page     1
+Wed Apr 19 17:11:12 2023				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/0603_LED.dra'
+Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/SOT95P240X120-3N.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -43,8 +43,8 @@ PADPATH =  .
 
 ------ Pad Stack Refresh Messages ------
 
-'SMD_0D8_0D8'  pad stack refresh starting.
+'S_R100T140M100_140P100_140'  pad stack refresh starting.
 
-     'SMD_0D8_0D8'  pad stack refreshed successfully.
+     'S_R100T140M100_140P100_140'  pad stack refreshed successfully.
      
 Completed refreshing all pad stacks successfully.

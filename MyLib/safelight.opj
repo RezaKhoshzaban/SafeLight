@@ -13,8 +13,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\safelight.olb")
-      (Select "Design Resources" ".\safelight.olb" "CC2640"))
+      (Path "Design Resources" "c:\safelight\mylib\safelight.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -24,15 +23,22 @@
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1423 156 487"))
+        (Placement "44 0 1 -1 -1 -8 -31 104 1371 104 435"))
       (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
       (Package "PDV-P8001")
       (PartType "1"))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1271 0 335"))
+        (Placement "44 0 1 -1 -1 -1 -1 130 1397 130 461"))
       (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
       (Package "CC2640")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 156 1423 156 487"))
+      (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (Package "MMBT3904")
       (PartType "1")))
   (ISPCBBASICLICENSE "false"))
