@@ -1,15 +1,11 @@
-Date and Time : 04/19/23 17:39:14
+Date and Time : 04/20/23 12:24:21
 
 --------------------------------------------------
 Checking Schematic:  SafeLight
 --------------------------------------------------
 Checking Electrical Rules 
-WARNING(ORCAP-1829): Possible pin type conflict CHC1,DC  Bidirectional Connected to Power
-                    SafeLight, Power  (3.10, 5.00) 
-WARNING(ORCAP-1829): Possible pin type conflict USB1,+  Power Connected to Bidirectional
-                    SafeLight, Power  (1.30, 5.00) 
 WARNING(ORCAP-1829): Possible pin type conflict GND  Power Connected to Bidirectional
-                    SafeLight, Power  (5.30, 2.30) 
+                    SafeLight, Power  (5.80, 5.50) 
 WARNING(ORCAP-1829): Possible pin type conflict VR1,PGND  Bidirectional Connected to Power
                     SafeLight, Power  (7.10, 1.90) 
 WARNING(ORCAP-1829): Possible pin type conflict VR1,GND  Bidirectional Connected to Power
@@ -48,6 +44,10 @@ WARNING(ORCAP-1829): Possible pin type conflict CYS1,4  Bidirectional Connected 
                     SafeLight, Microcontroller  (7.40, 1.70) 
 WARNING(ORCAP-1829): Possible pin type conflict CYS1,2  Bidirectional Connected to Power
                     SafeLight, Microcontroller  (7.50, 1.70) 
+WARNING(ORCAP-1829): Possible pin type conflict CHC1,DC  Bidirectional Connected to Power
+                    SafeLight, Power  (3.10, 5.00) 
+WARNING(ORCAP-1829): Possible pin type conflict USB1,+  Power Connected to Bidirectional
+                    SafeLight, Power  (1.30, 5.00) 
 WARNING(ORCAP-1829): Possible pin type conflict VCC  Power Connected to Bidirectional
                     SafeLight, Power  (8.60, 0.90) 
 WARNING(ORCAP-1829): Possible pin type conflict VR1,OUT  Bidirectional Connected to Power

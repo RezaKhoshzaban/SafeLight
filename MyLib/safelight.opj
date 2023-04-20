@@ -13,7 +13,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "c:\safelight\mylib\safelight.olb"))
+      (Path "Design Resources" "c:\safelight\mylib\safelight.olb")
+      (Select "Design Resources" "c:\safelight\mylib\safelight.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -30,7 +31,7 @@
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 130 1397 130 461"))
+        (Placement "44 0 1 -1 -1 -8 -31 130 1397 130 461"))
       (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
       (Package "CC2640")
       (PartType "1"))

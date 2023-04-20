@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : SAFELIGHT.brd                                 )
+(    Drawing          : SAFELIGHT1_1.brd                              )
 (    Software Version : 17.2S078                                      )
-(    Date/Time        : Mon Apr 17 15:40:13 2023                      )
+(    Date/Time        : Thu Apr 20 13:56:09 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,17 +19,17 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\SAFELIGHT\LIGHTSENSOR\allegro'
 Design Directory:            'C:/SAFELIGHT/LIGHTSENSOR/allegro'
-Old design name:             'C:/SAFELIGHT/LIGHTSENSOR/allegro/SAFELIGHT.brd'
-New design name:             'C:/SAFELIGHT/LIGHTSENSOR/allegro/SAFELIGHT.brd'
+Old design name:             'C:/SafeLight/LightSensor/allegro/SAFELIGHT1_1.brd'
+New design name:             'C:/SAFELIGHT/LIGHTSENSOR/allegro/SAFELIGHT1_1.brd'
 
-CmdLine: netrev.exe -y 1 -n -i C:\SAFELIGHT\LIGHTSENSOR\allegro C:\SAFELIGHT\LIGHTSENSOR\allegro\SAFELIGHT.brd C:\SAFELIGHT\LIGHTSENSOR\allegro\SAFELIGHT.brd
+CmdLine: netrev.exe -y 1 -i C:\SAFELIGHT\LIGHTSENSOR\allegro C:\SafeLight\LightSensor\allegro\SAFELIGHT1_1.brd C:\SAFELIGHT\LIGHTSENSOR\allegro\SAFELIGHT1_1.brd
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/SAFELIGHT/LIGHTSENSOR/allegro/pstchip.dat 
-   Finished reading C:/SAFELIGHT/LIGHTSENSOR/allegro/pstchip.dat (00:00:00.04)
+   Finished reading C:/SAFELIGHT/LIGHTSENSOR/allegro/pstchip.dat (00:00:00.01)
 Starting to read C:/SAFELIGHT/LIGHTSENSOR/allegro/pstxprt.dat 
-   Finished reading C:/SAFELIGHT/LIGHTSENSOR/allegro/pstxprt.dat (00:00:00.01)
+   Finished reading C:/SAFELIGHT/LIGHTSENSOR/allegro/pstxprt.dat (00:00:00.00)
 Starting to read C:/SAFELIGHT/LIGHTSENSOR/allegro/pstxnet.dat 
    Finished reading C:/SAFELIGHT/LIGHTSENSOR/allegro/pstxnet.dat (00:00:00.00)
 
@@ -38,15 +38,15 @@ Starting to read C:/SAFELIGHT/LIGHTSENSOR/allegro/pstxnet.dat
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           c:/cadence/spb_17.2/share/local/pcb/modules 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/cadence/spb_17.2/share/local/pcb/symbols 
-           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            L:/Material Second year First semester/Electronic Systems Engineering/PROJECT/LibraryLoader/psm 
            C:/SafeLight/MyLib/FOOTPRINTS/ 
 
@@ -54,9 +54,9 @@ PADPATH =  .
            symbols 
            .. 
            ../symbols 
-           c:/cadence/spb_17.2/share/local/pcb/padstacks 
-           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            L:/Material Second year First semester/Electronic Systems Engineering/PROJECT/LibraryLoader/pad 
            C:/SafeLight/MyLib/PADSTACKS/ 
 
@@ -64,7 +64,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Apr 17 15:40:13 2023
+netrev run on Apr 20 13:56:09 2023
    DESIGN NAME : 'SAFELIGHT'
    PACKAGING ON Sep 13 2021 14:16:54
 
@@ -89,6 +89,6 @@ netrev run on Apr 17 15:40:13 2023
  No oversight detected
  No warning detected
 
-cpu time      0:01:27
-elapsed time  0:00:01
+cpu time      0:00:27
+elapsed time  0:00:00
 

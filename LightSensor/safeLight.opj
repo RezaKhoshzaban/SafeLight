@@ -93,7 +93,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Output Board File" "allegro\SAFELIGHT.brd")
+    ("Allegro Netlist Output Board File" "allegro\SAFELIGHT1_1.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -102,7 +102,9 @@
     ("Allegro Setup Part Type Length" "31")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Input Board File"
+       "C:\SafeLight\LightSensor\allegro\SAFELIGHT1_1.brd"))
   (Folder "Outputs"
     (File ".\safelight.xrf"
       (Type "Report"))
@@ -132,6 +134,9 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (MPSSessionName "rezak")
   (PartMRUSelector
+    (GND
+      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
+      (DeviceIndex "0"))
     (OFFPAGE_CON_OUT
       (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
       (DeviceIndex "0"))
@@ -144,9 +149,6 @@
       (DeviceIndex "0"))
     (MMBT3904
       (FullPartName "MMBT3904.Normal")
-      (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
-      (DeviceIndex "0"))
-    (GND
       (LibraryName "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
       (DeviceIndex "0"))
     (0
@@ -246,19 +248,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 0 405 -8 -31 0 985 0 386")
-        (Scroll "0 3")
-        (Zoom "126")
-        (Occurrence "/"))
-      (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
-      (Schematic "SafeLight")
-      (Page "Microcontroller"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1408 78 391")
-        (Scroll "0 439")
-        (Zoom "273")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1349 78 413")
+        (Scroll "-126 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
       (Schematic "SafeLight")
@@ -266,34 +258,23 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1408 78 391")
-        (Scroll "-30 6")
-        (Zoom "126")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1375 104 439")
+        (Scroll "0 538")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
       (Schematic "SafeLight")
-      (Page "Peripherals"))
+      (Page "Microcontroller"))
     (Doc
-      (Type "COrPrmBrowserDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1371 104 435"))
-      (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
-      (Package "PDV-P8001")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 130 1397 130 461"))
-      (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
-      (Package "CC2640")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 156 1423 156 487"))
-      (Path "C:\SAFELIGHT\MYLIB\SAFELIGHT.OLB")
-      (Package "MMBT3904")
-      (PartType "1")))
+        (Placement "44 0 1 -1 -1 -8 -31 130 1401 130 465")
+        (Scroll "-126 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
+      (Schematic "SafeLight")
+      (Page "Peripherals")))
   (LastUsedLibraryBrowseDirectory
      "L:\Material Second year First semester\Electronic Systems Engineering\PROJECT\Light Sensor\Material\downloadedFootprints\BQ27441DRZR-G1A\Capture")
   (ISPCBBASICLICENSE "false"))

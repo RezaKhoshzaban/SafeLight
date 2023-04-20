@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : 0805_C.dra                                    )
+(    Drawing          : an043_patch_antenna.dra                       )
 (    Software Version : 17.2S078                                      )
-(    Date/Time        : Sat Apr 15 18:56:00 2023                      )
+(    Date/Time        : Thu Apr 20 12:13:26 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Sat Apr 15 18:56:00 2023				Page     1
+Thu Apr 20 12:13:26 2023				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/0805_C.dra'
+Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/an043_patch_antenna.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -43,12 +43,12 @@ PADPATH =  .
 
 ------ Pad Stack Refresh Messages ------
 
-'SMD_1D3_0D7'  pad stack refresh starting.
+'SMD_RECT_0D5_0D5_ANTENNA_NO_MASKS'  pad stack refresh starting.
 
-     'SMD_1D3_0D7'  pad stack refreshed successfully.
+     'SMD_RECT_0D5_0D5_ANTENNA_NO_MASKS'  pad stack refreshed successfully.
      
-'SMD_0D7_0D95'  pad stack refresh starting.
+'SMD_RECT_0D5_0D9_ANTENNA_NO_MASKS'  pad stack refresh starting.
 
-     'SMD_0D7_0D95'  pad stack refreshed successfully.
+     'SMD_RECT_0D5_0D9_ANTENNA_NO_MASKS'  pad stack refreshed successfully.
      
 Completed refreshing all pad stacks successfully.

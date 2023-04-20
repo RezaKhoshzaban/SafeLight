@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : an043_patch_antenna.dra                       )
+(    Drawing          : PDV-P8001.dra                                 )
 (    Software Version : 17.2S078                                      )
-(    Date/Time        : Thu Apr 20 12:17:39 2023                      )
+(    Date/Time        : Wed Apr 19 17:03:40 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  2
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
