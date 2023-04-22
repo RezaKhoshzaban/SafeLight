@@ -1,25 +1,254 @@
 \t (00:00:02) allegro 17.2 S078 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Thu Apr 20 12:38:19 2023
-\t (00:00:02)         Host=DESKTOP-CK2AQQI User=rezak Pid=8252 CPUs=8
-\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\0402_C.dra
+\t (00:00:02)     Journal start - Sat Apr 22 21:58:54 2023
+\t (00:00:02)         Host=DESKTOP-CK2AQQI User=rezak Pid=3480 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\SAMTEC_FTSH-105-01-L-D-K.dra
 \t (00:00:02) 
    (00:00:02) Loading axlcore.cxt 
-\t (00:00:05) Opening existing design...
-\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged 0402_C
-\d (00:00:05) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/0402_C.dra
-\i (00:00:05) trapsize 153
-\i (00:00:05) trapsize 157
-\i (00:00:05) trapsize 153
-\i (00:00:05) trapsize 120
-\i (00:00:05) trapsize 120
-\i (00:00:05) etchedit 
-\i (00:17:23) exit 
-\t (00:17:24)     Journal end - Thu Apr 20 12:55:42 2023
-or enhanced viewing.
-\i (00:00:01) trapsize 142
-\i (00:00:02) etchedit 
-\i (00:16:00) exit 
-\t (00:16:01)     Journal end - Thu Apr 20 12:55:42 2023
-050 0.0000
-\i (00:14:03) exit 
-\t (00:14:04)     Journal end - Thu Apr 20 12:55:42 2023
+\t (00:00:02) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAMTEC_FTSH-105-01-L-D-K
+\d (00:00:02) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/SAMTEC_FTSH-105-01-L-D-K.dra
+\t (00:00:02) Grids are drawn 0.0800, 0.0800 apart for enhanced viewing.
+\i (00:00:02) trapsize 554
+\i (00:00:02) trapsize 570
+\i (00:00:02) trapsize 554
+\t (00:00:02) Grids are drawn 0.0400, 0.0400 apart for enhanced viewing.
+\i (00:00:03) trapsize 433
+\t (00:00:03) Grids are drawn 0.0400, 0.0400 apart for enhanced viewing.
+\i (00:00:03) trapsize 433
+\i (00:00:03) etchedit 
+\i (00:00:05) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -0.1402 0.6497
+\t (00:00:14) Grids are drawn 0.0200, 0.0200 apart for enhanced viewing.
+\i (00:00:14) trapsize 217
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -0.1402 0.6498
+\t (00:00:14) Grids are drawn 0.0100, 0.0100 apart for enhanced viewing.
+\i (00:00:14) trapsize 108
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out -0.1272 0.6108
+\t (00:00:15) Grids are drawn 0.0200, 0.0200 apart for enhanced viewing.
+\i (00:00:15) trapsize 217
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in 1.2718 -0.4980
+\t (00:00:16) Grids are drawn 0.0100, 0.0100 apart for enhanced viewing.
+\i (00:00:16) trapsize 108
+\i (00:00:18) roam y 96 
+\i (00:00:18) roam y 96
+\i (00:00:18) roam y 96 
+\i (00:00:18) roam y 96
+\i (00:00:18) roam y 96 
+\i (00:00:18) roam y 96
+\i (00:00:18) roam x 96 
+\i (00:00:18) roam x 96
+\i (00:00:19) roam x 96 
+\i (00:00:19) roam x 96
+\i (00:00:19) roam x 96 
+\i (00:00:19) roam x 96
+\i (00:00:19) roam x 96 
+\i (00:00:19) roam x 96
+\i (00:00:20) roam x 96 
+\i (00:00:20) roam x 96
+\i (00:00:20) roam x 96 
+\i (00:00:20) roam x 96
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 1.5742 -0.6767
+\t (00:00:23) Grids are drawn 0.0200, 0.0200 apart for enhanced viewing.
+\i (00:00:23) trapsize 217
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 1.6306 -0.6896
+\t (00:00:23) Grids are drawn 0.0400, 0.0400 apart for enhanced viewing.
+\i (00:00:23) trapsize 433
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 2.8694 -0.8629
+\t (00:00:33) Grids are drawn 0.0200, 0.0200 apart for enhanced viewing.
+\i (00:00:33) trapsize 217
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 2.8694 -0.8628
+\t (00:00:34) Grids are drawn 0.0100, 0.0100 apart for enhanced viewing.
+\i (00:00:34) trapsize 108
+\i (00:00:35) zoom in 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom in 2.2478 -0.8541
+\i (00:00:35) trapsize 54
+\i (00:00:35) zoom in 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom in 2.2478 -0.8541
+\i (00:00:35) trapsize 27
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 2.5554 -0.8443
+\i (00:00:37) trapsize 54
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 2.5609 -0.8335
+\i (00:00:38) trapsize 108
+\i (00:00:42) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ASSEMBLY BOTTOM"
+\i (00:00:44) color -globvis off 
+\i (00:00:44) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:44) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_BOTTOM' 
+\i (00:00:44) color -vis 'REF DES/ASSEMBLY_BOTTOM' 
+\i (00:00:44) trapsize 108
+\i (00:00:44) etchedit 
+\i (00:00:45) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ASSEMBLY TOP"
+\i (00:00:45) color -globvis off 
+\i (00:00:45) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:45) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_TOP' 
+\i (00:00:45) color -vis 'REF DES/ASSEMBLY_TOP' 
+\i (00:00:45) trapsize 108
+\i (00:00:45) etchedit 
+\i (00:00:47) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ASSEMBLYB"
+\i (00:00:47) color -globvis off 
+\i (00:00:47) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:47) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_BOTTOM' 
+\i (00:00:47) color -vis 'REF DES/ASSEMBLY_BOTTOM' 
+\i (00:00:47) trapsize 108
+\i (00:00:47) etchedit 
+\i (00:00:49) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ASSEMBLYT"
+\i (00:00:49) color -globvis off 
+\i (00:00:49) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:49) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_TOP' 
+\i (00:00:49) color -vis 'REF DES/ASSEMBLY_TOP' 
+\i (00:00:49) trapsize 108
+\i (00:00:49) etchedit 
+\i (00:00:50) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ETCHB"
+\i (00:00:50) color -globvis off 
+\i (00:00:50) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:50) color -vis 'DRC ERROR CLASS/BOTTOM' 
+\i (00:00:50) color -vis ETCH/BOTTOM 
+\i (00:00:50) color -vis PIN/BOTTOM 
+\i (00:00:50) color -vis 'VIA CLASS/BOTTOM' 
+\i (00:00:50) color -vis 'ANTI ETCH/BOTTOM' 
+\i (00:00:50) color -vis BOUNDARY/BOTTOM 
+\i (00:00:50) color -vis CAVITY/BOTTOM 
+\i (00:00:50) trapsize 108
+\i (00:00:51) etchedit 
+\i (00:00:52) zoom out 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom out 2.2251 -0.7165
+\t (00:00:52) Grids are drawn 0.0200, 0.0200 apart for enhanced viewing.
+\i (00:00:52) trapsize 217
+\i (00:00:54) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ETCHT"
+\i (00:00:54) color -globvis off 
+\i (00:00:55) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:55) color -vis 'DRC ERROR CLASS/TOP' 
+\i (00:00:55) color -vis ETCH/TOP 
+\i (00:00:55) color -vis PIN/TOP 
+\i (00:00:55) color -vis 'VIA CLASS/TOP' 
+\i (00:00:55) color -vis 'ANTI ETCH/TOP' 
+\i (00:00:55) color -vis BOUNDARY/TOP 
+\i (00:00:55) color -vis CAVITY/TOP 
+\i (00:00:55) trapsize 217
+\i (00:00:55) etchedit 
+\i (00:00:57) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: PASTEMASKB"
+\i (00:00:57) color -globvis off 
+\i (00:00:57) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:57) color -vis 'DRC ERROR CLASS/PASTEMASK_BOTTOM' 
+\i (00:00:57) color -vis PIN/PASTEMASK_BOTTOM 
+\i (00:00:57) color -vis 'VIA CLASS/PASTEMASK_BOTTOM' 
+\i (00:00:57) trapsize 217
+\i (00:00:57) etchedit 
+\i (00:00:59) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILK ETCH BOTTOM"
+\i (00:00:59) color -globvis off 
+\i (00:00:59) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:59) color -vis 'BOARD GEOMETRY/SILKSCREEN_BOTTOM' 
+\i (00:00:59) color -vis 'COMPONENT VALUE/SILKSCREEN_BOTTOM' 
+\i (00:00:59) color -vis 'DEVICE TYPE/SILKSCREEN_BOTTOM' 
+\i (00:00:59) color -vis 'DRC ERROR CLASS/BOTTOM' 
+\i (00:00:59) color -vis ETCH/BOTTOM 
+\i (00:00:59) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_BOTTOM' 
+\i (00:00:59) color -vis PIN/BOTTOM 
+\i (00:00:59) color -vis 'REF DES/SILKSCREEN_BOTTOM' 
+\i (00:00:59) color -vis TOLERANCE/SILKSCREEN_BOTTOM 
+\i (00:00:59) color -vis 'USER PART NUMBER/SILKSCREEN_BOTTOM' 
+\i (00:00:59) color -vis 'VIA CLASS/BOTTOM' 
+\i (00:00:59) color -vis 'ANTI ETCH/BOTTOM' 
+\i (00:00:59) color -vis BOUNDARY/BOTTOM 
+\i (00:00:59) color -vis CAVITY/BOTTOM 
+\i (00:00:59) trapsize 217
+\i (00:00:59) etchedit 
+\i (00:01:02) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILK ETCH TOP"
+\i (00:01:02) color -globvis off 
+\i (00:01:02) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:01:02) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+\i (00:01:02) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
+\i (00:01:02) color -vis 'DEVICE TYPE/SILKSCREEN_TOP' 
+\i (00:01:02) color -vis 'DRC ERROR CLASS/TOP' 
+\i (00:01:02) color -vis ETCH/TOP 
+\i (00:01:02) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:01:02) color -vis PIN/TOP 
+\i (00:01:02) color -vis 'REF DES/SILKSCREEN_TOP' 
+\i (00:01:02) color -vis TOLERANCE/SILKSCREEN_TOP 
+\i (00:01:02) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:01:02) color -vis 'VIA CLASS/TOP' 
+\i (00:01:02) color -vis 'ANTI ETCH/TOP' 
+\i (00:01:02) color -vis BOUNDARY/TOP 
+\i (00:01:02) color -vis CAVITY/TOP 
+\i (00:01:02) trapsize 217
+\i (00:01:02) etchedit 
+\i (00:01:04) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILKSCREENB"
+\i (00:01:04) color -globvis off 
+\i (00:01:04) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:01:04) color -vis 'BOARD GEOMETRY/SILKSCREEN_BOTTOM' 
+\i (00:01:04) color -vis 'COMPONENT VALUE/SILKSCREEN_BOTTOM' 
+\i (00:01:04) color -vis 'DEVICE TYPE/SILKSCREEN_BOTTOM' 
+\i (00:01:04) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_BOTTOM' 
+\i (00:01:04) color -vis 'REF DES/SILKSCREEN_BOTTOM' 
+\i (00:01:04) color -vis TOLERANCE/SILKSCREEN_BOTTOM 
+\i (00:01:04) color -vis 'USER PART NUMBER/SILKSCREEN_BOTTOM' 
+\i (00:01:04) trapsize 217
+\i (00:01:04) etchedit 
+\i (00:01:06) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILKSCREENT"
+\i (00:01:06) color -globvis off 
+\i (00:01:06) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:01:06) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+\i (00:01:06) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
+\i (00:01:06) color -vis 'DEVICE TYPE/SILKSCREEN_TOP' 
+\i (00:01:06) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:01:06) color -vis 'REF DES/SILKSCREEN_TOP' 
+\i (00:01:06) color -vis TOLERANCE/SILKSCREEN_TOP 
+\i (00:01:06) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:01:06) trapsize 217
+\i (00:01:06) etchedit 
+\i (00:01:08) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SOLDERMASKB"
+\i (00:01:08) color -globvis off 
+\i (00:01:08) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:01:08) color -vis 'DRC ERROR CLASS/SOLDERMASK_BOTTOM' 
+\i (00:01:08) color -vis PIN/SOLDERMASK_BOTTOM 
+\i (00:01:08) color -vis 'VIA CLASS/SOLDERMASK_BOTTOM' 
+\i (00:01:08) trapsize 217
+\i (00:01:08) etchedit 
+\i (00:01:09) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SOLDERMASKT"
+\i (00:01:09) color -globvis off 
+\i (00:01:10) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:01:10) color -vis 'DRC ERROR CLASS/SOLDERMASK_TOP' 
+\i (00:01:10) color -vis PIN/SOLDERMASK_TOP 
+\i (00:01:10) color -vis 'VIA CLASS/SOLDERMASK_TOP' 
+\i (00:01:10) trapsize 217
+\i (00:01:10) etchedit 
+\i (00:01:11) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: TOP"
+\i (00:01:11) color -globvis off 
+\i (00:01:11) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:01:11) color -vis ETCH/BOND_BOTTOM 
+\i (00:01:11) color -vis ETCH/BOND_TOP 
+\i (00:01:11) color -vis MANUFACTURING/AUTOSILK_BOTTOM 
+\i (00:01:11) color -vis MANUFACTURING/AUTOSILK_TOP 
+\i (00:01:11) color -vis MANUFACTURING/PROBE_BOTTOM 
+\i (00:01:11) color -vis MANUFACTURING/PROBE_TOP 
+\i (00:01:11) color -vis MANUFACTURING/NCDRILL_LEGEND 
+\i (00:01:12) color -vis MANUFACTURING/PHOTOPLOT_OUTLINE 
+\i (00:01:12) color -vis PIN/TOP 
+\i (00:01:12) color -vis BOUNDARY/MULTI_USER_LOCK 
+\i (00:01:12) color -vis 'RIGID FLEX/ZONE_OUTLINE' 
+\i (00:01:12) trapsize 217
+\i (00:01:12) etchedit 
+\i (00:01:12) exit 
+\t (00:01:13)     Journal end - Sat Apr 22 22:00:05 2023
