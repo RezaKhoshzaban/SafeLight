@@ -1,0 +1,8 @@
+#Allegro PCB Router v17-2-50 made 2016/03/28 at 15:56:36
+#Host 
+#ROUTING STATUS <<< C:/SafeLight/LightSensor/allegro\SAFELIGHT1_2.dsn >>>
+Start  Time: Report Time: Fri Apr 21 17:16:53 2023
+
+Nets         =       39   Connections         =      118
+Current Wire =        0   Reroute wires       =       31
+Completion   =   23.73%   Unconnections       =       90

@@ -1,1 +1,1 @@
-MC1_1.brd
+SAFELIGHT1_2.brd
