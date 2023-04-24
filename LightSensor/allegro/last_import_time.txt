@@ -22,3 +22,7 @@
 2023-04-20T13:56:09 ===> "C:/SAFELIGHT/LIGHTSENSOR/allegro/pstxnet.dat"
 2023-04-20T13:56:09 ===> "C:/SAFELIGHT/LIGHTSENSOR/allegro/pstxprt.dat"
 2023-04-20T13:56:09 ===> "C:/SAFELIGHT/LIGHTSENSOR/allegro/pstdmlmodels.dat"
+2023-04-24T10:56:57 ===> "C:/SAFELIGHT/LIGHTSENSOR/allegro/pstchip.dat"
+2023-04-24T10:56:57 ===> "C:/SAFELIGHT/LIGHTSENSOR/allegro/pstxnet.dat"
+2023-04-24T10:56:57 ===> "C:/SAFELIGHT/LIGHTSENSOR/allegro/pstxprt.dat"
+2023-04-24T10:56:57 ===> "C:/SAFELIGHT/LIGHTSENSOR/allegro/pstdmlmodels.dat"

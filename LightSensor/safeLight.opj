@@ -104,7 +104,7 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
     ("Allegro Netlist Input Board File"
-       "C:\SafeLight\LightSensor\allegro\SAFELIGHT1_1.brd"))
+       "C:\SafeLight\LightSensor\allegro\SAFELIGHT1_2_NS_backup.brd"))
   (Folder "Outputs"
     (File ".\safelight.xrf"
       (Type "Report"))
@@ -231,12 +231,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\safelight.dsn")
-      (Path "Design Resources" ".\safelight.dsn" "SafeLight")
-      (Path "Design Resources" ".\safelight.dsn" "Design Cache")
+      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn")
+      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn"
+         "SafeLight")
+      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Outputs"))
+      (Select "Design Resources" "c:\safelight\lightsensor\safelight.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -256,8 +258,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1375 104 439")
-        (Scroll "0 538")
+        (Placement "44 2 3 -1 -1 -8 -31 104 1375 104 439")
+        (Scroll "0 238")
         (Zoom "200")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")

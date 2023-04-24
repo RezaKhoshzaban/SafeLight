@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : SAFELIGHT1_2_NS.brd                           )
-(    Software Version : 17.2P028                                      )
-(    Date/Time        : Sun Apr 23 01:03:50 2023                      )
+(    Drawing          : SAFELIGHT1_2.brd                              )
+(    Software Version : 17.2S078                                      )
+(    Date/Time        : Mon Apr 24 13:05:15 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  3
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
