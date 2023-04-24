@@ -1,4 +1,4 @@
-{ Using PSTWRITER 17.2.0 d001Apr-24-2023 at 10:56:56 }
+{ Using PSTWRITER 17.2.0 d001Apr-24-2023 at 14:21:55 }
 
 #1 WARNING(ORCAP-36038): "No_connect" property on Pin "M1.22" ignored for M1: SafeLight, Microcontroller (1.20, 0.50). Connecting pin to net "SENSOR_MTR".
 #2 WARNING(ORCAP-36006): Part Name "ANTENNA_AN043_PATCH_ANTENNA_TI AN043" is renamed to "ANTENNA_AN043_PATCH_ANTENNA_TI".

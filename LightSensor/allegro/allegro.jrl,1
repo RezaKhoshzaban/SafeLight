@@ -1,0 +1,19 @@
+\t (00:00:00) allegro 17.2 S078 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Apr 24 16:07:25 2023
+\t (00:00:00)         Host=DESKTOP-CK2AQQI User=rezak Pid=15900 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\LightSensor\allegro\SAFELIGHT1_3.brd
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAFELIGHT1_3
+\d (00:00:03) Design opened: C:/SafeLight/LightSensor/allegro/SAFELIGHT1_3.brd
+\t (00:00:03) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:00:03) trapsize 2011
+\i (00:00:04) trapsize 2070
+\i (00:00:04) trapsize 2011
+\t (00:00:04) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:00:04) trapsize 1462
+\i (00:00:04) trapsize 1462
+\i (00:00:04) etchedit 
+\i (00:00:46) exit 
+\t (00:00:47)     Journal end - Mon Apr 24 16:08:12 2023

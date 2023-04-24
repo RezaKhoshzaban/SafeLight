@@ -2,10 +2,20 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:/SafeLight/LightSensor/allegro/SAFELIGHT1_2_NS_backup.brd                 |
-|                                                    Mon Apr 24 10:56:57 2023  |
+|  C:/SafeLight/LightSensor/allegro/SAFELIGHT1_3_NS.brd                        |
+|                                                    Mon Apr 24 14:21:57 2023  |
 |------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  LED          pins DELETED FROM this net (pin now not on any net)
+                                 M1.8            -65.800 -88.600
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 M1.23           -69.800 -91.000
 |------------------------------------------------------------------------------|
+|       Nets changed          :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       0                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|

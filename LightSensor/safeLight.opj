@@ -243,13 +243,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 239 439 117 391"))
+        (Placement "44 2 3 -1 -1 -8 -31 239 439 117 391"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1349 78 413")
-        (Scroll "-126 0")
+        (Scroll "-126 309")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
@@ -258,9 +258,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1375 104 439")
-        (Scroll "0 238")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1375 104 439")
+        (Scroll "-126 309")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
       (Schematic "SafeLight")
@@ -269,7 +269,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1401 130 465")
-        (Scroll "-126 0")
+        (Scroll "-126 309")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
