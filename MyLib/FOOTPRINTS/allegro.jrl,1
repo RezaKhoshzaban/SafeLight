@@ -1,0 +1,197 @@
+\t (00:00:02) allegro 17.2 S078 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Apr 24 10:54:09 2023
+\t (00:00:02)         Host=DESKTOP-CK2AQQI User=rezak Pid=18844 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\smd_max1555.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged smd_max1555
+\d (00:00:02) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/smd_max1555.dra
+\i (00:00:02) trapsize 460
+\i (00:00:02) trapsize 473
+\i (00:00:02) trapsize 460
+\i (00:00:03) trapsize 359
+\i (00:00:03) trapsize 359
+\i (00:00:03) etchedit 
+\i (02:18:27) exit 
+\t (02:18:27)     Journal end - Mon Apr 24 13:12:34 2023
+ropdown CurrentIndexChanged "File: ASSEMBLY TOP"
+\i (00:00:07) color -globvis off 
+\i (00:00:07) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:07) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_TOP' 
+\i (00:00:07) color -vis 'REF DES/ASSEMBLY_TOP' 
+\i (00:00:07) trapsize 1674
+\i (00:00:07) etchedit 
+\i (00:00:10) pick grid 5.4104 -5.3944
+\t (00:00:10) last pick:  5.7150 -5.0800
+\i (00:00:15) delete 
+\i (00:00:16) pick grid -1.3538 -5.8632
+\t (00:00:16) last pick:  -1.2700 -5.7150
+\t (00:00:16) Text "At-1127-st-2-r"
+\i (00:00:18) pick grid 4.7072 -5.7292
+\t (00:00:18) last pick:  4.4450 -5.7150
+\i (00:00:26) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILK ETCH TOP"
+\i (00:00:26) color -globvis off 
+\i (00:00:26) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:26) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+\i (00:00:26) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
+\i (00:00:26) color -vis 'DEVICE TYPE/SILKSCREEN_TOP' 
+\i (00:00:26) color -vis 'DRC ERROR CLASS/TOP' 
+\i (00:00:26) color -vis ETCH/TOP 
+\i (00:00:26) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:00:26) color -vis PIN/TOP 
+\i (00:00:26) color -vis 'REF DES/SILKSCREEN_TOP' 
+\i (00:00:26) color -vis TOLERANCE/SILKSCREEN_TOP 
+\i (00:00:26) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:00:26) color -vis 'VIA CLASS/TOP' 
+\i (00:00:26) color -vis 'ANTI ETCH/TOP' 
+\i (00:00:26) color -vis BOUNDARY/TOP 
+\i (00:00:26) color -vis CAVITY/TOP 
+\i (00:00:26) trapsize 1674
+\i (00:00:29) save 
+\i (00:00:30) fillin yes 
+\t (00:00:31) Symbol 'xdcr_at-1127-st-2-r.psm' created.
+\i (00:00:31) etchedit 
+\i (00:01:43) pick grid 7.2521 -0.0031
+\t (00:01:43) last pick:  6.9850 0.0000
+\i (00:01:44) pick grid 14.0498 5.0198
+\t (00:01:44) last pick:  13.9700 5.0800
+\i (00:01:46) move 
+\t (00:01:46) Select element(s) to move.
+\i (00:01:48) pick grid -6.5107 -0.1705
+\t (00:01:48) last pick:  -6.3500 0.0000
+\t (00:01:48) last pick:  -6.3500 0.0000
+\t (00:01:48) Element has no origin, using pick.
+\t (00:01:48) Pick new location for the element(s).
+\i (00:01:53) pick grid -2.1910 1.1020
+\t (00:01:53) last pick:  -1.9050 1.2700
+\i (00:01:54) pick grid 8.0223 -0.1705
+\t (00:01:54) last pick:  8.2550 0.0000
+\t (00:01:54) last pick:  8.2550 0.0000
+\t (00:01:54) Element has no origin, using pick.
+\t (00:01:54) Pick new location for the element(s).
+\i (00:01:57) pick grid 2.2627 1.3364
+\t (00:01:57) last pick:  2.5400 1.2700
+\i (00:01:58) pick grid 7.4531 0.3653
+\t (00:01:58) last pick:  7.6200 0.6350
+\t (00:01:58) last pick:  7.6200 0.6350
+\t (00:01:58) Element has no origin, using pick.
+\t (00:01:58) Pick new location for the element(s).
+\i (00:01:59) pick grid 1.5930 1.6712
+\t (00:01:59) last pick:  1.9050 1.9050
+\i (00:02:00) drag_start grid 1.3251 2.1735
+\i (00:02:01) drag_stop 2.6645 0.4657
+\i (00:02:02) pick grid 4.1044 1.3699
+\t (00:02:02) last pick:  3.8100 1.2700
+\t (00:02:02) Element has no origin, using pick.
+\t (00:02:02) Element has no origin, using pick.
+\t (00:02:02) Pick new location for the element(s).
+\i (00:02:03) prepopup 3.7696 1.3364
+\i (00:02:04) oops 
+\t (00:02:04) last pick:  1.9050 1.9050
+\t (00:02:04) Reselect origin.
+\i (00:02:05) pick grid 2.8320 2.6088
+\t (00:02:05) last pick:  2.5400 2.5400
+\t (00:02:05) Element has no origin, using pick.
+\t (00:02:05) Element has no origin, using pick.
+\t (00:02:05) Pick new location for the element(s).
+\i (00:02:06) prepopup 2.3966 2.2405
+\i (00:02:07) oops 
+\t (00:02:07) last pick:  1.9050 1.9050
+\t (00:02:07) Reselect origin.
+\i (00:02:08) prepopup 1.3921 2.6758
+\i (00:02:08) oops 
+\t (00:02:08) last pick:  7.6200 0.6350
+\t (00:02:08) Select element(s) to move.
+\i (00:02:10) drag_start grid 0.5549 2.1400
+\i (00:02:12) drag_stop 3.0664 0.9680
+\i (00:02:13) pick grid 1.8944 1.4368
+\t (00:02:13) last pick:  1.9050 1.2700
+\t (00:02:13) Element has no origin, using pick.
+\t (00:02:13) Element has no origin, using pick.
+\t (00:02:13) Pick new location for the element(s).
+\i (00:02:15) pick grid 1.7269 1.6043
+\t (00:02:15) last pick:  1.9050 1.9050
+\i (00:02:16) pick grid -1.8226 1.3029
+\t (00:02:16) last pick:  -1.9050 1.2700
+\t (00:02:16) last pick:  -1.9050 1.2700
+\t (00:02:16) Element has no origin, using pick.
+\t (00:02:16) Pick new location for the element(s).
+\i (00:02:17) pick grid -1.8561 1.6712
+\t (00:02:17) last pick:  -1.9050 1.9050
+\i (00:02:19) pick grid -2.2579 5.3212
+\t (00:02:19) last pick:  -2.5400 5.0800
+\t (00:02:19) last pick:  -3.5000 5.5000
+\t (00:02:19) Pick new location for the element(s).
+\i (00:02:20) pick grid -3.5639 5.5221
+\t (00:02:20) last pick:  -3.8100 5.7150
+\i (00:02:25) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ASSEMBLY TOP"
+\i (00:02:25) color -globvis off 
+\i (00:02:25) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:02:25) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_TOP' 
+\i (00:02:25) color -vis 'REF DES/ASSEMBLY_TOP' 
+\i (00:02:25) trapsize 1674
+\i (00:02:27) drag_start grid 9.3953 0.8006
+\i (00:02:28) drag_stop 6.8838 -1.1416
+\i (00:02:29) pick grid 7.7210 -0.1035
+\t (00:02:29) last pick:  7.6200 0.0000
+\t (00:02:29) Element has no origin, using pick.
+\t (00:02:29) Element has no origin, using pick.
+\t (00:02:29) Pick new location for the element(s).
+\i (00:02:31) pick grid 1.9613 1.6043
+\t (00:02:31) last pick:  1.9050 1.9050
+\i (00:02:33) pick grid -6.1758 0.0974
+\t (00:02:33) last pick:  -6.3500 0.0000
+\t (00:02:33) last pick:  -6.3500 0.0000
+\t (00:02:33) Element has no origin, using pick.
+\t (00:02:33) Pick new location for the element(s).
+\i (00:02:35) pick grid -1.5882 1.8052
+\t (00:02:35) last pick:  -1.9050 1.9050
+\i (00:02:36) pick grid -1.6887 5.4217
+\t (00:02:36) last pick:  -1.9050 5.7150
+\t (00:02:36) last pick:  -3.5000 5.5000
+\t (00:02:36) Pick new location for the element(s).
+\i (00:02:39) pick grid -1.3538 -2.8829
+\t (00:02:39) last pick:  -1.2700 -3.1750
+\i (00:02:42) save 
+\i (00:02:43) fillin yes 
+\t (00:02:43) Symbol 'xdcr_at-1127-st-2-r.psm' created.
+\i (00:02:43) etchedit 
+\i (00:02:47) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged
+\i (00:02:48) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:02:50) zoom in 1 
+\i (00:02:50) setwindow pcb
+\i (00:02:50) zoom in -2.8607 -0.7733
+\i (00:02:50) trapsize 837
+\i (00:02:57) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ASSEMBLY TOP"
+\i (00:02:57) color -globvis off 
+\i (00:02:57) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:02:57) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_TOP' 
+\i (00:02:58) color -vis 'REF DES/ASSEMBLY_TOP' 
+\i (00:02:58) trapsize 837
+\i (00:02:58) etchedit 
+\i (00:03:00) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILK ETCH TOP"
+\i (00:03:00) color -globvis off 
+\i (00:03:00) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:03:00) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+\i (00:03:00) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
+\i (00:03:00) color -vis 'DEVICE TYPE/SILKSCREEN_TOP' 
+\i (00:03:00) color -vis 'DRC ERROR CLASS/TOP' 
+\i (00:03:00) color -vis ETCH/TOP 
+\i (00:03:01) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:03:01) color -vis PIN/TOP 
+\i (00:03:01) color -vis 'REF DES/SILKSCREEN_TOP' 
+\i (00:03:01) color -vis TOLERANCE/SILKSCREEN_TOP 
+\i (00:03:01) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:03:01) color -vis 'VIA CLASS/TOP' 
+\i (00:03:01) color -vis 'ANTI ETCH/TOP' 
+\i (00:03:01) color -vis BOUNDARY/TOP 
+\i (00:03:01) color -vis CAVITY/TOP 
+\i (00:03:01) trapsize 837
+\i (00:03:01) etchedit 
+\i (00:03:02) save 
+\i (00:03:03) fillin yes 
+\t (00:03:03) Symbol 'xdcr_at-1127-st-2-r.psm' created.
+\i (00:03:03) etchedit 
+\i (01:33:18) exit 
+\t (01:33:19)     Journal end - Mon Apr 24 13:12:34 2023

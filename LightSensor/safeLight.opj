@@ -93,7 +93,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Output Board File" "allegro\SAFELIGHT1_1.brd")
+    ("Allegro Netlist Output Board File" "allegro\SAFELIGHT1_3.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -104,7 +104,7 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
     ("Allegro Netlist Input Board File"
-       "C:\SafeLight\LightSensor\allegro\SAFELIGHT1_2_NS_backup.brd"))
+       "C:\SafeLight\LightSensor\allegro\SAFELIGHT1_3_NS.brd"))
   (Folder "Outputs"
     (File ".\safelight.xrf"
       (Type "Report"))
@@ -249,8 +249,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1349 78 413")
-        (Scroll "-126 309")
-        (Zoom "100")
+        (Scroll "-68 341")
+        (Zoom "112")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
       (Schematic "SafeLight")
@@ -259,7 +259,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1375 104 439")
-        (Scroll "-126 309")
+        (Scroll "-126 99")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
@@ -269,8 +269,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1401 130 465")
-        (Scroll "-126 309")
-        (Zoom "100")
+        (Scroll "0 776")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
       (Schematic "SafeLight")
