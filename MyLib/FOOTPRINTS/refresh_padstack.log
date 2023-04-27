@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : an043_patch_antenna.dra                       )
+(    Drawing          : LED_APHD1608LVBCD.dra                         )
 (    Software Version : 17.2S078                                      )
-(    Date/Time        : Thu Apr 20 12:17:41 2023                      )
+(    Date/Time        : Thu Apr 27 18:10:49 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Thu Apr 20 12:17:41 2023				Page     1
+Thu Apr 27 18:10:49 2023				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/an043_patch_antenna.dra'
+Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/LED_APHD1608LVBCD.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -43,12 +43,8 @@ PADPATH =  .
 
 ------ Pad Stack Refresh Messages ------
 
-'SMD_RECT_0D5_0D9_ANTENNA'  pad stack refresh starting.
+'S_R70T80M70_80P70_80'  pad stack refresh starting.
 
-     'SMD_RECT_0D5_0D9_ANTENNA'  pad stack refreshed successfully.
-     
-'SMD_RECT_0D5_0D5_ANTENNA'  pad stack refresh starting.
-
-     'SMD_RECT_0D5_0D5_ANTENNA'  pad stack refreshed successfully.
+     'S_R70T80M70_80P70_80'  pad stack refreshed successfully.
      
 Completed refreshing all pad stacks successfully.

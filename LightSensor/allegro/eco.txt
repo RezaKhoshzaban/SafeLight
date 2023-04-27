@@ -2,20 +2,46 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:/SafeLight/LightSensor/allegro/SAFELIGHT1_3_NS.brd                        |
-|                                                    Mon Apr 24 14:21:57 2023  |
+|  C:/SafeLight/LightSensor/allegro/SAFELIGHT1_4_GPE.brd                       |
+|                                                    Thu Apr 27 18:15:37 2023  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  LED          pins DELETED FROM this net (pin now not on any net)
-                                 M1.8            -65.800 -88.600
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 M1.23           -69.800 -91.000
+ LED_LED_APHD1608LVBCD_GEN
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
+|  C:/SafeLight/LightSensor/allegro/SAFELIGHT1_4_GPE.brd                       |
+|                                                    Thu Apr 27 18:15:37 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP_0402_C_12PF       -60.450 -88.850 CAP_0402_C_12P
+ C2                  CAP_0402_C_12PF       -60.450 -87.350 CAP_0402_C_12P
+ LED1                LED_LED_APHD1608LVBCD_GEN -72.050 -97.350 LED_0603_LED_GEN
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/SafeLight/LightSensor/allegro/SAFELIGHT1_4_GPE.brd                       |
+|                                                    Thu Apr 27 18:15:37 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2           -60.450 -88.850 PRIM_FILE      .\pstchip.dat
+ C2.2           -60.450 -87.350 PRIM_FILE      .\pstchip.dat
+ LED1.1         -72.050 -97.350 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       1                                        |
+|       Components changed    :       3                                        |
+|       Slot property added   :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:       7                                        |
 |------------------------------------------------------------------------------|

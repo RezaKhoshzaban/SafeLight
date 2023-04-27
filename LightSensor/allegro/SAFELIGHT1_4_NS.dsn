@@ -1,0 +1,2378 @@
+(PCB C:/SafeLight/LightSensor/allegro/SAFELIGHT1_4_NS.brd
+ (parser
+  (string_quote ')
+  (space_in_quoted_tokens on)
+  (host_cad allegro)
+  (host_version 3977095_9/13/2021)
+  (write_resolution MM 100000)
+  (routes_include testpoint)
+  (constant pcb_xlo -200)
+  (constant pcb_ylo -200)
+  (constant pcb_xhi 0)
+  (constant pcb_yhi 0)
+  (constant board_name C:/SafeLight/LightSensor/allegro/SAFELIGHT1_4_NS.brd)
+  (via_rotate_first off))
+ (resolution MM 100000)
+ (time_resolution nsec 1000000)
+ (structure
+  (boundary (rect pcb -106.9075 -100.1525 -42.9425 -72.5975))
+  (boundary (rect signal -104 -98.9000 -45.8500 -73.8500))
+  (control (off_grid off)
+   (force_to_terminal_point on)
+   (noise_accumulation RSS)
+   (noise_calculation linear_interpolation)
+   (crosstalk_model CCT1A)
+   (bbv_ctr2ctr on)
+   (roundoff_rotation on)
+   (average_pair_length off)
+   (reroute_order_viols on))
+  (layer TOP
+   (type signal))
+  (layer BOTTOM
+   (type signal))
+  (rule (clearance 0.1270))
+  (rule (width 0.1270))
+  (via VIA
+   (spare VIA_SF VIA_SF_DBFIX1))
+  (grid via 0.0001)
+  (grid wire 0.0001)
+  (grid manufacturing 0.00001))
+ (placement
+  (place_control (flip_style mirror_first))
+  (component AN043_PATCH_ANTENNA_A1
+   (place A1 -52.3000 -94.4500 front 270 (property (value 'TI AN043') (height
+      0.0000))))
+  (component 'XDCR_AT-1127-ST-2-R_BUZ1'
+   (place BUZ1 -81.8500 -80.2000 front 90 (property (value 'AT-1127-ST-2-R')
+     (height 4.2000))))
+  (component MAX17048_FG1
+   (place FG1 -81.7500 -95.8000 front 270 (property (value 'MAXIM MAX17048')
+     (height 0.8000))))
+  (component 'MOLEX_105164-0001_USB1'
+   (place USB1 -95.1500 -95.9000 front 0 (property (value 'MOLEX 1051640001')
+     (height 2.4500))))
+  (component 0603_LED_LED1
+   (place LED1 -72.0500 -97.3500 front 90 (property (value GEN) (height 0.1750
+      ))))
+  (component SMD_MAX1555_CHC1
+   (place CHC1 -94.0500 -88.6500 front 270 (property (value 'MAXIM MAX1555')
+     (height 3.8100))))
+  (component MAX1759_VR1
+   (place VR1 -85.1500 -89 front 270 (property (value 'MAXIM MAX1759') (height
+      1.1000))))
+  (component EG1218_SW1
+   (place SW1 -97.3000 -76.8500 front 0 (property (value SIS) (height 3.8100))
+    ))
+  (component 'B2B-XH-A_CON1'
+   (place CON1 -100.5500 -86.9000 front 90 (property (value
+      'JST B2B-XH-A LF SN') (height 7.0000))))
+  (component 'PDV-P8001_LS1'
+   (place LS1 -57.8500 -82.1500 front 180 (property (value 'PDV-P8001')
+     (height 3.8100))))
+  (component 'SOT95P240X120-3N_BJT1'
+   (place BJT1 -88.9000 -79.3500 front 0 (property (value MMBT3904) (height
+      1.2000))))
+  (component 0603_R_R8
+   (place R8 -78 -95.0500 front 0 (property (value 220) (height 0.5500))))
+  (component 0603_R_R7
+   (place R7 -78 -96.6500 front 0 (property (value 220) (height 0.5500))))
+  (component 0603_R_R6
+   (place R6 -79.5500 -92.9000 front 270 (property (value 3.3K) (height 0.5500
+      ))))
+  (component 0603_R_R10
+   (place R10 -88.9000 -96.8000 front 90 (property (value 33K) (height 0.5500)
+     )))
+  (component 0603_R_R9
+   (place R9 -74.2000 -96.6000 front 0 (property (value 200) (height 0.5500)))
+   )
+  (component 0603_R_R5
+   (place R5 -101.8500 -95.9500 front 270 (property (value 33K) (height 0.5500
+      ))))
+  (component 0603_R_R3
+   (place R3 -62.5500 -82.8000 front 270 (property (value 2k) (height 0.5500))
+    ))
+  (component 0603_R_R2
+   (place R2 -86.2500 -84.3000 front 180 (property (value 2k) (height 0.5500))
+    ))
+  (component 0603_R_R1
+   (place R1 -87.6000 -75.1500 front 0 (property (value 33) (height 0.5500))))
+  (component 0603_R_R4
+   (place R4 -71.1000 -78.3000 front 0 (property (value 100K) (height 0.5500))
+    ))
+  (component 'SAMTEC_FTSH-105-01-L-D-K_J1'
+   (place J1 -65.4000 -77.7000 front 180 (property (value
+      'SAMTEC FTSH-105-01-L-D-K') (height 5.5600))))
+  (component 'SC-20S_XTAL_CYS2'
+   (place CYS2 -62.8000 -88.1000 front 90 (property (value 32.768MHz) (height
+      3.8100))))
+  (component 'TSX-3225_XTAL_CYS1'
+   (place CYS1 -66.4000 -95.5000 front 90 (property (value 24MHz) (height
+      0.6000))))
+  (component 0603_C_C19
+   (place C19 -95.5000 -82.0500 front 0 (property (value 100nF) (height 0.5500
+      ))))
+  (component 0603_C_C15
+   (place C15 -80.9000 -89.7000 front 270 (property (value 330nF) (height
+      0.5500))))
+  (component 0603_C_C14
+   (place C14 -71.1000 -80 front 180 (property (value 100nF) (height 0.5500)))
+   )
+  (component 0603_C_C10
+   (place C10 -69.1500 -94.6500 front 270 (property (value 100nF) (height
+      0.5500))))
+  (component 0603_C_C9
+   (place C9 -62.6500 -92.9500 front 0 (property (value 100nF) (height 0.5500)
+     )))
+  (component 0603_C_C8
+   (place C8 -76.6000 -91.6000 front 180 (property (value 100nF) (height
+      0.5500))))
+  (component 0603_C_C5
+   (place C5 -70.6500 -94.6500 front 270 (property (value 100nF) (height
+      0.5500))))
+  (component 0603_C_C4
+   (place C4 -65.7000 -84.7500 front 90 (property (value 100nF) (height 0.5500
+      ))))
+  (component 0402_L_L2
+   (place L2 -78.3000 -89.4000 front 270 (property (value FerriteBead) (height
+      0.3500))))
+  (component 0805_C_C20
+   (place C20 -94.8000 -92.7000 front 180 (property (value 1uF) (height 0.4500
+      ))))
+  (component 0805_C_C18
+   (place C18 -95.2500 -84.2500 front 0 (property (value 1uF) (height 0.4500))
+    ))
+  (component 0805_C_C17
+   (place C17 -90.0500 -85.6500 front 90 (property (value 10uF) (height 0.4500
+      ))))
+  (component 0805_C_C16
+   (place C16 -79.5500 -86.2000 front 90 (property (value 10uF) (height 0.4500
+      ))))
+  (component 0805_C_C3
+   (place C3 -67.6000 -84.6000 front 270 (property (value 1uF) (height 0.4500)
+     )))
+  (component 0805_C_C6
+   (place C6 -72.7500 -89.4000 front 180 (property (value 10uF) (height 0.4500
+      ))))
+  (component 0805_C_C7
+   (place C7 -72.4500 -84.6000 front 180 (property (value 10uF) (height 0.4500
+      ))))
+  (component CC2640R2FRSM_M1
+   (place M1 -67.8000 -90 front 90 (property (value 'TI CC2640R2F RSM')
+     (height 3.8100))))
+  (component 0603_L_L1
+   (place L1 -71.5000 -87 front 90 (property (value 10uH) (height 0.5500))))
+  (component 0603_L_L4
+   (place L4 -58.7500 -91.4000 front 0 (property (value 2nH) (height 0.5500)))
+   )
+  (component 0603_L_L3
+   (place L3 -62.6000 -90.4500 front 0 (property (value 15nH) (height 0.5500))
+    ))
+  (component 0402_C_C2
+   (place C2 -60.4500 -87.3500 front 0 (property (value 12p) (height 0.3500)))
+   )
+  (component 0402_C_C1
+   (place C1 -60.4500 -88.8500 front 0 (property (value 12p) (height 0.3500)))
+   )
+  (component 0402_C_C11
+   (place C11 -54.8500 -91.4000 front 0 (property (value 12pF) (height 0.3500)
+     )))
+  (component 0402_C_C13
+   (place C13 -56.6500 -91.9000 front 270 (property (value 1.2pF) (height
+      0.3500))))
+  (component 0402_C_C12
+   (place C12 -60.8000 -91.9000 front 270 (property (value 1.2pF) (height
+      0.3500)))))
+ (library
+  (image AN043_PATCH_ANTENNA
+   (pin SMD_RECT_0D5_0D9_ANTENNA 1 -0.9500 -0.2500)
+   (pin SMD_RECT_0D5_0D5_ANTENNA 2 -3.0500 -0.2500)
+   (outline (polygon signal 0 -15.4000 5.2000 -15.4000 0 -0.2000 0 -0.2000
+     5.2000 -15.4000 5.2000))
+   (conductor (polygon TOP 0 -14.4000 0.4600 -14.9000 0.4600 -14.9000 4.9000
+     -12.2000 4.9000 -12.2000 2.2600 -10.2000 2.2600 -10.2000 4.9000 -7.5000
+     4.9000 -7.5000 2.2600 -5.5000 2.2600 -5.5000 4.9000 -0.5000 4.9000
+     -0.5000 0 -1.4000 0 -1.4000 4.4000 -2.8000 4.4000 -2.8000 0 -3.3000 0
+     -3.3000 4.4000 -5 4.4000 -5 1.7600 -8 1.7600 -8 4.4000 -9.7000 4.4000
+     -9.7000 1.7600 -12.7000 1.7600 -12.7000 4.4000 -14.4000 4.4000 -14.4000
+     0.4600) (type protect)))
+  (image AN043_PATCH_ANTENNA_A1
+   (pin SMD_RECT_0D5_0D5_ANTENNA 2 -3.0500 -0.2500)
+   (pin SMD_RECT_0D5_0D9_ANTENNA 1 -0.9500 -0.2500)
+   (outline (polygon signal 0 -15.4000 5.2000 -15.4000 0 -0.2000 0 -0.2000
+     5.2000 -15.4000 5.2000)))
+  (image 'XDCR_AT-1127-ST-2-R'
+   (pin T_N90_140_M140 P 2 0)
+   (pin T_N90_140_M140 N -2 0)
+   (outline (polygon signal 0 6.3500 2.7000 6.3500 -2.7000 4 -2.7000 3.4015
+     -3.4299 2.6727 -4.0297 1.8413 -4.4766 0.9390 -4.7536 0 -4.8500 -0.9462
+     -4.7568 -1.8560 -4.4808 -2.6945 -4.0326 -3.4295 -3.4295 -4.0326 -2.6945
+     -4.4808 -1.8560 -4.7568 -0.9462 -4.8500 0 -4.7568 0.9462 -4.4808 1.8560
+     -4.0326 2.6945 -3.4295 3.4295 -2.6945 4.0326 -1.8560 4.4808 -0.9462
+     4.7568 0 4.8500 0.9390 4.7536 1.8413 4.4766 2.6727 4.0297 3.4015 3.4299 4
+     2.7000 6.3500 2.7000)))
+  (image 'XDCR_AT-1127-ST-2-R_BUZ1'
+   (pin T_N90_140_M140 N -2 0)
+   (pin T_N90_140_M140 P 2 0)
+   (outline (polygon signal 0 6.3500 2.7000 6.3500 -2.7000 4 -2.7000 3.4015
+     -3.4299 2.6727 -4.0297 1.8413 -4.4766 0.9390 -4.7536 0 -4.8500 -0.9462
+     -4.7568 -1.8560 -4.4808 -2.6945 -4.0326 -3.4295 -3.4295 -4.0326 -2.6945
+     -4.4808 -1.8560 -4.7568 -0.9462 -4.8500 0 -4.7568 0.9462 -4.4808 1.8560
+     -4.0326 2.6945 -3.4295 3.4295 -2.6945 4.0326 -1.8560 4.4808 -0.9462
+     4.7568 0 4.8500 0.9390 4.7536 1.8413 4.4766 2.6727 4.0297 3.4015 3.4299 4
+     2.7000 6.3500 2.7000)))
+  (image MAX17048
+   (pin SMD_1D38_0D8 9 0 0)
+   (pin SMD_0D3_0D7 8 -0.7500 0.9900)
+   (pin SMD_0D3_0D7 7 -0.2500 0.9900)
+   (pin SMD_0D3_0D7 6 0.2500 0.9900)
+   (pin SMD_0D3_0D7 5 0.7500 0.9900)
+   (pin SMD_0D3_0D7 4 0.7500 -0.9900)
+   (pin SMD_0D3_0D7 3 0.2500 -0.9900)
+   (pin SMD_0D3_0D7 2 -0.2500 -0.9900)
+   (pin SMD_0D3_0D7 1 -0.7500 -0.9900)
+   (outline (polygon signal 0 1.0500 -1.0500 1.0500 1.0500 -1.0500 1.0500
+     -1.0500 -1.0500 1.0500 -1.0500)))
+  (image MAX17048_FG1
+   (pin SMD_0D3_0D7 1 -0.7500 -0.9900)
+   (pin SMD_0D3_0D7 2 -0.2500 -0.9900)
+   (pin SMD_0D3_0D7 3 0.2500 -0.9900)
+   (pin SMD_0D3_0D7 4 0.7500 -0.9900)
+   (pin SMD_0D3_0D7 5 0.7500 0.9900)
+   (pin SMD_0D3_0D7 6 0.2500 0.9900)
+   (pin SMD_0D3_0D7 7 -0.2500 0.9900)
+   (pin SMD_0D3_0D7 8 -0.7500 0.9900)
+   (pin SMD_1D38_0D8 9 0 0)
+   (outline (polygon signal 0 1.0500 -1.0500 1.0500 1.0500 -1.0500 1.0500
+     -1.0500 -1.0500 1.0500 -1.0500)))
+  (image 'MOLEX_105164-0001'
+   (pin SLOT_DR_1D30_0D60_PAD_2D10_1D40 S2 3.9500 -1.5500 (rotate 90))
+   (pin SLOT_DR_1D30_0D60_PAD_2D10_1D40 S1 -3.9500 -1.5500 (rotate 90))
+   (pin S_R210_147_M210_147_P210_14 P4 2.4625 0.7500 (rotate 90))
+   (pin S_R210_147_M210_147_P210_14 P3 -2.4625 0.7500 (rotate 90))
+   (pin S_R190_137_M190_137_P190_13 P2 0.9375 -1.5500 (rotate 90))
+   (pin S_R190_137_M190_137_P190_13 P1 -0.9375 -1.5500 (rotate 90))
+   (pin S_R138_45_M138_45_P138_45 5 -1.3000 1.1100 (rotate 90))
+   (pin S_R138_45_M138_45_P138_45 4 -0.6500 1.1100 (rotate 90))
+   (pin S_R138_45_M138_45_P138_45 3 0 1.1100 (rotate 90))
+   (pin S_R138_45_M138_45_P138_45 2 0.6500 1.1100 (rotate 90))
+   (pin S_R138_45_M138_45_P138_45 1 1.3000 1.1100 (rotate 90))
+   (outline (polygon signal 0 3.7500 -3.7000 3.7500 1.3000 -3.7500 1.3000
+     -3.7500 -3.7000 3.7500 -3.7000)))
+  (image 'MOLEX_105164-0001_USB1'
+   (pin S_R138_45_M138_45_P138_45 1 1.3000 1.1100 (rotate 90))
+   (pin S_R138_45_M138_45_P138_45 2 0.6500 1.1100 (rotate 90))
+   (pin S_R138_45_M138_45_P138_45 3 0 1.1100 (rotate 90))
+   (pin S_R138_45_M138_45_P138_45 4 -0.6500 1.1100 (rotate 90))
+   (pin S_R138_45_M138_45_P138_45 5 -1.3000 1.1100 (rotate 90))
+   (pin S_R190_137_M190_137_P190_13 P1 -0.9375 -1.5500 (rotate 90))
+   (pin S_R190_137_M190_137_P190_13 P2 0.9375 -1.5500 (rotate 90))
+   (pin S_R210_147_M210_147_P210_14 P3 -2.4625 0.7500 (rotate 90))
+   (pin S_R210_147_M210_147_P210_14 P4 2.4625 0.7500 (rotate 90))
+   (pin SLOT_DR_1D30_0D60_PAD_2D10_1D40 S1 -3.9500 -1.5500 (rotate 90))
+   (pin SLOT_DR_1D30_0D60_PAD_2D10_1D40 S2 3.9500 -1.5500 (rotate 90))
+   (outline (polygon signal 0 3.7500 -3.7000 3.7500 1.3000 -3.7500 1.3000
+     -3.7500 -3.7000 3.7500 -3.7000)))
+  (image 0603_LED
+   (pin SMD_0D8_0D8 2 0.7500 0)
+   (pin SMD_0D8_0D8 1 -0.7500 0)
+   (outline (polygon signal 0 0.7000 -0.3750 0.7000 0.3750 -0.7000 0.3750
+     -0.7000 -0.3750 0.7000 -0.3750)))
+  (image 0603_LED_LED1
+   (pin SMD_0D8_0D8 1 -0.7500 0)
+   (pin SMD_0D8_0D8 2 0.7500 0)
+   (outline (polygon signal 0 0.7000 -0.3750 0.7000 0.3750 -0.7000 0.3750
+     -0.7000 -0.3750 0.7000 -0.3750)))
+  (image SMD_MAX1555
+   (pin SMD_RECTANGLE_0D55_1D3 3 0.9500 -1.4500)
+   (pin SMD_RECTANGLE_0D55_1D3 2 0 -1.4500)
+   (pin SMD_RECTANGLE_0D55_1D3 1 -0.9500 -1.4500)
+   (pin SMD_RECTANGLE_0D55_1D3 5 -0.9500 1.4500)
+   (pin SMD_RECTANGLE_0D55_1D3 4 0.9500 1.4500)
+   (outline (rect signal -1.4500 -2.1000 1.4500 2.1000)))
+  (image SMD_MAX1555_CHC1
+   (pin SMD_RECTANGLE_0D55_1D3 4 0.9500 1.4500)
+   (pin SMD_RECTANGLE_0D55_1D3 5 -0.9500 1.4500)
+   (pin SMD_RECTANGLE_0D55_1D3 1 -0.9500 -1.4500)
+   (pin SMD_RECTANGLE_0D55_1D3 2 0 -1.4500)
+   (pin SMD_RECTANGLE_0D55_1D3 3 0.9500 -1.4500)
+   (outline (polygon signal 0 -1.4500 -2.1000 1.4500 -2.1000 1.4500 2.1000
+     -1.4500 2.1000 -1.4500 -2.1000)))
+  (image MAX1759
+   (pin SMD_0D3_1D4 10 -1 2.2000)
+   (pin SMD_0D3_1D4 9 -0.5000 2.2000)
+   (pin SMD_0D3_1D4 8 0 2.2000)
+   (pin SMD_0D3_1D4 7 0.5000 2.2000)
+   (pin SMD_0D3_1D4 6 1 2.2000)
+   (pin SMD_0D3_1D4 5 1 -2.2000)
+   (pin SMD_0D3_1D4 4 0.5000 -2.2000)
+   (pin SMD_0D3_1D4 3 0 -2.2000)
+   (pin SMD_0D3_1D4 2 -0.5000 -2.2000)
+   (pin SMD_0D3_1D4 1 -1 -2.2000)
+   (outline (polygon signal 0 1.5500 -1.5500 1.5500 1.5500 -1.5500 1.5500
+     -1.5500 -1.5500 1.5500 -1.5500)))
+  (image MAX1759_VR1
+   (pin SMD_0D3_1D4 1 -1 -2.2000)
+   (pin SMD_0D3_1D4 2 -0.5000 -2.2000)
+   (pin SMD_0D3_1D4 3 0 -2.2000)
+   (pin SMD_0D3_1D4 4 0.5000 -2.2000)
+   (pin SMD_0D3_1D4 5 1 -2.2000)
+   (pin SMD_0D3_1D4 6 1 2.2000)
+   (pin SMD_0D3_1D4 7 0.5000 2.2000)
+   (pin SMD_0D3_1D4 8 0 2.2000)
+   (pin SMD_0D3_1D4 9 -0.5000 2.2000)
+   (pin SMD_0D3_1D4 10 -1 2.2000)
+   (outline (polygon signal 0 1.5500 -1.5500 1.5500 1.5500 -1.5500 1.5500
+     -1.5500 -1.5500 1.5500 -1.5500)))
+  (image EG1218
+   (pin T_N90_167_M167 S 2.5400 0)
+   (pin T_N90_167_M167 P 0 0)
+   (pin T_N90_167_M167 O -2.5400 0)
+   (outline (rect signal -5.9055 -2.0955 5.9055 2.0955)))
+  (image EG1218_SW1
+   (pin T_N90_167_M167 O -2.5400 0)
+   (pin T_N90_167_M167 P 0 0)
+   (pin T_N90_167_M167 S 2.5400 0)
+   (outline (polygon signal 0 -5.9055 -2.0955 5.9055 -2.0955 5.9055 2.0955
+     -5.9055 2.0955 -5.9055 -2.0955)))
+  (image 'B2B-XH-A'
+   (pin THD_DRILL1D0_PAD2D0_2D0 2 1.2500 0)
+   (pin THD_DRILL1D0_PAD2D0_2D0 1 -1.2500 0)
+   (outline (polygon signal 0 3.7500 -2.8750 3.7500 2.8750 -3.7500 2.8750
+     -3.7500 -2.8750 3.7500 -2.8750)))
+  (image 'B2B-XH-A_CON1'
+   (pin THD_DRILL1D0_PAD2D0_2D0 1 -1.2500 0)
+   (pin THD_DRILL1D0_PAD2D0_2D0 2 1.2500 0)
+   (outline (polygon signal 0 3.7500 -2.8750 3.7500 2.8750 -3.7500 2.8750
+     -3.7500 -2.8750 3.7500 -2.8750)))
+  (image 'PDV-P8001'
+   (pin T_N60_100_M100 2 1.2700 0)
+   (pin T_N60_100_M100 1 -1.2700 0)
+   (outline (polygon signal 0 1.1517 2 1.4803 1.7650 1.7658 1.4792 2.0007
+     1.1505 2.1784 0.7878 2.2942 0.4008 2.3450 0 2.2942 -0.4008 2.1784 -0.7878
+     2.0007 -1.1505 1.7658 -1.4792 1.4803 -1.7650 1.1517 -2 -1.1517 -2 -1.4803
+     -1.7650 -1.7658 -1.4792 -2.0007 -1.1505 -2.1784 -0.7878 -2.2942 -0.4008
+     -2.3450 0 -2.2942 0.4008 -2.1784 0.7878 -2.0007 1.1505 -1.7658 1.4792
+     -1.4803 1.7650 -1.1517 2 1.1517 2)))
+  (image 'PDV-P8001_LS1'
+   (pin T_N60_100_M100 1 -1.2700 0)
+   (pin T_N60_100_M100 2 1.2700 0)
+   (outline (polygon signal 0 1.1517 2 1.4803 1.7650 1.7658 1.4792 2.0007
+     1.1505 2.1784 0.7878 2.2942 0.4008 2.3450 0 2.2942 -0.4008 2.1784 -0.7878
+     2.0007 -1.1505 1.7658 -1.4792 1.4803 -1.7650 1.1517 -2 -1.1517 -2 -1.4803
+     -1.7650 -1.7658 -1.4792 -2.0007 -1.1505 -2.1784 -0.7878 -2.2942 -0.4008
+     -2.3450 0 -2.2942 0.4008 -2.1784 0.7878 -2.0007 1.1505 -1.7658 1.4792
+     -1.4803 1.7650 -1.1517 2 1.1517 2)))
+  (image 'SOT95P240X120-3N'
+   (pin S_R100T140M100_140P100_140 3 0 1.1000)
+   (pin S_R100T140M100_140P100_140 2 0.9500 -1.1000)
+   (pin S_R100T140M100_140P100_140 1 -0.9500 -1.1000)
+   (outline (polygon signal 0 -2.0230 2.1830 -2.0230 -2.1830 2.0230 -2.1830
+     2.0230 2.1830 -2.0230 2.1830)))
+  (image 'SOT95P240X120-3N_BJT1'
+   (pin S_R100T140M100_140P100_140 1 -0.9500 -1.1000)
+   (pin S_R100T140M100_140P100_140 2 0.9500 -1.1000)
+   (pin S_R100T140M100_140P100_140 3 0 1.1000)
+   (outline (polygon signal 0 -2.0230 2.1830 -2.0230 -2.1830 2.0230 -2.1830
+     2.0230 2.1830 -2.0230 2.1830)))
+  (image 0603_R
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_R_R8
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_R_R7
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_R_R6
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_R_R10
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.6500 -0.4750 0.6500 0.4750 -0.9500 0.4750
+     -0.9500 -0.4750 0.6500 -0.4750)))
+  (image 0603_R_R9
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_R_R5
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_R_R3
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_R_R2
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_R_R1
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_R_R4
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 'SAMTEC_FTSH-105-01-L-D-K'
+   (pin T_N71_101_M101 9 2.5400 -0.6350)
+   (pin T_N71_101_M101 8 1.2700 0.6350)
+   (pin T_N71_101_M101 7 1.2700 -0.6350)
+   (pin T_N71_101_M101 6 0 0.6350)
+   (pin T_N71_101_M101 5 0 -0.6350)
+   (pin T_N71_101_M101 4 -1.2700 0.6350)
+   (pin T_N71_101_M101 3 -1.2700 -0.6350)
+   (pin T_N71_101_M101 2 -2.5400 0.6350)
+   (pin T_N71_101_M101 10 2.5400 0.6350)
+   (pin T_Q71_101_M101 1 -2.5400 -0.6350)
+   (outline (polygon signal 0 3.1350 -2.5400 3.1350 2.5400 -3.1350 2.5400
+     -3.1350 -2.5400 3.1350 -2.5400)))
+  (image 'SAMTEC_FTSH-105-01-L-D-K_J1'
+   (pin T_Q71_101_M101 1 -2.5400 -0.6350)
+   (pin T_N71_101_M101 10 2.5400 0.6350)
+   (pin T_N71_101_M101 2 -2.5400 0.6350)
+   (pin T_N71_101_M101 3 -1.2700 -0.6350)
+   (pin T_N71_101_M101 4 -1.2700 0.6350)
+   (pin T_N71_101_M101 5 0 -0.6350)
+   (pin T_N71_101_M101 6 0 0.6350)
+   (pin T_N71_101_M101 7 1.2700 -0.6350)
+   (pin T_N71_101_M101 8 1.2700 0.6350)
+   (pin T_N71_101_M101 9 2.5400 -0.6350)
+   (outline (polygon signal 0 3.1350 -2.5400 3.1350 2.5400 -3.1350 2.5400
+     -3.1350 -2.5400 3.1350 -2.5400)))
+  (image 'SC-20S_XTAL'
+   (pin 'SMD_RECT_0D7_1D4_XTAL_SC-20S_' 2 0.7500 0)
+   (pin 'SMD_RECT_0D7_1D4_XTAL_SC-20S_' 1 -0.7500 0)
+   (outline (rect signal -1.2800 -0.8800 1.2750 0.8800)))
+  (image 'SC-20S_XTAL_CYS2'
+   (pin 'SMD_RECT_0D7_1D4_XTAL_SC-20S_' 1 -0.7500 0)
+   (pin 'SMD_RECT_0D7_1D4_XTAL_SC-20S_' 2 0.7500 0)
+   (outline (polygon signal 0 -1.2800 -0.8800 1.2750 -0.8800 1.2750 0.8800
+     -1.2800 0.8800 -1.2800 -0.8800)))
+  (image 'TSX-3225_XTAL'
+   (pin 'SMD_RECT_1D4_1D15_XTAL_TSX-3225' 3 1.1000 0.8000)
+   (pin 'SMD_RECT_1D4_1D15_XTAL_TSX-3225' 4 -1.1000 0.8000)
+   (pin 'SMD_RECT_1D4_1D15_XTAL_TSX-3225' 2 1.1000 -0.8000)
+   (pin 'SMD_RECT_1D4_1D15_XTAL_TSX-3225' 1 -1.1000 -0.8000)
+   (outline (polygon signal 0 1.6750 -1.3250 1.6750 1.3250 -1.6750 1.3250
+     -1.6750 -1.3250 1.6750 -1.3250)))
+  (image 'TSX-3225_XTAL_CYS1'
+   (pin 'SMD_RECT_1D4_1D15_XTAL_TSX-3225' 1 -1.1000 -0.8000)
+   (pin 'SMD_RECT_1D4_1D15_XTAL_TSX-3225' 2 1.1000 -0.8000)
+   (pin 'SMD_RECT_1D4_1D15_XTAL_TSX-3225' 4 -1.1000 0.8000)
+   (pin 'SMD_RECT_1D4_1D15_XTAL_TSX-3225' 3 1.1000 0.8000)
+   (outline (polygon signal 0 1.6750 -1.3250 1.6750 1.3250 -1.6750 1.3250
+     -1.6750 -1.3250 1.6750 -1.3250)))
+  (image 0603_C
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_C_C19
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_C_C15
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_C_C14
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_C_C10
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_C_C9
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_C_C8
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_C_C5
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_C_C4
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0402_L
+   (pin SMD_0D6_0D5 2 0.5000 0)
+   (pin SMD_0D6_0D5 1 -0.5000 0)
+   (outline (polygon signal 0 0.5000 -0.2500 0.5000 0.2500 -0.5000 0.2500
+     -0.5000 -0.2500 0.5000 -0.2500)))
+  (image 0402_L_L2
+   (pin SMD_0D6_0D5 1 -0.5000 0)
+   (pin SMD_0D6_0D5 2 0.5000 0)
+   (outline (polygon signal 0 0.5000 -0.2500 0.5000 0.2500 -0.5000 0.2500
+     -0.5000 -0.2500 0.5000 -0.2500)))
+  (image 0805_C
+   (pin SMD_1D3_0D7 2 0.9500 0)
+   (pin SMD_1D3_0D7 1 -0.9500 0)
+   (outline (polygon signal 0 1 -0.6000 1 0.6000 -1 0.6000 -1 -0.6000 1
+     -0.6000)))
+  (image 0805_C_C20
+   (pin SMD_1D3_0D7 1 -0.9500 0)
+   (pin SMD_1D3_0D7 2 0.9500 0)
+   (outline (polygon signal 0 1 -0.6000 1 0.6000 -1 0.6000 -1 -0.6000 1
+     -0.6000)))
+  (image 0805_C_C18
+   (pin SMD_1D3_0D7 1 -0.9500 0)
+   (pin SMD_1D3_0D7 2 0.9500 0)
+   (outline (polygon signal 0 1 -0.6000 1 0.6000 -1 0.6000 -1 -0.6000 1
+     -0.6000)))
+  (image 0805_C_C17
+   (pin SMD_1D3_0D7 1 -0.9500 0)
+   (pin SMD_1D3_0D7 2 0.9500 0)
+   (outline (polygon signal 0 1 -0.6000 1 0.6000 -1 0.6000 -1 -0.6000 1
+     -0.6000)))
+  (image 0805_C_C16
+   (pin SMD_1D3_0D7 1 -0.9500 0)
+   (pin SMD_1D3_0D7 2 0.9500 0)
+   (outline (polygon signal 0 1 -0.6000 1 0.6000 -1 0.6000 -1 -0.6000 1
+     -0.6000)))
+  (image 0805_C_C3
+   (pin SMD_1D3_0D7 1 -0.9500 0)
+   (pin SMD_1D3_0D7 2 0.9500 0)
+   (outline (polygon signal 0 1 -0.6000 1 0.6000 -1 0.6000 -1 -0.6000 1
+     -0.6000)))
+  (image 0805_C_C6
+   (pin SMD_1D3_0D7 1 -0.9500 0)
+   (pin SMD_1D3_0D7 2 0.9500 0)
+   (outline (polygon signal 0 1 -0.6000 1 0.6000 -1 0.6000 -1 -0.6000 1
+     -0.6000)))
+  (image 0805_C_C7
+   (pin SMD_1D3_0D7 1 -0.9500 0)
+   (pin SMD_1D3_0D7 2 0.9500 0)
+   (outline (polygon signal 0 1 -0.6000 1 0.6000 -1 0.6000 -1 -0.6000 1
+     -0.6000)))
+  (image CC2640R2FRSM
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 32 -2 -1.4000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 31 -2 -1 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 30 -2 -0.6000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 29 -2 -0.2000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 28 -2 0.2000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 27 -2 0.6000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 26 -2 1 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 25 -2 1.4000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 24 -1.4000 2 (rotate 180.035))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 23 -1 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 22 -0.6000 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 21 -0.2000 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 20 0.2000 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 19 0.6000 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 18 1 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 17 1.4000 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 16 2 1.4000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 15 2 1 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 14 2 0.6000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 13 2 0.2000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 12 2 -0.2000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 11 2 -0.6000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 10 2 -1 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 9 2 -1.4000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 8 1.4000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 7 1 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 6 0.6000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 5 0.2000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 4 -0.2000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 3 -0.6000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 2 -1 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 1 -1.4000 -2)
+   (pin SMD_RECT_2D8_2D8_THERMAL_CC2640R2FRSM 33 0 0)
+   (outline (polygon signal 0 2.2000 -2.2000 2.2000 2.2000 -2.2000 2.2000
+     -2.2000 -2.2000 2.2000 -2.2000)))
+  (image CC2640R2FRSM_M1
+   (pin SMD_RECT_2D8_2D8_THERMAL_CC2640R2FRSM 33 0 0)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 1 -1.4000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 2 -1 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 3 -0.6000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 4 -0.2000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 5 0.2000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 6 0.6000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 7 1 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 8 1.4000 -2)
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 9 2 -1.4000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 10 2 -1 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 11 2 -0.6000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 12 2 -0.2000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 13 2 0.2000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 14 2 0.6000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 15 2 1 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 16 2 1.4000 (rotate 90.124))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 17 1.4000 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 18 1 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 19 0.6000 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 20 0.2000 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 21 -0.2000 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 22 -0.6000 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 23 -1 2 (rotate 180.182))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 24 -1.4000 2 (rotate 180.035))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 25 -2 1.4000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 26 -2 1 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 27 -2 0.6000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 28 -2 0.2000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 29 -2 -0.2000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 30 -2 -0.6000 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 31 -2 -1 (rotate 270.113))
+   (pin SMD_ROUND_0D2_0D8_CC2640R2FRSM 32 -2 -1.4000 (rotate 270.113))
+   (outline (polygon signal 0 2.2000 -2.2000 2.2000 2.2000 -2.2000 2.2000
+     -2.2000 -2.2000 2.2000 -2.2000)))
+  (image 0603_L
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_L_L1
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_L_L4
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0603_L_L3
+   (pin SMD_0D7_0D95 1 -0.6750 0)
+   (pin SMD_0D7_0D95 2 0.6750 0)
+   (outline (polygon signal 0 0.8000 -0.4750 0.8000 0.4750 -0.8000 0.4750
+     -0.8000 -0.4750 0.8000 -0.4750)))
+  (image 0402_C
+   (pin SMD_0D6_0D5 2 0.5000 0)
+   (pin SMD_0D6_0D5 1 -0.5000 0)
+   (outline (polygon signal 0 0.5000 -0.2500 0.5000 0.2500 -0.5000 0.2500
+     -0.5000 -0.2500 0.5000 -0.2500)))
+  (image 0402_C_C2
+   (pin SMD_0D6_0D5 1 -0.5000 0)
+   (pin SMD_0D6_0D5 2 0.5000 0)
+   (outline (polygon signal 0 0.5000 -0.2500 0.5000 0.2500 -0.5000 0.2500
+     -0.5000 -0.2500 0.5000 -0.2500)))
+  (image 0402_C_C1
+   (pin SMD_0D6_0D5 1 -0.5000 0)
+   (pin SMD_0D6_0D5 2 0.5000 0)
+   (outline (polygon signal 0 0.5000 -0.2500 0.5000 0.2500 -0.5000 0.2500
+     -0.5000 -0.2500 0.5000 -0.2500)))
+  (image 0402_C_C11
+   (pin SMD_0D6_0D5 1 -0.5000 0)
+   (pin SMD_0D6_0D5 2 0.5000 0)
+   (outline (polygon signal 0 0.5000 -0.2500 0.5000 0.2500 -0.5000 0.2500
+     -0.5000 -0.2500 0.5000 -0.2500)))
+  (image 0402_C_C13
+   (pin SMD_0D6_0D5 1 -0.5000 0)
+   (pin SMD_0D6_0D5 2 0.5000 0)
+   (outline (polygon signal 0 0.5000 -0.2500 0.5000 0.2500 -0.5000 0.2500
+     -0.5000 -0.2500 0.5000 -0.2500)))
+  (image 0402_C_C12
+   (pin SMD_0D6_0D5 1 -0.5000 0)
+   (pin SMD_0D6_0D5 2 0.5000 0)
+   (outline (polygon signal 0 0.5000 -0.2500 0.5000 0.2500 -0.5000 0.2500
+     -0.5000 -0.2500 0.5000 -0.2500)))
+  (padstack PAD125
+   (plating nonplated)
+   (type thrupad)
+   (shape (circle signal 0.6350 0 0))
+   (hole (circle signal 3.1750 0 0))
+   (hole (circle power 3.1750 0 0)))
+  (padstack MULTI30B
+   (type smdpad)
+   (shape (rect BOTTOM -0.63500 -3.81000 0.63500 3.81000)))
+  (padstack MULTI30T
+   (type smdpad)
+   (shape (rect TOP -0.63500 -3.81000 0.63500 3.81000)))
+  (padstack SMD25_50
+   (type smdpad)
+   (shape (rect TOP -0.31750 -0.63500 0.31750 0.63500)))
+  (padstack SMD50_25
+   (type smdpad)
+   (shape (rect TOP -0.63500 -0.31750 0.63500 0.31750)))
+  (padstack SMD52REC48
+   (type smdpad)
+   (shape (rect TOP -0.66040 -0.60960 0.66040 0.60960)))
+  (padstack SMD52REC32
+   (type smdpad)
+   (shape (rect TOP -0.66040 -0.40640 0.66040 0.40640)))
+  (padstack SMD60REC40
+   (type smdpad)
+   (shape (rect TOP -0.76200 -0.50800 0.76200 0.50800)))
+  (padstack PAD93CIR56D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 2.3622 0 0))
+   (hole (circle signal 1.4224 0 0))
+   (hole (circle power 1.4224 0 0)))
+  (padstack SMD435REC220
+   (type smdpad)
+   (shape (rect TOP -5.52450 -2.79400 5.52450 2.79400)))
+  (padstack HOLE145
+   (plating nonplated)
+   (type thrupad)
+   (shape (circle signal 3.9370 0 0))
+   (hole (circle signal 3.6830 0 0))
+   (hole (circle power 3.6830 0 0)))
+  (padstack HOLE285
+   (plating nonplated)
+   (type thrupad)
+   (shape (circle signal 7.4930 0 0))
+   (hole (circle signal 7.2390 0 0))
+   (hole (circle power 7.2390 0 0)))
+  (padstack SMD300REC250
+   (type smdpad)
+   (shape (rect TOP -3.81000 -3.17500 3.81000 3.17500)))
+  (padstack SMD140REC250
+   (type smdpad)
+   (shape (rect TOP -1.77800 -3.17500 1.77800 3.17500)))
+  (padstack SMD80REC320
+   (type smdpad)
+   (shape (rect TOP -1.01600 -4.06400 1.01600 4.06400)))
+  (padstack SMD80REC317
+   (type smdpad)
+   (shape (rect TOP -1.01600 -5.71500 1.01600 5.71500)))
+  (padstack PAD262REC35
+   (plating nonplated)
+   (type thrupad)
+   (shape (rect signal -3.32740 -0.44450 3.32740 0.44450))
+   (hole (circle signal 0.8890 5.7658 0))
+   (hole (circle power 0.8890 5.7658 0)))
+  (padstack HOLE190
+   (plating nonplated)
+   (type thrupad)
+   (shape (circle signal 5.5880 0 0))
+   (hole (circle signal 4.8260 0 0))
+   (hole (circle power 4.8260 0 0)))
+  (padstack SMD55REC425
+   (type smdpad)
+   (shape (rect TOP -0.69850 -5.39750 0.69850 5.39750)))
+  (padstack SMD425REC75
+   (type smdpad)
+   (shape (rect TOP -5.39750 -0.95250 5.39750 0.95250)))
+  (padstack SMD330REC48
+   (type smdpad)
+   (shape (rect TOP -4.19100 -0.60960 4.19100 0.60960)))
+  (padstack SMD86REC330
+   (type smdpad)
+   (shape (rect TOP -1.09220 -4.19100 1.09220 4.19100)))
+  (padstack SMD360REC300
+   (type smdpad)
+   (shape (rect TOP -4.57200 -3.81000 4.57200 3.81000)))
+  (padstack HOLE180
+   (plating nonplated)
+   (type thrupad)
+   (shape (circle signal 4.8260 0 0))
+   (hole (circle signal 4.5720 0 0))
+   (hole (circle power 4.5720 0 0)))
+  (padstack HOLE135
+   (plating nonplated)
+   (type thrupad)
+   (shape (circle signal 3.6830 0 0))
+   (hole (circle signal 3.4290 0 0))
+   (hole (circle power 3.4290 0 0)))
+  (padstack PAD80CIR55D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 2.0320 0 0))
+   (hole (circle signal 1.3970 0 0))
+   (hole (circle power 1.3970 0 0)))
+  (padstack PAD65CIR43D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 1.6510 0 0))
+   (hole (circle signal 1.0922 0 0))
+   (hole (circle power 1.0922 0 0)))
+  (padstack HOLE210
+   (plating nonplated)
+   (type thrupad)
+   (shape (circle signal 5.5880 0 0))
+   (hole (circle signal 5.3340 0 0))
+   (hole (circle power 5.3340 0 0)))
+  (padstack SMD335REC350
+   (type smdpad)
+   (shape (rect TOP -4.25450 -4.44500 4.25450 4.44500)))
+  (padstack THD_DRILL0D6_PAD1D0_1D0
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 0.6350 0 0))
+   (hole (circle signal 3.1750 0 0))
+   (hole (circle power 3.1750 0 0)))
+  (padstack VIA
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 0.6096 0 0))
+   (hole (circle signal 0.3302 0 0))
+   (hole (circle power 0.3302 0 0)))
+  (padstack VIA_SF
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 0.6000 0 0))
+   (hole (circle signal 0.3000 0 0))
+   (hole (circle power 0.3000 0 0)))
+  (padstack VIA_SF_DBFIX1
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 0.6000 0 0))
+   (hole (circle signal 0.3000 0 0))
+   (hole (circle power 0.3000 0 0)))
+  (padstack SMD_0D3_1D4
+   (type smdpad)
+   (shape (rect TOP -0.15000 -0.70000 0.15000 0.70000)))
+  (padstack SLOT_DR_1D30_0D60_PAD_2D10_1D40
+   (plating plated)
+   (type thrupad)
+   (shape (path signal 1.4000 -0.3500 0 0.3500 0))
+   (hole (path signal 0.5999 -0.3500 0 0.3500 0))
+   (hole (path power 0.5999 -0.3500 0 0.3500 0)))
+  (padstack S_R210_147_M210_147_P210_14
+   (type smdpad)
+   (shape (rect TOP -1.05005 -0.73750 1.05005 0.73750)))
+  (padstack S_R190_137_M190_137_P190_13
+   (type smdpad)
+   (shape (rect TOP -0.94995 -0.68745 0.94995 0.68745)))
+  (padstack S_R138_45_M138_45_P138_45
+   (type smdpad)
+   (shape (rect TOP -0.69000 -0.22505 0.69000 0.22505)))
+  (padstack T_N90_167_M167
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 1.6764 0 0))
+   (hole (circle signal 0.8999 0 0))
+   (hole (circle power 0.8999 0 0)))
+  (padstack SMD_ROUND_0D2_0D8_CC2640R2FRSM
+   (type smdpad)
+   (shape (polygon TOP 0 -0.0001 0.4000 0.0001 0.4000 -0.0194 0.3981 -0.0382
+     0.3924 -0.0555 0.3832 -0.0707 0.3707 -0.0831 0.3555 -0.0923 0.3382
+     -0.0980 0.3194 -0.0999 0.2999 -0.0999 -0.4000 0.0999 -0.4000 0.0999
+     0.2999 0.0980 0.3194 0.0923 0.3382 0.0831 0.3555 0.0707 0.3707 0.0555
+     0.3832 0.0382 0.3924 0.0194 0.3981 -0.0001 0.4000)))
+  (padstack SMD_RECT_2D8_2D8_THERMAL_CC2640R2FRSM
+   (type smdpad)
+   (shape (rect TOP -1.40005 -1.40005 1.40005 1.40005)))
+  (padstack T_N60_100_M100
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 1 0 0))
+   (hole (circle signal 0.5999 0 0))
+   (hole (circle power 0.5999 0 0)))
+  (padstack SMD_0D8_0D8
+   (type smdpad)
+   (shape (rect TOP -0.40005 -0.40005 0.40005 0.40005)))
+  (padstack T_N71_101_M101
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 1.0160 0 0))
+   (hole (circle signal 0.7112 0 0))
+   (hole (circle power 0.7112 0 0)))
+  (padstack T_Q71_101_M101
+   (plating plated)
+   (type thrupad)
+   (shape (rect signal -0.50800 -0.50800 0.50800 0.50800))
+   (hole (circle signal 0.7112 0 0))
+   (hole (circle power 0.7112 0 0)))
+  (padstack SMD_1D38_0D8
+   (type smdpad)
+   (shape (rect TOP -0.69000 -0.40005 0.69000 0.40005)))
+  (padstack SMD_0D3_0D7
+   (type smdpad)
+   (shape (rect TOP -0.15000 -0.35000 0.15000 0.35000)))
+  (padstack 'SMD_RECT_0D7_1D4_XTAL_SC-20S_'
+   (type smdpad)
+   (shape (rect TOP -0.35000 -0.70000 0.35000 0.70000)))
+  (padstack 'SMD_RECT_1D4_1D15_XTAL_TSX-3225'
+   (type smdpad)
+   (shape (rect TOP -0.70000 -0.59995 0.70000 0.59995)))
+  (padstack THD_DRILL1D0_PAD2D0_2D0
+   (plating plated)
+   (type thrupad)
+   (shape (rect signal -1 -1 1 1))
+   (hole (circle signal 1 0 0))
+   (hole (circle power 1 0 0)))
+  (padstack SMD_RECTANGLE_0D55_1D3
+   (type smdpad)
+   (shape (rect TOP -0.27495 -0.65000 0.27495 0.65000)))
+  (padstack SMD_1D3_0D7
+   (type smdpad)
+   (shape (rect TOP -0.35000 -0.65000 0.35000 0.65000)))
+  (padstack SMD_0D7_0D95
+   (type smdpad)
+   (shape (rect TOP -0.35000 -0.47500 0.35000 0.47500)))
+  (padstack SMD_0D6_0D5
+   (type smdpad)
+   (shape (rect TOP -0.25005 -0.29995 0.25005 0.29995)))
+  (padstack T_N90_140_M140
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 1.4079 0 0))
+   (hole (circle signal 0.8999 0 0))
+   (hole (circle power 0.8999 0 0)))
+  (padstack S_R100T140M100_140P100_140
+   (type smdpad)
+   (shape (rect TOP -0.50000 -0.70000 0.50000 0.70000)))
+  (padstack SMD_RECT_0D5_0D9_ANTENNA
+   (type smdpad)
+   (shape (rect TOP -0.44995 -0.25005 0.44995 0.25005)))
+  (padstack SMD_RECT_0D5_0D5_ANTENNA
+   (type smdpad)
+   (shape (rect TOP -0.25005 -0.25005 0.25005 0.25005))))
+ (floor_plan)
+ (part_library
+  (logical_part_mapping ANTENNA_AN043_PATCH_ANTENNA_TI
+   (comp A1))
+  (logical_part ANTENNA_AN043_PATCH_ANTENNA_TI
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 1               0    G1             1    '-'                  0 )
+   (pin 2               0    G1             1    +                    0 ))
+  (logical_part_mapping 'MMBT3904_SOT95P240X120-3N_MMBT3'
+   (comp BJT1))
+  (logical_part 'MMBT3904_SOT95P240X120-3N_MMBT3'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             2    E                    0 )
+   (pin 3               0    G1             2    C                    0 )
+   (pin 1               0    G1             2    B                    0 ))
+  (logical_part_mapping 'AT-1127-ST-2-R_XDCR_AT-1127-ST-'
+   (comp BUZ1))
+  (logical_part 'AT-1127-ST-2-R_XDCR_AT-1127-ST-'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin P               0    G1             3    P                    0 )
+   (pin N               0    G1             3    N                    0 ))
+  (logical_part_mapping CAP_0402_C_12P
+   (comp C1 C2))
+  (logical_part CAP_0402_C_12P
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             4    B                    0 )
+   (pin 1               0    G1             4    A                    0 ))
+  (logical_part_mapping CAP_0603_C_100NF
+   (comp C10 C14 C19 C4 C5 C8 C9))
+  (logical_part CAP_0603_C_100NF
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             5    B                    0 )
+   (pin 1               0    G1             5    A                    0 ))
+  (logical_part_mapping CAP_0402_C_12PF
+   (comp C11))
+  (logical_part CAP_0402_C_12PF
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             6    B                    0 )
+   (pin 1               0    G1             6    A                    0 ))
+  (logical_part_mapping CAP_0402_C_1.2PF
+   (comp C12 C13))
+  (logical_part CAP_0402_C_1.2PF
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             7    B                    0 )
+   (pin 1               0    G1             7    A                    0 ))
+  (logical_part_mapping CAP_0603_C_330NF
+   (comp C15))
+  (logical_part CAP_0603_C_330NF
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             8    B                    0 )
+   (pin 1               0    G1             8    A                    0 ))
+  (logical_part_mapping CAP_0805_C_10UF
+   (comp C16 C17 C6 C7))
+  (logical_part CAP_0805_C_10UF
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             9    B                    0 )
+   (pin 1               0    G1             9    A                    0 ))
+  (logical_part_mapping CAP_0805_C_1UF
+   (comp C18 C20 C3))
+  (logical_part CAP_0805_C_1UF
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             10   B                    0 )
+   (pin 1               0    G1             10   A                    0 ))
+  (logical_part_mapping 'MAX1555_SMD_MAX1555_MAXIM MAX15'
+   (comp CHC1))
+  (logical_part 'MAX1555_SMD_MAX1555_MAXIM MAX15'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 1               5    G1             11   USB                  0 )
+   (pin 2               5    G1             11   GND                  0 )
+   (pin 4               5    G1             11   DC                   0 )
+   (pin 3               5    G1             11   CHG                  0 )
+   (pin 5               5    G1             11   BAT                  0 ))
+  (logical_part_mapping 'JST B2B-XH-A LF SN_B2B-XH-A_JST'
+   (comp CON1))
+  (logical_part 'JST B2B-XH-A LF SN_B2B-XH-A_JST'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             12   2                    0 )
+   (pin 1               0    G1             12   1                    0 ))
+  (logical_part_mapping 'CRYSTAL_24M_TSX-3225_XTAL_24MHZ'
+   (comp CYS1))
+  (logical_part 'CRYSTAL_24M_TSX-3225_XTAL_24MHZ'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 4               5    G1             13   4                    0 )
+   (pin 3               5    G1             13   3                    0 )
+   (pin 2               5    G1             13   2                    0 )
+   (pin 1               5    G1             13   1                    0 ))
+  (logical_part_mapping 'CRYSTAL_32768_SC-20S_XTAL_32.76'
+   (comp CYS2))
+  (logical_part 'CRYSTAL_32768_SC-20S_XTAL_32.76'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               5    G1             14   B                    0 )
+   (pin 1               5    G1             14   A                    0 ))
+  (logical_part_mapping 'MAXIM MAX17048_MAX17048_MAXIM M'
+   (comp FG1))
+  (logical_part 'MAXIM MAX17048_MAX17048_MAXIM M'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 3               5    G1             15   VDD                  0 )
+   (pin 8               5    G1             15   SDA                  0 )
+   (pin 7               5    G1             15   SCL                  0 )
+   (pin 6               5    G1             15   QSTRT                0 )
+   (pin 4               5    G1             15   GND                  0 )
+   (pin 9               5    G1             15   EGP                  0 )
+   (pin 1               5    G1             15   CTG                  0 )
+   (pin 2               5    G1             15   CELL                 0 )
+   (pin 5               5    G1             15   ALRTN                0 ))
+  (logical_part_mapping 'SAMTEC FTSH-105-01-L-D-K_SAMTEC'
+   (comp J1))
+  (logical_part 'SAMTEC FTSH-105-01-L-D-K_SAMTEC'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 9               5    G1             16   9                    0 )
+   (pin 8               5    G1             16   8                    0 )
+   (pin 7               5    G1             16   7                    0 )
+   (pin 6               5    G1             16   6                    0 )
+   (pin 5               5    G1             16   5                    0 )
+   (pin 4               5    G1             16   4                    0 )
+   (pin 3               5    G1             16   3                    0 )
+   (pin 2               5    G1             16   2                    0 )
+   (pin 10              5    G1             16   10                   0 )
+   (pin 1               5    G1             16   1                    0 ))
+  (logical_part_mapping IND_0603_L_10UH
+   (comp L1))
+  (logical_part IND_0603_L_10UH
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             17   B                    0 )
+   (pin 1               0    G1             17   A                    0 ))
+  (logical_part_mapping FERRITEBEAD_0402_L_FERRITEBEAD
+   (comp L2))
+  (logical_part FERRITEBEAD_0402_L_FERRITEBEAD
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             18   B                    0 )
+   (pin 1               0    G1             18   A                    0 ))
+  (logical_part_mapping IND_0603_L_15NH
+   (comp L3))
+  (logical_part IND_0603_L_15NH
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             19   B                    0 )
+   (pin 1               0    G1             19   A                    0 ))
+  (logical_part_mapping IND_0603_L_2NH
+   (comp L4))
+  (logical_part IND_0603_L_2NH
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             20   B                    0 )
+   (pin 1               0    G1             20   A                    0 ))
+  (logical_part_mapping LED_0603_LED_GEN
+   (comp LED1))
+  (logical_part LED_0603_LED_GEN
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 1               5    G1             21   '-'                  0 )
+   (pin 2               5    G1             21   +                    0 ))
+  (logical_part_mapping 'PDV-P8001_PDV-P8001_PDV-P8001'
+   (comp LS1))
+  (logical_part 'PDV-P8001_PDV-P8001_PDV-P8001'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               5    G1             22   PS2                  0 )
+   (pin 1               2    G1             22   PS1                  0 ))
+  (logical_part_mapping 'CC2640_CC2640R2FRSM_TI CC2640R2'
+   (comp M1))
+  (logical_part 'CC2640_CC2640R2FRSM_TI CC2640R2'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 6               5    G1             23   X32K_Q2              0 )
+   (pin 5               5    G1             23   X32K_Q1              0 )
+   (pin 31              5    G1             23   X24M_P               0 )
+   (pin 30              5    G1             23   X24M_N               0 )
+   (pin 29              2    G1             23   VSS4                 0 )
+   (pin 20              2    G1             23   VSS3                 0 )
+   (pin 17              2    G1             23   VSS2                 0 )
+   (pin 7               2    G1             23   VSS1                 0 )
+   (pin 3               2    G1             23   VSS0                 0 )
+   (pin 19              2    G1             23   VDDS_DCDC            0 )
+   (pin 11              2    G1             23   VDDS2                0 )
+   (pin 27              2    G1             23   VDDS                 0 )
+   (pin 32              2    G1             23   VDDR2                0 )
+   (pin 28              2    G1             23   VDDR                 0 )
+   (pin 4               5    G1             23   RX/TX                0 )
+   (pin 1               5    G1             23   RF_P                 0 )
+   (pin 2               5    G1             23   RF_N                 0 )
+   (pin 21              3    G1             23   RESET_N              0 )
+   (pin 13              5    G1             23   JTAG_TMSC            0 )
+   (pin 14              5    G1             23   JTAG_TCKC            0 )
+   (pin 33              2    G1             23   EGP                  0 )
+   (pin 26              5    G1             23   DIO_9                0 )
+   (pin 25              5    G1             23   DIO_8                0 )
+   (pin 24              5    G1             23   DIO_7                0 )
+   (pin 23              5    G1             23   DIO_6                0 )
+   (pin 22              5    G1             23   DIO_5                0 )
+   (pin 16              5    G1             23   DIO_4                0 )
+   (pin 15              5    G1             23   DIO_3                0 )
+   (pin 10              5    G1             23   DIO_2                0 )
+   (pin 9               5    G1             23   DIO_1                0 )
+   (pin 8               5    G1             23   DIO_0                0 )
+   (pin 12              2    G1             23   DCOUPL               0 )
+   (pin 18              2    G1             23   DCDC_SW              0 ))
+  (logical_part_mapping RES_0603_R_33
+   (comp R1))
+  (logical_part RES_0603_R_33
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             24   B                    0 )
+   (pin 1               0    G1             24   A                    0 ))
+  (logical_part_mapping RES_0603_R_33K
+   (comp R10 R5))
+  (logical_part RES_0603_R_33K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             25   B                    0 )
+   (pin 1               0    G1             25   A                    0 ))
+  (logical_part_mapping RES_0603_R_2K
+   (comp R2 R3))
+  (logical_part RES_0603_R_2K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             26   B                    0 )
+   (pin 1               0    G1             26   A                    0 ))
+  (logical_part_mapping RES_0603_R_100K
+   (comp R4))
+  (logical_part RES_0603_R_100K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             27   B                    0 )
+   (pin 1               0    G1             27   A                    0 ))
+  (logical_part_mapping RES_0603_R_3.3K
+   (comp R6))
+  (logical_part RES_0603_R_3.3K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             28   B                    0 )
+   (pin 1               0    G1             28   A                    0 ))
+  (logical_part_mapping RES_0603_R_220
+   (comp R7 R8))
+  (logical_part RES_0603_R_220
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             29   B                    0 )
+   (pin 1               0    G1             29   A                    0 ))
+  (logical_part_mapping RES_0603_R_200
+   (comp R9))
+  (logical_part RES_0603_R_200
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             30   B                    0 )
+   (pin 1               0    G1             30   A                    0 ))
+  (logical_part_mapping SIS_EG1218_SIS
+   (comp SW1))
+  (logical_part SIS_EG1218_SIS
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin S               0    G1             31   S                    0 )
+   (pin P               0    G1             31   P                    0 )
+   (pin O               0    G1             31   O                    0 ))
+  (logical_part_mapping 'MOLEX 1051640001_MOLEX_105164-0'
+   (comp USB1))
+  (logical_part 'MOLEX 1051640001_MOLEX_105164-0'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin S2              0    G1             32   SHIELD2              0 )
+   (pin S1              0    G1             32   SHIELD1              0 )
+   (pin P4              0    G1             32   P4                   0 )
+   (pin P3              0    G1             32   P3                   0 )
+   (pin P2              0    G1             32   P2                   0 )
+   (pin P1              0    G1             32   P1                   0 )
+   (pin 4               5    G1             32   ID                   0 )
+   (pin 2               5    G1             32   'D-'                 0 )
+   (pin 3               5    G1             32   D+                   0 )
+   (pin 5               0    G1             32   '-'                  0 )
+   (pin 1               2    G1             32   +                    0 ))
+  (logical_part_mapping 'MAX1759_MAX1759_MAXIM MAX1759'
+   (comp VR1))
+  (logical_part 'MAX1759_MAX1759_MAXIM MAX1759'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               5    G1             33   SHDN                 0 )
+   (pin 1               5    G1             33   POK                  0 )
+   (pin 6               5    G1             33   PGND                 0 )
+   (pin 9               5    G1             33   OUT                  0 )
+   (pin 4               5    G1             33   IN2                  0 )
+   (pin 3               5    G1             33   IN1                  0 )
+   (pin 5               5    G1             33   GND                  0 )
+   (pin 10              5    G1             33   FB                   0 )
+   (pin 8               5    G1             33   CXP                  0 )
+   (pin 7               5    G1             33   CXN                  0 )))
+ (network
+  (net RF_N
+   (pins L3-1 M1-2))
+  (net CHG
+   (pins LED1-1 CHC1-3))
+  (net X24M_N
+   (pins CYS1-3 M1-30))
+  (net X24M_P
+   (pins M1-31 CYS1-1))
+  (net X32K_Q2
+   (pins C2-1 CYS2-2 M1-6))
+  (net X32K_Q1
+   (pins C1-1 CYS2-1 M1-5))
+  (net DCOUPL
+   (pins C3-2 M1-12))
+  (net GND
+   (pins A1-1 C7-2 C9-2 C13-2 C12-2 C1-2 C2-2 C3-1 C4-2 R3-2 CYS1-4 CYS1-2
+    C10-2 C5-2 FG1-6 C17-2 C8-2 VR1-6 VR1-5 VR1-10 C20-2 USB1-5 R5-1 R10-2
+    FG1-9 FG1-1 CHC1-2 C19-2 BJT1-2 FG1-4 J1-5 J1-3 C14-2 C6-2 M1-29 M1-20
+    M1-17 M1-7 M1-3 M1-33 CON1-1 J1-9 C18-2 C16-2))
+  (net VDDR
+   (pins C7-1 L1-2 C9-1 C10-1 M1-28 M1-32))
+  (net VDDS
+   (pins C4-1 M1-11 C5-1 M1-27 L2-2 C8-1 C6-1 M1-19 R4-1))
+  (net ANTENNA
+   (pins C11-2 A1-2))
+  (net FILTER
+   (pins C11-1 L4-2 C13-1))
+  (net CXN
+   (pins VR1-7 C15-2))
+  (net CXP
+   (pins VR1-8 C15-1))
+  (net BUZ_IN
+   (pins R1-2 BUZ1-P))
+  (net BUZ
+   (pins R2-1 M1-10))
+  (net TDI
+   (pins J1-8 M1-16))
+  (net TDO
+   (pins J1-6 M1-15))
+  (net TCKC
+   (pins J1-4 M1-14))
+  (net SCL_OUT
+   (pins FG1-7 R7-1))
+  (net SDA_OUT
+   (pins FG1-8 R8-1))
+  (net SDA
+   (pins R8-2 M1-25))
+  (net SCL
+   (pins R7-2 M1-26))
+  (net ALRTN
+   (pins M1-24 R6-2 FG1-5))
+  (net VCC
+   (pins R6-1 L2-1 J1-1 C16-1 VR1-9))
+  (net DCDC_IN
+   (pins SW1-S R1-1 C17-1 VR1-2 VR1-4 VR1-3))
+  (net DCDC_SW
+   (pins L1-1 M1-18))
+  (net N183606
+   (pins USB1-S2 R10-1))
+  (net TMSC
+   (pins J1-2 M1-13))
+  (net N183563
+   (pins USB1-S1 R5-2))
+  (net TRB
+   (pins R2-2 BJT1-1))
+  (net RESET
+   (pins J1-10 R4-2 C14-1 M1-21))
+  (net BUZZNEG
+   (pins BUZ1-N BJT1-3))
+  (net DC
+   (pins R9-1 USB1-1 CHC1-4 C20-1))
+  (net SENSOR_MTR
+   (pins R3-1 LS1-2 M1-22))
+  (net SENSOR_ON
+   (pins LS1-1 M1-9))
+  (net BAT+
+   (pins CON1-2 C18-1 SW1-P C19-1 CHC1-5 FG1-2 FG1-3))
+  (net LED
+   (pins R9-2 M1-23 LED1-2))
+  (net RF_P
+   (pins L3-2 L4-1 M1-1 C12-1)))
+ (wiring
+  (wire (path TOP 0.2500 -63.2750 -90.4500 -64.6500 -90.4500 -65.2095 -91.0095
+    -65.7905 -91.0095 -65.8000 -91) (net RF_N) (type protect))
+  (wire (path TOP 0.2500 -93.4000 -90.7500 -94.8770 -90.7500 -95.5000 -90.1270
+    -95.5000 -89.6000) (net CHG) (type protect))
+  (wire (path BOTTOM 0.2500 -91.8000 -90.7500 -93.4000 -90.7500) (net CHG)
+   (type protect))
+  (wire (path TOP 0.2500 -91.8000 -90.7500 -84.4500 -98.1000 -72.0500 -98.1000
+    ) (net CHG) (type protect))
+  (via VIA_SF_DBFIX1 -91.8000 -90.7500 (net CHG) (type protect))
+  (via VIA_SF_DBFIX1 -93.4000 -90.7500 (net CHG) (type protect))
+  (wire (path TOP 0.1270 -67.2000 -94.4000 -67.2000 -92) (net X24M_N) (type
+    protect))
+  (wire (path TOP 0.1270 -65.6000 -96.6000 -64.2270 -96.6000 -64 -96.3730 -64
+    -94.1000 -64.8500 -93.2500 -66.2500 -93.2500 -66.8000 -92.7000 -66.8000
+    -92) (net X24M_P) (type protect))
+  (wire (path TOP 0.1270 -62.8000 -87.3500 -60.9500 -87.3500) (net X32K_Q2)
+   (type protect))
+  (wire (path TOP 0.1270 -62.8000 -87.3500 -64.5906 -87.3500 -64.9500 -87.7094
+    -64.9500 -89.1500 -65.2000 -89.4000 -65.8000 -89.4000) (net X32K_Q2) (type
+    protect))
+  (wire (path TOP 0.1270 -62.8000 -88.8500 -64.0500 -88.8500 -65 -89.8000
+    -65.8000 -89.8000) (net X32K_Q1) (type protect))
+  (wire (path TOP 0.1270 -60.9500 -88.8500 -62.8000 -88.8500) (net X32K_Q1)
+   (type protect))
+  (wire (path TOP 0.1270 -67.6000 -85.5500 -67.6000 -88) (net DCOUPL) (type
+    protect))
+  (wire (path BOTTOM 0.1270 -68.6260 -77.0650 -67.9400 -77.0650) (net GND)
+   (type protect))
+  (wire (path BOTTOM 0.1270 -67.9400 -77.0650 -67.9400 -76.3790) (net GND)
+   (type protect))
+  (wire (path BOTTOM 0.1270 -100.5500 -88.1500 -99.3720 -88.1500) (net GND)
+   (type protect))
+  (wire (path BOTTOM 0.1270 -101.7280 -88.1500 -100.5500 -88.1500) (net GND)
+   (type protect))
+  (wire (path BOTTOM 0.1270 -100.5500 -88.1500 -100.5500 -86.9720) (net GND)
+   (type protect))
+  (wire (path BOTTOM 0.1270 -100.5500 -89.3280 -100.5500 -88.1500) (net GND)
+   (type protect))
+  (wire (path BOTTOM 0.1270 -64.1300 -76.3200 -64.1300 -77.0650) (net GND)
+   (type protect))
+  (wire (polygon BOTTOM 0 -104 -73.8500 -52.8000 -73.8500 -52.8000 -98.9000
+    -104 -98.9000 -104 -73.8500 (viapop on)) (net GND) (type protect)
+   (window (polygon BOTTOM 0 -101.6772 -89.1500 -101.6772 -87.1500 -101.6748
+     -87.1252 -101.6675 -87.1013 -101.6558 -87.0793 -101.6399 -87.0601
+     -101.6207 -87.0442 -101.5987 -87.0325 -101.5748 -87.0252 -101.5500
+     -87.0228 -99.5500 -87.0228 -99.5252 -87.0252 -99.5013 -87.0325 -99.4793
+     -87.0442 -99.4601 -87.0601 -99.4442 -87.0793 -99.4325 -87.1013 -99.4252
+     -87.1252 -99.4228 -87.1500 -99.4228 -89.1500 -99.4252 -89.1748 -99.4325
+     -89.1987 -99.4442 -89.2207 -99.4601 -89.2399 -99.4793 -89.2558 -99.5013
+     -89.2675 -99.5252 -89.2748 -99.5500 -89.2772 -101.5500 -89.2772 -101.5748
+     -89.2748 -101.5987 -89.2675 -101.6207 -89.2558 -101.6399 -89.2399
+     -101.6558 -89.2207 -101.6675 -89.1987 -101.6748 -89.1748 -101.6772
+     -89.1500))
+   (window (polygon BOTTOM 0 -101.6772 -86.6500 -101.6772 -84.6500 -101.6748
+     -84.6252 -101.6675 -84.6013 -101.6558 -84.5793 -101.6399 -84.5601
+     -101.6207 -84.5442 -101.5987 -84.5325 -101.5748 -84.5252 -101.5500
+     -84.5228 -99.5500 -84.5228 -99.5252 -84.5252 -99.5013 -84.5325 -99.4793
+     -84.5442 -99.4601 -84.5601 -99.4442 -84.5793 -99.4325 -84.6013 -99.4252
+     -84.6252 -99.4228 -84.6500 -99.4228 -86.6500 -99.4252 -86.6748 -99.4325
+     -86.6987 -99.4442 -86.7207 -99.4601 -86.7399 -99.4793 -86.7558 -99.5013
+     -86.7675 -99.5252 -86.7748 -99.5500 -86.7772 -101.5500 -86.7772 -101.5748
+     -86.7748 -101.5987 -86.7675 -101.6207 -86.7558 -101.6399 -86.7399
+     -101.6558 -86.7207 -101.6675 -86.6987 -101.6748 -86.6748 -101.6772
+     -86.6500))
+   (window (polygon BOTTOM 0 -99.9272 -97.8000 -99.9272 -97.1000 -99.9131
+     -96.9480 -99.8714 -96.8012 -99.8033 -96.6645 -99.7113 -96.5427 -99.5985
+     -96.4398 -99.4687 -96.3595 -99.3264 -96.3043 -99.1763 -96.2763 -99.0237
+     -96.2763 -98.8736 -96.3043 -98.7313 -96.3595 -98.6015 -96.4398 -98.4887
+     -96.5427 -98.3967 -96.6645 -98.3286 -96.8012 -98.2869 -96.9480 -98.2728
+     -97.1000 -98.2728 -97.8000 -98.2869 -97.9520 -98.3286 -98.0988 -98.3967
+     -98.2355 -98.4887 -98.3573 -98.6015 -98.4602 -98.7313 -98.5405 -98.8736
+     -98.5957 -99.0237 -98.6237 -99.1763 -98.6237 -99.3264 -98.5957 -99.4687
+     -98.5405 -99.5985 -98.4602 -99.7113 -98.3573 -99.8033 -98.2355 -99.8714
+     -98.0988 -99.9131 -97.9520 -99.9272 -97.8000))
+   (window (polygon BOTTOM 0 -92.0272 -97.8000 -92.0272 -97.1000 -92.0131
+     -96.9480 -91.9714 -96.8012 -91.9033 -96.6645 -91.8113 -96.5427 -91.6985
+     -96.4398 -91.5687 -96.3595 -91.4264 -96.3043 -91.2763 -96.2763 -91.1237
+     -96.2763 -90.9736 -96.3043 -90.8313 -96.3595 -90.7015 -96.4398 -90.5887
+     -96.5427 -90.4967 -96.6645 -90.4286 -96.8012 -90.3869 -96.9480 -90.3728
+     -97.1000 -90.3728 -97.8000 -90.3869 -97.9520 -90.4286 -98.0988 -90.4967
+     -98.2355 -90.5887 -98.3573 -90.7015 -98.4602 -90.8313 -98.5405 -90.9736
+     -98.5957 -91.1237 -98.6237 -91.2763 -98.6237 -91.4264 -98.5957 -91.5687
+     -98.5405 -91.6985 -98.4602 -91.8113 -98.3573 -91.9033 -98.2355 -91.9714
+     -98.0988 -92.0131 -97.9520 -92.0272 -97.8000))
+   (window (polygon BOTTOM 0 -80.0407 -95.6677 -80.0407 -94.9323 -80.1077
+     -94.8908 -80.1658 -94.8377 -80.2133 -94.7748 -80.2484 -94.7042 -80.2699
+     -94.6284 -80.2772 -94.5500 -80.2690 -94.4667 -80.2447 -94.3865 -80.2052
+     -94.3127 -80.1521 -94.2479 -80.0873 -94.1948 -80.0135 -94.1553 -79.9333
+     -94.1310 -79.8500 -94.1228 -79.7667 -94.1310 -79.6865 -94.1553 -79.6127
+     -94.1948 -79.5479 -94.2479 -79.4948 -94.3127 -79.4553 -94.3865 -79.4310
+     -94.4667 -79.4228 -94.5500 -79.4301 -94.6284 -79.4516 -94.7042 -79.4867
+     -94.7748 -79.5342 -94.8377 -79.5923 -94.8908 -79.6593 -94.9323 -79.6593
+     -95.6677 -79.5923 -95.7092 -79.5342 -95.7623 -79.4867 -95.8252 -79.4516
+     -95.8958 -79.4301 -95.9716 -79.4228 -96.0500 -79.4310 -96.1333 -79.4553
+     -96.2135 -79.4948 -96.2873 -79.5479 -96.3521 -79.6127 -96.4052 -79.6865
+     -96.4447 -79.7667 -96.4690 -79.8500 -96.4772 -79.9333 -96.4690 -80.0135
+     -96.4447 -80.0873 -96.4052 -80.1521 -96.3521 -80.2052 -96.2873 -80.2447
+     -96.2135 -80.2690 -96.1333 -80.2772 -96.0500 -80.2699 -95.9716 -80.2484
+     -95.8958 -80.2133 -95.8252 -80.1658 -95.7623 -80.1077 -95.7092 -80.0407
+     -95.6677))
+   (window (polygon BOTTOM 0 -74.4227 -95.0339 -75.1839 -94.2727 -75.2079
+     -94.2751 -75.2500 -94.2772 -75.3333 -94.2690 -75.4135 -94.2447 -75.4873
+     -94.2052 -75.5521 -94.1521 -75.6052 -94.0873 -75.6447 -94.0135 -75.6690
+     -93.9333 -75.6772 -93.8500 -75.6690 -93.7667 -75.6447 -93.6865 -75.6052
+     -93.6127 -75.5521 -93.5479 -75.4873 -93.4948 -75.4135 -93.4553 -75.3333
+     -93.4310 -75.2500 -93.4228 -75.1667 -93.4310 -75.0865 -93.4553 -75.0127
+     -93.4948 -74.9479 -93.5479 -74.8948 -93.6127 -74.8553 -93.6865 -74.8310
+     -93.7667 -74.8228 -93.8500 -74.8249 -93.8921 -74.8273 -93.9161 -74.0661
+     -94.6773 -74.0421 -94.6749 -74 -94.6728 -73.9167 -94.6810 -73.8365
+     -94.7053 -73.7627 -94.7448 -73.6979 -94.7979 -73.6448 -94.8627 -73.6053
+     -94.9365 -73.5810 -95.0167 -73.5728 -95.1000 -73.5810 -95.1833 -73.6053
+     -95.2635 -73.6448 -95.3373 -73.6979 -95.4021 -73.7627 -95.4552 -73.8365
+     -95.4947 -73.9167 -95.5190 -74 -95.5272 -74.0833 -95.5190 -74.1635
+     -95.4947 -74.2373 -95.4552 -74.3021 -95.4021 -74.3552 -95.3373 -74.3947
+     -95.2635 -74.4190 -95.1833 -74.4272 -95.1000 -74.4251 -95.0579 -74.4227
+     -95.0339))
+   (window (polygon BOTTOM 0 -73.1559 -94.5138 -74.2888 -93.3809 -74.3169
+     -93.3883 -74.3705 -93.3987 -74.4250 -93.4022 -74.5083 -93.3940 -74.5885
+     -93.3697 -74.6623 -93.3302 -74.7271 -93.2771 -74.7802 -93.2123 -74.8197
+     -93.1385 -74.8440 -93.0583 -74.8522 -92.9750 -74.8440 -92.8917 -74.8197
+     -92.8115 -74.7802 -92.7377 -74.7271 -92.6729 -74.6623 -92.6198 -74.5885
+     -92.5803 -74.5083 -92.5560 -74.4250 -92.5478 -74.3417 -92.5560 -74.2615
+     -92.5803 -74.1877 -92.6198 -74.1229 -92.6729 -74.0698 -92.7377 -74.0303
+     -92.8115 -74.0060 -92.8917 -73.9978 -92.9750 -74.0013 -93.0295 -74.0117
+     -93.0831 -74.0191 -93.1112 -72.8862 -94.2441 -72.8581 -94.2367 -72.8045
+     -94.2263 -72.7500 -94.2228 -72.6667 -94.2310 -72.5865 -94.2553 -72.5127
+     -94.2948 -72.4479 -94.3479 -72.3948 -94.4127 -72.3553 -94.4865 -72.3310
+     -94.5667 -72.3228 -94.6500 -72.3310 -94.7333 -72.3553 -94.8135 -72.3948
+     -94.8873 -72.4479 -94.9521 -72.5127 -95.0052 -72.5865 -95.0447 -72.6667
+     -95.0690 -72.7500 -95.0772 -72.8333 -95.0690 -72.9135 -95.0447 -72.9873
+     -95.0052 -73.0521 -94.9521 -73.1052 -94.8873 -73.1447 -94.8135 -73.1690
+     -94.7333 -73.1772 -94.6500 -73.1737 -94.5955 -73.1633 -94.5419 -73.1559
+     -94.5138))
+   (window (polygon BOTTOM 0 -93.0552 -91.0022 -93.1084 -91.0622 -93.1718
+     -91.1111 -93.2432 -91.1474 -93.3202 -91.1697 -93.4000 -91.1772 -93.4833
+     -91.1690 -93.5635 -91.1447 -93.6373 -91.1052 -93.7021 -91.0521 -93.7552
+     -90.9873 -93.7947 -90.9135 -93.8190 -90.8333 -93.8272 -90.7500 -93.8190
+     -90.6667 -93.7947 -90.5865 -93.7552 -90.5127 -93.7021 -90.4479 -93.6373
+     -90.3948 -93.5635 -90.3553 -93.4833 -90.3310 -93.4000 -90.3228 -93.3202
+     -90.3303 -93.2432 -90.3526 -93.1718 -90.3889 -93.1084 -90.4378 -93.0552
+     -90.4978 -92.1448 -90.4978 -92.0916 -90.4378 -92.0282 -90.3889 -91.9568
+     -90.3526 -91.8798 -90.3303 -91.8000 -90.3228 -91.7167 -90.3310 -91.6365
+     -90.3553 -91.5627 -90.3948 -91.4979 -90.4479 -91.4448 -90.5127 -91.4053
+     -90.5865 -91.3810 -90.6667 -91.3728 -90.7500 -91.3810 -90.8333 -91.4053
+     -90.9135 -91.4448 -90.9873 -91.4979 -91.0521 -91.5627 -91.1052 -91.6365
+     -91.1447 -91.7167 -91.1690 -91.8000 -91.1772 -91.8798 -91.1697 -91.9568
+     -91.1474 -92.0282 -91.1111 -92.0916 -91.0622 -92.1448 -91.0022 -93.0552
+     -91.0022))
+   (window (polygon BOTTOM 0 -66.5790 -88.1907 -69.5177 -88.1907 -69.5592
+     -88.2577 -69.6123 -88.3158 -69.6752 -88.3633 -69.7458 -88.3984 -69.8216
+     -88.4199 -69.9000 -88.4272 -69.9833 -88.4190 -70.0635 -88.3947 -70.1373
+     -88.3552 -70.2021 -88.3021 -70.2552 -88.2373 -70.2947 -88.1635 -70.3190
+     -88.0833 -70.3272 -88 -70.3190 -87.9167 -70.2947 -87.8365 -70.2552
+     -87.7627 -70.2021 -87.6979 -70.1373 -87.6448 -70.0635 -87.6053 -69.9833
+     -87.5810 -69.9000 -87.5728 -69.8216 -87.5801 -69.7458 -87.6016 -69.6752
+     -87.6367 -69.6123 -87.6842 -69.5592 -87.7423 -69.5177 -87.8093 -66.5000
+     -87.8093 -66.4702 -87.8117 -66.4411 -87.8187 -66.4134 -87.8301 -66.3879
+     -87.8458 -66.3652 -87.8652 -65.6652 -88.5652 -65.6458 -88.5879 -65.6301
+     -88.6134 -65.6187 -88.6411 -65.6117 -88.6702 -65.6093 -88.7000 -65.6093
+     -91.6177 -65.5423 -91.6592 -65.4842 -91.7123 -65.4367 -91.7752 -65.4016
+     -91.8458 -65.3801 -91.9216 -65.3728 -92 -65.3810 -92.0833 -65.4053
+     -92.1635 -65.4448 -92.2373 -65.4979 -92.3021 -65.5627 -92.3552 -65.6365
+     -92.3947 -65.7167 -92.4190 -65.8000 -92.4272 -65.8833 -92.4190 -65.9635
+     -92.3947 -66.0373 -92.3552 -66.1021 -92.3021 -66.1552 -92.2373 -66.1947
+     -92.1635 -66.2190 -92.0833 -66.2272 -92 -66.2199 -91.9216 -66.1984
+     -91.8458 -66.1633 -91.7752 -66.1158 -91.7123 -66.0577 -91.6592 -65.9907
+     -91.6177 -65.9907 -88.7790 -66.5790 -88.1907))
+   (window (polygon BOTTOM 0 -69.3677 -87.1907 -69.4092 -87.2577 -69.4623
+     -87.3158 -69.5252 -87.3633 -69.5958 -87.3984 -69.6716 -87.4199 -69.7500
+     -87.4272 -69.8333 -87.4190 -69.9135 -87.3947 -69.9873 -87.3552 -70.0521
+     -87.3021 -70.1052 -87.2373 -70.1447 -87.1635 -70.1690 -87.0833 -70.1772
+     -87 -70.1690 -86.9167 -70.1447 -86.8365 -70.1052 -86.7627 -70.0521
+     -86.6979 -69.9873 -86.6448 -69.9135 -86.6053 -69.8333 -86.5810 -69.7500
+     -86.5728 -69.6716 -86.5801 -69.5958 -86.6016 -69.5252 -86.6367 -69.4623
+     -86.6842 -69.4092 -86.7423 -69.3677 -86.8093 -66.8323 -86.8093 -66.7908
+     -86.7423 -66.7377 -86.6842 -66.6748 -86.6367 -66.6042 -86.6016 -66.5284
+     -86.5801 -66.4500 -86.5728 -66.3667 -86.5810 -66.2865 -86.6053 -66.2127
+     -86.6448 -66.1479 -86.6979 -66.0948 -86.7627 -66.0553 -86.8365 -66.0310
+     -86.9167 -66.0228 -87 -66.0310 -87.0833 -66.0553 -87.1635 -66.0948
+     -87.2373 -66.1479 -87.3021 -66.2127 -87.3552 -66.2865 -87.3947 -66.3667
+     -87.4190 -66.4500 -87.4272 -66.5284 -87.4199 -66.6042 -87.3984 -66.6748
+     -87.3633 -66.7377 -87.3158 -66.7908 -87.2577 -66.8323 -87.1907 -69.3677
+     -87.1907))
+   (window (polygon BOTTOM 0 -75.6177 -86.3907 -75.6592 -86.4577 -75.7123
+     -86.5158 -75.7752 -86.5633 -75.8458 -86.5984 -75.9216 -86.6199 -76
+     -86.6272 -76.0833 -86.6190 -76.1635 -86.5947 -76.2373 -86.5552 -76.3021
+     -86.5021 -76.3552 -86.4373 -76.3947 -86.3635 -76.4190 -86.2833 -76.4272
+     -86.2000 -76.4190 -86.1167 -76.3947 -86.0365 -76.3552 -85.9627 -76.3021
+     -85.8979 -76.2373 -85.8448 -76.1635 -85.8053 -76.0833 -85.7810 -76
+     -85.7728 -75.9216 -85.7801 -75.8458 -85.8016 -75.7752 -85.8367 -75.7123
+     -85.8842 -75.6592 -85.9423 -75.6177 -86.0093 -75.0823 -86.0093 -75.0408
+     -85.9423 -74.9877 -85.8842 -74.9248 -85.8367 -74.8542 -85.8016 -74.7784
+     -85.7801 -74.7000 -85.7728 -74.6167 -85.7810 -74.5365 -85.8053 -74.4627
+     -85.8448 -74.3979 -85.8979 -74.3448 -85.9627 -74.3053 -86.0365 -74.2810
+     -86.1167 -74.2728 -86.2000 -74.2810 -86.2833 -74.3053 -86.3635 -74.3448
+     -86.4373 -74.3979 -86.5021 -74.4627 -86.5552 -74.5365 -86.5947 -74.6167
+     -86.6190 -74.7000 -86.6272 -74.7784 -86.6199 -74.8542 -86.5984 -74.9248
+     -86.5633 -74.9877 -86.5158 -75.0408 -86.4577 -75.0823 -86.3907 -75.6177
+     -86.3907))
+   (window (polygon BOTTOM 0 -69.9177 -85.5907 -69.9592 -85.6577 -70.0123
+     -85.7158 -70.0752 -85.7633 -70.1458 -85.7984 -70.2216 -85.8199 -70.3000
+     -85.8272 -70.3833 -85.8190 -70.4635 -85.7947 -70.5373 -85.7552 -70.6021
+     -85.7021 -70.6552 -85.6373 -70.6947 -85.5635 -70.7190 -85.4833 -70.7272
+     -85.4000 -70.7190 -85.3167 -70.6947 -85.2365 -70.6552 -85.1627 -70.6021
+     -85.0979 -70.5373 -85.0448 -70.4635 -85.0053 -70.3833 -84.9810 -70.3000
+     -84.9728 -70.2216 -84.9801 -70.1458 -85.0016 -70.0752 -85.0367 -70.0123
+     -85.0842 -69.9592 -85.1423 -69.9177 -85.2093 -64.9823 -85.2093 -64.9408
+     -85.1423 -64.8877 -85.0842 -64.8248 -85.0367 -64.7542 -85.0016 -64.6784
+     -84.9801 -64.6000 -84.9728 -64.5167 -84.9810 -64.4365 -85.0053 -64.3627
+     -85.0448 -64.2979 -85.0979 -64.2448 -85.1627 -64.2053 -85.2365 -64.1810
+     -85.3167 -64.1728 -85.4000 -64.1810 -85.4833 -64.2053 -85.5635 -64.2448
+     -85.6373 -64.2979 -85.7021 -64.3627 -85.7552 -64.4365 -85.7947 -64.5167
+     -85.8190 -64.6000 -85.8272 -64.6784 -85.8199 -64.7542 -85.7984 -64.8248
+     -85.7633 -64.8877 -85.7158 -64.9408 -85.6577 -64.9823 -85.5907 -69.9177
+     -85.5907))
+   (window (polygon BOTTOM 0 -76.7677 -82.9407 -76.8092 -83.0077 -76.8623
+     -83.0658 -76.9252 -83.1133 -76.9958 -83.1484 -77.0716 -83.1699 -77.1500
+     -83.1772 -77.2333 -83.1690 -77.3135 -83.1447 -77.3873 -83.1052 -77.4521
+     -83.0521 -77.5052 -82.9873 -77.5447 -82.9135 -77.5690 -82.8333 -77.5772
+     -82.7500 -77.5690 -82.6667 -77.5447 -82.5865 -77.5052 -82.5127 -77.4521
+     -82.4479 -77.3873 -82.3948 -77.3135 -82.3553 -77.2333 -82.3310 -77.1500
+     -82.3228 -77.0716 -82.3301 -76.9958 -82.3516 -76.9252 -82.3867 -76.8623
+     -82.4342 -76.8092 -82.4923 -76.7677 -82.5593 -74.9323 -82.5593 -74.8908
+     -82.4923 -74.8377 -82.4342 -74.7748 -82.3867 -74.7042 -82.3516 -74.6284
+     -82.3301 -74.5500 -82.3228 -74.4667 -82.3310 -74.3865 -82.3553 -74.3127
+     -82.3948 -74.2479 -82.4479 -74.1948 -82.5127 -74.1553 -82.5865 -74.1310
+     -82.6667 -74.1228 -82.7500 -74.1310 -82.8333 -74.1553 -82.9135 -74.1948
+     -82.9873 -74.2479 -83.0521 -74.3127 -83.1052 -74.3865 -83.1447 -74.4667
+     -83.1690 -74.5500 -83.1772 -74.6284 -83.1699 -74.7042 -83.1484 -74.7748
+     -83.1133 -74.8377 -83.0658 -74.8908 -83.0077 -74.9323 -82.9407 -76.7677
+     -82.9407))
+   (window (polygon BOTTOM 0 -68.7677 -81.4407 -68.8092 -81.5077 -68.8623
+     -81.5658 -68.9252 -81.6133 -68.9958 -81.6484 -69.0716 -81.6699 -69.1500
+     -81.6772 -69.2333 -81.6690 -69.3135 -81.6447 -69.3873 -81.6052 -69.4521
+     -81.5521 -69.5052 -81.4873 -69.5447 -81.4135 -69.5690 -81.3333 -69.5772
+     -81.2500 -69.5690 -81.1667 -69.5447 -81.0865 -69.5052 -81.0127 -69.4521
+     -80.9479 -69.3873 -80.8948 -69.3135 -80.8553 -69.2333 -80.8310 -69.1500
+     -80.8228 -69.0716 -80.8301 -68.9958 -80.8516 -68.9252 -80.8867 -68.8623
+     -80.9342 -68.8092 -80.9923 -68.7677 -81.0593 -66.2323 -81.0593 -66.1908
+     -80.9923 -66.1377 -80.9342 -66.0748 -80.8867 -66.0042 -80.8516 -65.9284
+     -80.8301 -65.8500 -80.8228 -65.7667 -80.8310 -65.6865 -80.8553 -65.6127
+     -80.8948 -65.5479 -80.9479 -65.4948 -81.0127 -65.4553 -81.0865 -65.4310
+     -81.1667 -65.4228 -81.2500 -65.4310 -81.3333 -65.4553 -81.4135 -65.4948
+     -81.4873 -65.5479 -81.5521 -65.6127 -81.6052 -65.6865 -81.6447 -65.7667
+     -81.6690 -65.8500 -81.6772 -65.9284 -81.6699 -66.0042 -81.6484 -66.0748
+     -81.6133 -66.1377 -81.5658 -66.1908 -81.5077 -66.2323 -81.4407 -68.7677
+     -81.4407))
+   (window (polygon BOTTOM 0 -63.4952 -76.7559 -63.4952 -76.5570 -63.4928
+     -76.5322 -63.4855 -76.5083 -63.4738 -76.4863 -63.4579 -76.4671 -63.4387
+     -76.4512 -63.4167 -76.4395 -63.3928 -76.4322 -63.3680 -76.4298 -62.3520
+     -76.4298 -62.3272 -76.4322 -62.3033 -76.4395 -62.2813 -76.4512 -62.2621
+     -76.4671 -62.2462 -76.4863 -62.2345 -76.5083 -62.2272 -76.5322 -62.2248
+     -76.5570 -62.2248 -77.5730 -62.2272 -77.5978 -62.2345 -77.6217 -62.2462
+     -77.6437 -62.2621 -77.6629 -62.2813 -77.6788 -62.3033 -77.6905 -62.3272
+     -77.6978 -62.3520 -77.7002 -62.5509 -77.7002 -62.5509 -77.7794 -62.5267
+     -77.7942 -62.4401 -77.8583 -62.3657 -77.9361 -62.3054 -78.0253 -62.2610
+     -78.1235 -62.2339 -78.2277 -62.2248 -78.3350 -62.2370 -78.4589 -62.2732
+     -78.5781 -62.3319 -78.6879 -62.4108 -78.7842 -62.5071 -78.8631 -62.6169
+     -78.9218 -62.7361 -78.9580 -62.8600 -78.9702 -62.9694 -78.9607 -63.0756
+     -78.9325 -63.1753 -78.8864 -63.2656 -78.8239 -63.3437 -78.7467 -63.4074
+     -78.6572 -63.4186 -78.6417 -63.4326 -78.6285 -63.4488 -78.6182 -63.4666
+     -78.6111 -63.4854 -78.6075 -63.5046 -78.6075 -63.5234 -78.6111 -63.5412
+     -78.6182 -63.5574 -78.6285 -63.5714 -78.6417 -63.5826 -78.6572 -63.6528
+     -78.7542 -63.7400 -78.8364 -63.8411 -78.9007 -63.9524 -78.9449 -64.0701
+     -78.9674 -64.1899 -78.9674 -64.3076 -78.9449 -64.4189 -78.9007 -64.5200
+     -78.8364 -64.6072 -78.7542 -64.6774 -78.6572 -64.6886 -78.6417 -64.7026
+     -78.6285 -64.7188 -78.6182 -64.7366 -78.6111 -64.7554 -78.6075 -64.7746
+     -78.6075 -64.7934 -78.6111 -64.8112 -78.6182 -64.8274 -78.6285 -64.8414
+     -78.6417 -64.8526 -78.6572 -64.9228 -78.7542 -65.0100 -78.8364 -65.1111
+     -78.9007 -65.2224 -78.9449 -65.3401 -78.9674 -65.4599 -78.9674 -65.5776
+     -78.9449 -65.6889 -78.9007 -65.7900 -78.8364 -65.8772 -78.7542 -65.9474
+     -78.6572 -65.9586 -78.6417 -65.9726 -78.6285 -65.9888 -78.6182 -66.0066
+     -78.6111 -66.0254 -78.6075 -66.0446 -78.6075 -66.0634 -78.6111 -66.0812
+     -78.6182 -66.0974 -78.6285 -66.1114 -78.6417 -66.1226 -78.6572 -66.1928
+     -78.7542 -66.2800 -78.8364 -66.3811 -78.9007 -66.4924 -78.9449 -66.6101
+     -78.9674 -66.7299 -78.9674 -66.8476 -78.9449 -66.9589 -78.9007 -67.0600
+     -78.8364 -67.1472 -78.7542 -67.2174 -78.6572 -67.2286 -78.6417 -67.2426
+     -78.6285 -67.2588 -78.6182 -67.2766 -78.6111 -67.2954 -78.6075 -67.3146
+     -78.6075 -67.3334 -78.6111 -67.3512 -78.6182 -67.3674 -78.6285 -67.3814
+     -78.6417 -67.3926 -78.6572 -67.4563 -78.7467 -67.5344 -78.8239 -67.6247
+     -78.8864 -67.7244 -78.9325 -67.8306 -78.9607 -67.9400 -78.9702 -68.0639
+     -78.9580 -68.1831 -78.9218 -68.2929 -78.8631 -68.3892 -78.7842 -68.4681
+     -78.6879 -68.5268 -78.5781 -68.5630 -78.4589 -68.5752 -78.3350 -68.5657
+     -78.2256 -68.5375 -78.1194 -68.4914 -78.0197 -68.4289 -77.9294 -68.3517
+     -77.8513 -68.2622 -77.7876 -68.2467 -77.7764 -68.2335 -77.7624 -68.2232
+     -77.7462 -68.2161 -77.7284 -68.2125 -77.7096 -68.2125 -77.6904 -68.2161
+     -77.6716 -68.2232 -77.6538 -68.2335 -77.6376 -68.2467 -77.6236 -68.2622
+     -77.6124 -68.3517 -77.5487 -68.4289 -77.4706 -68.4914 -77.3803 -68.5375
+     -77.2806 -68.5657 -77.1744 -68.5752 -77.0650 -68.5630 -76.9411 -68.5268
+     -76.8219 -68.4681 -76.7121 -68.3892 -76.6158 -68.2929 -76.5369 -68.1831
+     -76.4782 -68.0639 -76.4420 -67.9400 -76.4298 -67.8306 -76.4393 -67.7244
+     -76.4675 -67.6247 -76.5136 -67.5344 -76.5761 -67.4563 -76.6533 -67.3926
+     -76.7428 -67.3814 -76.7583 -67.3674 -76.7715 -67.3512 -76.7818 -67.3334
+     -76.7889 -67.3146 -76.7925 -67.2954 -76.7925 -67.2766 -76.7889 -67.2588
+     -76.7818 -67.2426 -76.7715 -67.2286 -76.7583 -67.2174 -76.7428 -67.1472
+     -76.6458 -67.0600 -76.5636 -66.9589 -76.4993 -66.8476 -76.4551 -66.7299
+     -76.4326 -66.6101 -76.4326 -66.4924 -76.4551 -66.3811 -76.4993 -66.2800
+     -76.5636 -66.1928 -76.6458 -66.1226 -76.7428 -66.1114 -76.7583 -66.0974
+     -76.7715 -66.0812 -76.7818 -66.0634 -76.7889 -66.0446 -76.7925 -66.0254
+     -76.7925 -66.0066 -76.7889 -65.9888 -76.7818 -65.9726 -76.7715 -65.9586
+     -76.7583 -65.9474 -76.7428 -65.8772 -76.6458 -65.7900 -76.5636 -65.6889
+     -76.4993 -65.5776 -76.4551 -65.4599 -76.4326 -65.3401 -76.4326 -65.2224
+     -76.4551 -65.1111 -76.4993 -65.0100 -76.5636 -64.9228 -76.6458 -64.8526
+     -76.7428 -64.8414 -76.7583 -64.8274 -76.7715 -64.8112 -76.7818 -64.7934
+     -76.7889 -64.7746 -76.7925 -64.7554 -76.7925 -64.7366 -76.7889 -64.7188
+     -76.7818 -64.7026 -76.7715 -64.6886 -76.7583 -64.6774 -76.7428 -64.6137
+     -76.6533 -64.5356 -76.5761 -64.4453 -76.5136 -64.3456 -76.4675 -64.2394
+     -76.4393 -64.1300 -76.4298 -64.0227 -76.4389 -63.9185 -76.4660 -63.8203
+     -76.5104 -63.7311 -76.5707 -63.6533 -76.6451 -63.5892 -76.7317 -63.5744
+     -76.7559 -63.4952 -76.7559))
+   (window (polygon BOTTOM 0 -93.7946 -76.8500 -93.8131 -77.0383 -93.8681
+     -77.2194 -93.9573 -77.3863 -94.0774 -77.5326 -94.2237 -77.6527 -94.3906
+     -77.7419 -94.5717 -77.7969 -94.7600 -77.8154 -94.9483 -77.7969 -95.1294
+     -77.7419 -95.2963 -77.6527 -95.4426 -77.5326 -95.5627 -77.3863 -95.6519
+     -77.2194 -95.7069 -77.0383 -95.7254 -76.8500 -95.7069 -76.6617 -95.6519
+     -76.4806 -95.5627 -76.3137 -95.4426 -76.1674 -95.2963 -76.0473 -95.1294
+     -75.9581 -94.9483 -75.9031 -94.7600 -75.8846 -94.5717 -75.9031 -94.3906
+     -75.9581 -94.2237 -76.0473 -94.0774 -76.1674 -93.9573 -76.3137 -93.8681
+     -76.4806 -93.8131 -76.6617 -93.7946 -76.8500))
+   (window (polygon BOTTOM 0 -96.3346 -76.8500 -96.3531 -77.0383 -96.4081
+     -77.2194 -96.4973 -77.3863 -96.6174 -77.5326 -96.7637 -77.6527 -96.9306
+     -77.7419 -97.1117 -77.7969 -97.3000 -77.8154 -97.4883 -77.7969 -97.6694
+     -77.7419 -97.8363 -77.6527 -97.9826 -77.5326 -98.1027 -77.3863 -98.1919
+     -77.2194 -98.2469 -77.0383 -98.2654 -76.8500 -98.2469 -76.6617 -98.1919
+     -76.4806 -98.1027 -76.3137 -97.9826 -76.1674 -97.8363 -76.0473 -97.6694
+     -75.9581 -97.4883 -75.9031 -97.3000 -75.8846 -97.1117 -75.9031 -96.9306
+     -75.9581 -96.7637 -76.0473 -96.6174 -76.1674 -96.4973 -76.3137 -96.4081
+     -76.4806 -96.3531 -76.6617 -96.3346 -76.8500))
+   (window (polygon BOTTOM 0 -98.8746 -76.8500 -98.8931 -77.0383 -98.9481
+     -77.2194 -99.0373 -77.3863 -99.1574 -77.5326 -99.3037 -77.6527 -99.4706
+     -77.7419 -99.6517 -77.7969 -99.8400 -77.8154 -100.0283 -77.7969 -100.2094
+     -77.7419 -100.3763 -77.6527 -100.5226 -77.5326 -100.6427 -77.3863
+     -100.7319 -77.2194 -100.7869 -77.0383 -100.8054 -76.8500 -100.7869
+     -76.6617 -100.7319 -76.4806 -100.6427 -76.3137 -100.5226 -76.1674
+     -100.3763 -76.0473 -100.2094 -75.9581 -100.0283 -75.9031 -99.8400
+     -75.8846 -99.6517 -75.9031 -99.4706 -75.9581 -99.3037 -76.0473 -99.1574
+     -76.1674 -99.0373 -76.3137 -98.9481 -76.4806 -98.8931 -76.6617 -98.8746
+     -76.8500))
+   (window (polygon BOTTOM 0 -58.4928 -82.1500 -58.5049 -82.2724 -58.5405
+     -82.3900 -58.5985 -82.4985 -58.6765 -82.5935 -58.7715 -82.6715 -58.8800
+     -82.7295 -58.9976 -82.7651 -59.1200 -82.7772 -59.2424 -82.7651 -59.3600
+     -82.7295 -59.4685 -82.6715 -59.5635 -82.5935 -59.6415 -82.4985 -59.6995
+     -82.3900 -59.7351 -82.2724 -59.7472 -82.1500 -59.7351 -82.0276 -59.6995
+     -81.9100 -59.6415 -81.8015 -59.5635 -81.7065 -59.4685 -81.6285 -59.3600
+     -81.5705 -59.2424 -81.5349 -59.1200 -81.5228 -58.9976 -81.5349 -58.8800
+     -81.5705 -58.7715 -81.6285 -58.6765 -81.7065 -58.5985 -81.8015 -58.5405
+     -81.9100 -58.5049 -82.0276 -58.4928 -82.1500))
+   (window (polygon BOTTOM 0 -55.9528 -82.1500 -55.9649 -82.2724 -56.0005
+     -82.3900 -56.0585 -82.4985 -56.1365 -82.5935 -56.2315 -82.6715 -56.3400
+     -82.7295 -56.4576 -82.7651 -56.5800 -82.7772 -56.7024 -82.7651 -56.8200
+     -82.7295 -56.9285 -82.6715 -57.0235 -82.5935 -57.1015 -82.4985 -57.1595
+     -82.3900 -57.1951 -82.2724 -57.2072 -82.1500 -57.1951 -82.0276 -57.1595
+     -81.9100 -57.1015 -81.8015 -57.0235 -81.7065 -56.9285 -81.6285 -56.8200
+     -81.5705 -56.7024 -81.5349 -56.5800 -81.5228 -56.4576 -81.5349 -56.3400
+     -81.5705 -56.2315 -81.6285 -56.1365 -81.7065 -56.0585 -81.8015 -56.0005
+     -81.9100 -55.9649 -82.0276 -55.9528 -82.1500))
+   (window (polygon BOTTOM 0 -81.0188 -78.2000 -81.0348 -78.3622 -81.0821
+     -78.5181 -81.1589 -78.6618 -81.2623 -78.7877 -81.3882 -78.8911 -81.5319
+     -78.9679 -81.6878 -79.0152 -81.8500 -79.0312 -82.0122 -79.0152 -82.1681
+     -78.9679 -82.3118 -78.8911 -82.4377 -78.7877 -82.5411 -78.6618 -82.6179
+     -78.5181 -82.6652 -78.3622 -82.6812 -78.2000 -82.6652 -78.0378 -82.6179
+     -77.8819 -82.5411 -77.7382 -82.4377 -77.6123 -82.3118 -77.5089 -82.1681
+     -77.4321 -82.0122 -77.3848 -81.8500 -77.3688 -81.6878 -77.3848 -81.5319
+     -77.4321 -81.3882 -77.5089 -81.2623 -77.6123 -81.1589 -77.7382 -81.0821
+     -77.8819 -81.0348 -78.0378 -81.0188 -78.2000))
+   (window (polygon BOTTOM 0 -81.0188 -82.2000 -81.0348 -82.3622 -81.0821
+     -82.5181 -81.1589 -82.6618 -81.2623 -82.7877 -81.3882 -82.8911 -81.5319
+     -82.9679 -81.6878 -83.0152 -81.8500 -83.0312 -82.0122 -83.0152 -82.1681
+     -82.9679 -82.3118 -82.8911 -82.4377 -82.7877 -82.5411 -82.6618 -82.6179
+     -82.5181 -82.6652 -82.3622 -82.6812 -82.2000 -82.6652 -82.0378 -82.6179
+     -81.8819 -82.5411 -81.7382 -82.4377 -81.6123 -82.3118 -81.5089 -82.1681
+     -81.4321 -82.0122 -81.3848 -81.8500 -81.3688 -81.6878 -81.3848 -81.5319
+     -81.4321 -81.3882 -81.5089 -81.2623 -81.6123 -81.1589 -81.7382 -81.0821
+     -81.8819 -81.0348 -82.0378 -81.0188 -82.2000)))
+  (wire (path TOP 0.1270 -69.8000 -88.6000 -69.7144 -88.6856 -69.5101 -88.6856
+    -69.3710 -88.6851 -69.1868 -88.8684 -68.9552 -89.1000 -68.7000 -89.1000)
+   (net GND) (type protect))
+  (wire (path TOP 0.1270 -53.5500 -93.5000 -52.5500 -93.5000) (net GND) (type
+    protect))
+  (wire (path TOP 0.2500 -94.3000 -84.2500 -93.4000 -84.2500) (net GND) (type
+    protect))
+  (wire (path TOP 0.2500 -83.4200 -94.5700 -82.9400 -95.0500 -82.7400 -95.0500
+    ) (net GND) (type protect))
+  (wire (path TOP 0.2500 -96.5270 -92.7000 -95.7500 -92.7000) (net GND) (type
+    protect))
+  (wire (path TOP 0.2500 -96.6500 -93.6000 -96.4500 -93.8000 -96.4500 -94.7900
+    ) (net GND) (type protect))
+  (wire (path TOP 0.1270 -73.7000 -89.4000 -73.7000 -88.3230) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -74.1770 -84.6000 -73.4000 -84.6000) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -73.4000 -85.8000 -73.4000 -84.6000) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -59.9500 -87.3500 -59.9500 -86.6000) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -59.9500 -89.6000 -59.9500 -88.8500) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -62 -92.1000 -62 -92.9250 -61.9750 -92.9500) (net GND
+    ) (type protect))
+  (wire (path TOP 0.1270 -62 -93.8500 -62 -92.9750 -61.9750 -92.9500) (net GND
+    ) (type protect))
+  (wire (path TOP 0.1270 -60.0500 -92.4000 -60.8000 -92.4000) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -60.8000 -93.1000 -60.8000 -92.4000) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -55.8500 -92.4000 -56.6500 -92.4000) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -57.4000 -92.4000 -56.6500 -92.4000) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -56.6500 -93.1500 -56.6500 -92.4000) (net GND) (type
+    protect))
+  (wire (path BOTTOM 0.1270 -64.1500 -76.3000 -64.1300 -76.3200) (net GND)
+   (type protect))
+  (wire (path TOP 0.1270 -59.3000 -88.8500 -59.9500 -88.8500) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -59.9500 -87.3500 -59.3000 -87.3500) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -67.6000 -83.6500 -67.6000 -83.5759 -66.9000 -82.8759
+    ) (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -66.9000 -82.8759 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -65.2000 -83.2939 (net GND) (type protect))
+  (wire (path TOP 0.1270 -65.7000 -84.0750 -65.7000 -83.8500 -65.2000 -83.3500
+    -65.2000 -83.2939) (net GND) (type protect))
+  (wire (path TOP 0.1270 -62.5500 -83.4750 -62.5500 -84.3000) (net GND) (type
+    protect))
+  (via VIA_SF_DBFIX1 -67.2000 -97.6000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -64.6500 -94.4000 (net GND) (type protect))
+  (wire (path TOP 0.1270 -67.2000 -96.6000 -67.2000 -97.6000) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -65.6000 -94.4000 -64.6500 -94.4000) (net GND) (type
+    protect))
+  (via VIA_SF_DBFIX1 -70.6500 -96.1500 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -69.1500 -96.1500 (net GND) (type protect))
+  (wire (path TOP 0.1270 -69.1500 -95.3250 -69.1500 -96.1500) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -70.6500 -95.3250 -70.6500 -96.1500) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -80.7600 -96.0500 -81.5000 -96.0500 -81.7500 -95.8000
+    ) (net GND) (type protect))
+  (wire (path TOP 0.2500 -90.0500 -84.7000 -88.9500 -84.7000) (net GND) (type
+    protect))
+  (via VIA_SF_DBFIX1 -90.0500 -83.8500 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -88.9500 -84.7000 (net GND) (type protect))
+  (wire (path TOP 0.2500 -90.0500 -84.7000 -90.0500 -83.8500) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -71.7750 -80 -72.5520 -80) (net GND) (type protect))
+  (wire (path TOP 0.2500 -77.2750 -91.6000 -78.2500 -91.6000) (net GND) (type
+    protect))
+  (via VIA_SF_DBFIX1 -78.3500 -85.2500 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -79.5500 -84.2500 (net GND) (type protect))
+  (wire (path TOP 0.2500 -79.5500 -85.2500 -79.5500 -84.2500) (net GND) (type
+    protect))
+  (via VIA_SF_DBFIX1 -85.9500 -90 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -78.2500 -91.6000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -84.3500 -90 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -77.2750 -92.4750 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -84.2500 -88 (net GND) (type protect))
+  (wire (path TOP 0.2500 -77.2750 -91.6000 -77.2750 -92.4750) (net GND) (type
+    protect))
+  (wire (path TOP 0.2500 -82.9500 -90 -84.3500 -90) (net GND) (type protect))
+  (wire (path TOP 0.2500 -87.3500 -90 -85.9500 -90) (net GND) (type protect))
+  (wire (path TOP 0.2500 -82.9500 -88 -84.2500 -88) (net GND) (type protect))
+  (wire (path TOP 0.2500 -101.8500 -95.2750 -101.8500 -94.2500) (net GND)
+   (type protect))
+  (wire (path TOP 0.2500 -88.9000 -96.1250 -88.9000 -95.3480) (net GND) (type
+    protect))
+  (via VIA_SF_DBFIX1 -88.9000 -95.3480 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -96.5270 -92.7000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -94.8250 -81.1750 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -94.3000 -83.1500 (net GND) (type protect))
+  (wire (path TOP 0.2500 -94.3000 -84.2500 -94.3000 -83.1500) (net GND) (type
+    protect))
+  (wire (path TOP 0.2500 -94.8250 -82.0500 -94.8250 -81.1750) (net GND) (type
+    protect))
+  (via VIA_SF_DBFIX1 -74.1770 -84.6000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -62 -92.1000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -60.0500 -92.4000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -55.8500 -92.4000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -57.4000 -92.4000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -59.9500 -86.6000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -59.9500 -89.6000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -59.3000 -87.3500 (net GND) (type protect))
+  (wire (path TOP 0.2500 -94.8250 -82.0500 -94.0480 -82.0500) (net GND) (type
+    protect))
+  (wire (path TOP 0.2500 -87.9500 -80.4500 -87.9500 -81.8500) (net GND) (type
+    protect))
+  (via VIA_SF_DBFIX1 -81.7500 -95.8000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -93.4000 -84.2500 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -83.4200 -94.5700 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -94.0480 -82.0500 (net GND) (type protect))
+  (wire (path TOP 0.2500 -95.5000 -88.6500 -98.8594 -88.6500 -99.3594 -88.1500
+    -100.5500 -88.1500) (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -87.9500 -81.8500 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -83.6500 -96.5500 (net GND) (type protect))
+  (wire (path TOP 0.2500 -82.7400 -96.5500 -83.6500 -96.5500) (net GND) (type
+    protect))
+  (via VIA_SF_DBFIX1 -96.6500 -93.6000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -73.4000 -85.8000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -72.5520 -80 (net GND) (type protect))
+  (wire (path BOTTOM 0.1270 -65.4000 -77.0650 -65.4000 -76.3000) (net GND)
+   (type protect))
+  (via VIA_SF_DBFIX1 -73.7000 -88.3230 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -101.8500 -94.2500 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -62.5500 -84.3000 (net GND) (type protect))
+  (wire (path TOP 0.1270 -67.6000 -92 -67.6000 -91.1000 -67.8000 -90.9000)
+   (net GND) (type protect))
+  (wire (path TOP 0.1270 -69.8000 -89.8000 -68.9000 -89.8000 -68.7000 -90)
+   (net GND) (type protect))
+  (wire (path TOP 0.1270 -65.8000 -89 -66.8000 -89 -66.9000 -89.1000) (net GND
+    ) (type protect))
+  (wire (path TOP 0.1270 -65.8000 -90.6000 -66.6000 -90.6000 -66.9000 -90.9000
+    ) (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -67.8000 -89.1000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -66.9000 -90 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -66.9000 -90.9000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -68.7000 -90.9000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -67.8000 -90.9000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -68.7000 -89.1000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -66.9000 -89.1000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -68.7000 -90 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -67.8000 -90 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -62 -93.8500 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -59.3000 -88.8500 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -60.8000 -93.1000 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -56.6500 -93.1500 (net GND) (type protect))
+  (via VIA_SF_DBFIX1 -53.5500 -93.5000 (net GND) (type protect))
+  (wire (path TOP 0.2500 -79.5500 -85.2500 -78.3500 -85.2500) (net GND) (type
+    protect))
+  (wire (path TOP 0.1270 -71.5000 -86.3250 -71.0250 -86.3250 -70.5970 -86.7530
+    -70.5970 -87.3030 -69.9000 -88) (net VDDR) (type protect))
+  (wire (path TOP 0.1270 -71.5000 -84.6000 -71.5000 -86.3250) (net VDDR) (type
+    protect))
+  (wire (path TOP 0.2500 -63.3250 -92.9500 -63.3250 -97.3250 -64.2000 -98.2000
+    -67.6500 -98.2000 -68.2500 -97.6000 -68.2500 -94.4000 -68.6750 -93.9750
+    -69.1500 -93.9750) (net VDDR) (type protect))
+  (wire (path TOP 0.1270 -63.3250 -92.9500 -63.3250 -92.6884 -64.0232 -91.9902
+    -65.2996 -91.9902 -65.3094 -92 -65.8000 -92) (net VDDR) (type protect))
+  (wire (path TOP 0.1270 -63.3250 -92.9500 -65.7467 -92.9500 -66.3994 -92.3001
+    -66.4000 -92) (net VDDR) (type protect))
+  (wire (path TOP 0.1270 -69.1500 -93.9750 -69.1500 -93.7344 -68 -92.5844 -68
+    -92) (net VDDR) (type protect))
+  (via VIA_SF_DBFIX1 -69.9000 -88 (net VDDR) (type protect))
+  (via VIA_SF -65.8000 -92 (net VDDR) (type protect))
+  (wire (path BOTTOM 0.1270 -69.9000 -88 -66.5000 -88 -65.8000 -88.7000
+    -65.8000 -92) (net VDDR) (type protect))
+  (wire (path TOP 0.2500 -76 -91.2393 -77.3393 -89.9000 -78.3000 -89.9000)
+   (net VDDS) (type protect))
+  (wire (path TOP 0.2500 -76 -91.2393 -76 -91.5250 -75.9250 -91.6000) (net
+    VDDS) (type protect))
+  (wire (path TOP 0.2500 -76 -86.2000 -76 -91.2393) (net VDDS) (type protect))
+  (wire (path BOTTOM 0.1270 -74.7000 -86.2000 -76 -86.2000) (net VDDS) (type
+    protect))
+  (wire (path TOP 0.2500 -71.7750 -78.3000 -73.1500 -78.3000 -76 -81.1500 -76
+    -86.2000) (net VDDS) (type protect))
+  (wire (path TOP 0.1270 -74.7000 -86.2000 -71.8000 -89.1000 -71.8000 -89.4000
+    ) (net VDDS) (type protect))
+  (wire (path TOP 0.1270 -74.7000 -86.2000 -74.7000 -83.9000 -74 -83.2000
+    -70.9000 -83.2000 -70.3000 -83.8000 -70.3000 -85.4000) (net VDDS) (type
+    protect))
+  (wire (path TOP 0.2500 -65.7000 -85.4250 -64.6250 -85.4250 -64.6000 -85.4000
+    ) (net VDDS) (type protect))
+  (wire (path BOTTOM 0.1270 -70.3000 -85.4000 -64.6000 -85.4000) (net VDDS)
+   (type protect))
+  (wire (path TOP 0.1270 -65.7000 -85.4250 -65.8000 -85.4250 -67.2000 -86.8250
+    -67.2000 -88) (net VDDS) (type protect))
+  (wire (path TOP 0.2500 -70.6500 -93.9750 -72.8750 -93.9750 -74 -95.1000)
+   (net VDDS) (type protect))
+  (wire (path TOP 0.1270 -70.6500 -93.9750 -70.6500 -93.9344 -69.9156 -93.2000
+    -69.0081 -93.2000 -68.3988 -92.5907 -68.4000 -92) (net VDDS) (type protect
+    ))
+  (wire (path BOTTOM 0.2500 -74 -95.1000 -75.2500 -93.8500) (net VDDS) (type
+    protect))
+  (wire (path TOP 0.2500 -75.2500 -93.8500 -75.9250 -93.1750 -75.9250 -91.6000
+    ) (net VDDS) (type protect))
+  (via VIA_SF_DBFIX1 -75.2500 -93.8500 (net VDDS) (type protect))
+  (via VIA_SF_DBFIX1 -74 -95.1000 (net VDDS) (type protect))
+  (via VIA_SF_DBFIX1 -64.6000 -85.4000 (net VDDS) (type protect))
+  (via VIA_SF_DBFIX1 -70.3000 -85.4000 (net VDDS) (type protect))
+  (wire (path TOP 0.1270 -71.8000 -89.4000 -69.8000 -89.4000) (net VDDS) (type
+    protect))
+  (via VIA_SF_DBFIX1 -74.7000 -86.2000 (net VDDS) (type protect))
+  (via VIA_SF_DBFIX1 -76 -86.2000 (net VDDS) (type protect))
+  (wire (path TOP 0.2500 -52.5500 -91.4000 -52.2500 -91.4000) (net ANTENNA)
+   (type protect))
+  (wire (polygon TOP 0 -51.8400 -80.0500 -51.8400 -79.5500 -47.4000 -79.5500
+    -47.4000 -82.2500 -50.0400 -82.2500 -50.0400 -84.2500 -47.4000 -84.2500
+    -47.4000 -86.9500 -50.0400 -86.9500 -50.0400 -88.9500 -47.4000 -88.9500
+    -47.4000 -93.9500 -52.3000 -93.9500 -52.3000 -93.0500 -47.9000 -93.0500
+    -47.9000 -91.6500 -52.3000 -91.6500 -52.3000 -91.1500 -47.9000 -91.1500
+    -47.9000 -89.4500 -50.5400 -89.4500 -50.5400 -86.4500 -47.9000 -86.4500
+    -47.9000 -84.7500 -50.5400 -84.7500 -50.5400 -81.7500 -47.9000 -81.7500
+    -47.9000 -80.0500 -51.8400 -80.0500) (net ANTENNA) (type protect))
+  (wire (path TOP 0.2500 -54.3500 -91.4000 -52.5500 -91.4000) (net ANTENNA)
+   (type protect))
+  (wire (path TOP 0.2500 -56.6500 -91.4000 -55.3500 -91.4000) (net FILTER)
+   (type protect))
+  (wire (path TOP 0.2500 -58.0750 -91.4000 -56.6500 -91.4000) (net FILTER)
+   (type protect))
+  (wire (path TOP 0.2500 -82.9500 -89.5000 -81.9000 -89.5000 -81.0250 -90.3750
+    -80.9000 -90.3750) (net CXN) (type protect))
+  (wire (path TOP 0.2500 -82.9500 -89 -81.6520 -89 -81.6270 -89.0250 -80.9000
+    -89.0250) (net CXP) (type protect))
+  (wire (path TOP 0.2500 -86.9250 -75.1500 -84.9000 -75.1500 -81.8500 -78.2000
+    ) (net BUZ_IN) (type protect))
+  (wire (path TOP 0.2500 -81.8000 -78.2500 -81.8500 -78.2000) (net BUZ_IN)
+   (type protect))
+  (wire (path TOP 0.1270 -74.5500 -82.7500 -70.6000 -82.7500 -69.7500 -83.6000
+    -69.7500 -87) (net BUZ) (type protect))
+  (wire (path BOTTOM 0.1270 -77.1500 -82.7500 -74.5500 -82.7500) (net BUZ)
+   (type protect))
+  (wire (path TOP 0.1270 -77.1500 -82.7500 -79.7500 -82.7500 -81.3000 -84.3000
+    -85.5750 -84.3000) (net BUZ) (type protect))
+  (wire (path BOTTOM 0.1270 -66.4500 -87 -69.7500 -87) (net BUZ) (type protect
+    ))
+  (wire (path TOP 0.1270 -66.4500 -87 -66.8000 -87.3500 -66.8000 -88) (net BUZ
+    ) (type protect))
+  (via VIA_SF_DBFIX1 -77.1500 -82.7500 (net BUZ) (type protect))
+  (via VIA_SF_DBFIX1 -74.5500 -82.7500 (net BUZ) (type protect))
+  (via VIA_SF_DBFIX1 -69.7500 -87 (net BUZ) (type protect))
+  (via VIA_SF_DBFIX1 -66.4500 -87 (net BUZ) (type protect))
+  (wire (path TOP 0.1270 -66.6700 -78.3350 -66.6700 -80.1564 -69.4620 -82.9484
+    -69.4620 -86.5944 -69.3962 -86.6601 -69.2014 -86.8549 -69.2014 -87.3639
+    -69.2000 -88) (net TDI) (type protect))
+  (wire (path TOP 0.1270 -68.8000 -88 -68.8013 -87.4093 -68.8018 -87.4088
+    -68.8018 -86.8951 -69.1670 -86.5299 -69.2080 -86.4890 -69.2080 -83.0537
+    -65.4000 -79.2457 -65.4000 -78.3350) (net TDO) (type protect))
+  (wire (path TOP 0.1270 -64.1300 -78.3350 -68.9540 -83.1590 -68.9540 -86.3834
+    -68.4018 -86.9359 -68.4018 -87.4088 -68.4013 -87.4093 -68.4000 -88) (net
+    TCKC) (type protect))
+  (wire (path TOP 0.1270 -78.6750 -96.6500 -78.6750 -96.5250 -79.6500 -95.5500
+    -80.7600 -95.5500) (net SCL_OUT) (type protect))
+  (wire (path TOP 0.1270 -80.7600 -95.0500 -78.6750 -95.0500) (net SDA_OUT)
+   (type protect))
+  (wire (path TOP 0.1270 -77.3250 -95.0500 -75.3348 -95.0500 -72.9309 -92.6460
+    -69.5438 -92.6460 -69.2000 -92.3007 -69.2000 -92) (net SDA) (type protect)
+   )
+  (wire (path TOP 0.1270 -77.3250 -96.6500 -76.4344 -96.6500 -72.6844 -92.9000
+    -69.1081 -92.9000 -68.7988 -92.5907 -68.8000 -92) (net SCL) (type protect)
+   )
+  (wire (path TOP 0.1270 -79.5500 -93.5750 -79.8500 -93.8750 -79.8500 -94.5500
+    ) (net ALRTN) (type protect))
+  (wire (path BOTTOM 0.1270 -79.8500 -94.5500 -79.8500 -96.0500) (net ALRTN)
+   (type protect))
+  (wire (path TOP 0.1270 -79.8500 -96.0500 -79.8500 -96.1500 -80.2500 -96.5500
+    -80.7600 -96.5500) (net ALRTN) (type protect))
+  (wire (path TOP 0.1270 -69.8000 -91.4000 -70.3907 -91.4004 -70.3918 -91.4015
+    -72.0460 -91.4015 -74.9941 -94.3500 -78.1094 -94.3500 -78.8844 -93.5750
+    -79.5500 -93.5750) (net ALRTN) (type protect))
+  (via VIA_SF_DBFIX1 -79.8500 -96.0500 (net ALRTN) (type protect))
+  (via VIA_SF_DBFIX1 -79.8500 -94.5500 (net ALRTN) (type protect))
+  (wire (path TOP 0.2500 -79.2742 -87.1258 -79.5258 -87.1258 -79.5500 -87.1500
+    ) (net VCC) (type protect))
+  (wire (path TOP 0.2500 -79.2742 -87.1258 -78.3000 -88.1000 -78.3000 -88.9000
+    ) (net VCC) (type protect))
+  (wire (path TOP 0.2500 -62.8600 -77.0650 -62.8600 -76.3050 -63.7650 -75.4000
+    -72.3500 -75.4000 -76.4500 -79.5000 -76.4500 -85.3500 -78.2258 -87.1258
+    -79.2742 -87.1258) (net VCC) (type protect))
+  (wire (path TOP 0.2500 -79.5500 -92.2250 -79.5500 -87.1500) (net VCC) (type
+    protect))
+  (wire (path TOP 0.2500 -79.5500 -87.1500 -80.5500 -87.1500 -81.9000 -88.5000
+    -82.9500 -88.5000) (net VCC) (type protect))
+  (wire (path TOP 0.2500 -87.3500 -88.5000 -88.3020 -88.5000 -88.6500 -88.1520
+    -88.6500 -87.0980 -89.1480 -86.6000 -90.0500 -86.6000) (net DCDC_IN) (type
+    protect))
+  (wire (path TOP 0.2500 -94.7600 -76.8500 -92.0500 -79.5600 -92.0500 -84.9000
+    -90.3500 -86.6000 -90.0500 -86.6000) (net DCDC_IN) (type protect))
+  (wire (path TOP 0.2500 -88.2750 -75.1500 -93.0600 -75.1500 -94.7600 -76.8500
+    ) (net DCDC_IN) (type protect))
+  (wire (path TOP 0.2500 -90.0500 -86.6000 -90.0500 -88.0500 -88.6000 -89.5000
+    -87.3500 -89.5000) (net DCDC_IN) (type protect))
+  (wire (path TOP 0.2500 -87.3500 -89 -87.3500 -88.5000) (net DCDC_IN) (type
+    protect))
+  (wire (path TOP 0.2500 -87.3500 -89.5000 -87.3500 -89) (net DCDC_IN) (type
+    protect))
+  (wire (path TOP 0.1270 -71.5000 -87.6750 -71.5000 -88.2156 -70.7156 -89
+    -69.8000 -89) (net DCDC_SW) (type protect))
+  (wire (path TOP 0.2500 -91.2000 -97.4500 -90.2480 -97.4500 -90.2230 -97.4750
+    -88.9000 -97.4750) (net N183606) (type protect))
+  (wire (path TOP 0.1270 -62.8600 -78.3350 -62.8600 -79.0336 -63.7764 -79.9500
+    -65.2814 -79.9500 -68.7000 -83.3686 -68.7000 -86.2780 -68 -86.9784 -68 -88
+    ) (net TMSC) (type protect))
+  (wire (path TOP 0.2500 -101.8500 -96.6250 -101.7250 -96.6250 -100.9000
+    -97.4500 -99.1000 -97.4500) (net N183563) (type protect))
+  (wire (path TOP 0.1270 -86.9250 -84.3000 -87.4656 -84.3000 -89.8500 -81.9156
+    -89.8500 -80.4500) (net TRB) (type protect))
+  (wire (path TOP 0.1270 -70.4250 -80 -69.4500 -80 -68.6500 -80.8000 -68.6500
+    -81.5999 -68.9001 -81.8500 -74.6501 -81.8500 -75.2555 -82.4554 -75.2555
+    -89.5445 -74.4500 -90.3500 -71.4339 -90.3500 -71.2839 -90.2000 -69.8000
+    -90.2000) (net RESET) (type protect))
+  (wire (path TOP 0.1270 -70.4250 -78.3000 -68.6736 -78.3000 -68.6386 -78.3350
+    -67.9400 -78.3350) (net RESET) (type protect))
+  (wire (path TOP 0.1270 -70.4250 -80 -70.4250 -78.3000) (net RESET) (type
+    protect))
+  (wire (path TOP 0.2500 -81.8000 -82.2500 -81.8500 -82.2000) (net BUZZNEG)
+   (type protect))
+  (wire (path TOP 0.2500 -81.8500 -82.2000 -85.8000 -78.2500 -88.9000 -78.2500
+    ) (net BUZZNEG) (type protect))
+  (wire (path TOP 0.2500 -74.8750 -96.6000 -75.4770 -96.6000 -76.4302 -97.5532
+    -83.6968 -97.5532 -91.6500 -89.6000 -92.6000 -89.6000) (net DC) (type
+    protect))
+  (wire (path TOP 0.2500 -93.8500 -92.7000 -93.2480 -92.7000 -92.6000 -92.0520
+    -92.6000 -89.6000) (net DC) (type protect))
+  (wire (path TOP 0.2500 -93.8500 -92.7000 -93.8500 -94.7900) (net DC) (type
+    protect))
+  (wire (path TOP 0.1270 -69.8000 -90.6000 -71.3712 -90.6000 -71.3752 -90.6040
+    -74.5553 -90.6040 -75.5095 -89.6498 -75.5095 -82.0595 -74.7000 -81.2500
+    -69.1500 -81.2500) (net SENSOR_MTR) (type protect))
+  (wire (path TOP 0.1270 -65.8500 -81.2500 -64.6000 -81.2500 -63.7250 -82.1250
+    -62.5500 -82.1250) (net SENSOR_MTR) (type protect))
+  (wire (path BOTTOM 0.1270 -65.8500 -81.2500 -69.1500 -81.2500) (net
+    SENSOR_MTR) (type protect))
+  (wire (path TOP 0.1270 -62.5500 -82.1250 -59.8356 -82.1250 -59.8106 -82.1500
+    -59.1200 -82.1500) (net SENSOR_MTR) (type protect))
+  (via VIA_SF_DBFIX1 -69.1500 -81.2500 (net SENSOR_MTR) (type protect))
+  (via VIA_SF_DBFIX1 -65.8500 -81.2500 (net SENSOR_MTR) (type protect))
+  (wire (path TOP 0.1270 -56.5800 -82.1500 -56.5800 -84.7800 -57.8000 -86
+    -64.7086 -86 -66.4006 -87.6999 -66.4000 -88) (net SENSOR_ON) (type protect
+    ))
+  (wire (path TOP 0.2500 -92.6000 -87.7000 -91.6162 -87.7000 -83.7581 -95.5581
+    ) (net BAT+) (type protect))
+  (wire (path TOP 0.2500 -83.7581 -95.5581 -83.7500 -95.5500 -82.7400 -95.5500
+    ) (net BAT+) (type protect))
+  (wire (path TOP 0.2500 -82.7400 -96.0500 -83.3420 -96.0500 -83.7581 -95.6339
+    -83.7581 -95.5581) (net BAT+) (type protect))
+  (wire (path TOP 0.2500 -96.2000 -84.5500 -96.2000 -85.7000 -95.5500 -86.3500
+    -93.2500 -86.3500 -92.6000 -87 -92.6000 -87.7000) (net BAT+) (type protect
+    ))
+  (wire (path TOP 0.2500 -96.1750 -82.0500 -96.1750 -82.7156 -96.2000 -82.7406
+    -96.2000 -84.2500) (net BAT+) (type protect))
+  (wire (path TOP 0.2500 -97.3000 -76.8500 -97.3000 -80.8000 -96.1750 -81.9250
+    -96.1750 -82.0500) (net BAT+) (type protect))
+  (wire (path TOP 0.2500 -96.2000 -84.2500 -96.2000 -84.5500) (net BAT+) (type
+    protect))
+  (wire (path TOP 0.2500 -100.5500 -85.6500 -97.3000 -85.6500 -96.2000
+    -84.5500) (net BAT+) (type protect))
+  (wire (path TOP 0.2500 -73.5250 -96.6000 -72.0500 -96.6000) (net LED) (type
+    protect))
+  (wire (path TOP 0.1270 -74.4250 -92.9750 -72.4519 -91.0019 -70.3907 -91.0019
+    -69.8000 -91) (net LED) (type protect))
+  (wire (path TOP 0.1270 -72.7500 -94.6500 -72.0500 -95.3500 -72.0500 -96.6000
+    ) (net LED) (type protect))
+  (wire (path BOTTOM 0.1270 -74.4250 -92.9750 -72.7500 -94.6500) (net LED)
+   (type protect))
+  (via VIA_SF_DBFIX1 -72.7500 -94.6500 (net LED) (type protect))
+  (via VIA_SF_DBFIX1 -74.4250 -92.9750 (net LED) (type protect))
+  (wire (path TOP 0.2500 -61.9250 -90.4500 -61.2479 -90.4500 -60.8000 -90.8979
+    -60.8000 -91.4000) (net RF_P) (type protect))
+  (wire (path TOP 0.2500 -60.8000 -91.4000 -59.4250 -91.4000) (net RF_P) (type
+    protect))
+  (wire (path TOP 0.2500 -65.8000 -91.4000 -60.8000 -91.4000) (net RF_P) (type
+    protect)))
+ (colors
+  (color 16 color16 149 0 74)
+  (color 17 color17 255 255 0)
+  (color 18 color18 88 88 88)
+  (color 19 color19 135 113 95)
+  (color 20 color20 172 94 64)
+  (color 21 color21 216 5 21)
+  (color 22 color22 226 128 18)
+  (color 23 color23 181 181 0)
+  (color 24 color24 99 139 58)
+  (color 25 color25 0 162 0)
+  (color 26 color26 0 170 123)
+  (color 27 color27 0 151 183)
+  (color 28 color28 0 112 223)
+  (color 29 color29 0 0 227)
+  (color 30 color30 141 0 217)
+  (color 31 color31 191 0 191)
+  (color 32 color32 215 0 107)
+  (color 33 color33 0 255 0)
+  (color 34 color34 131 131 131)
+  (color 35 color35 156 134 114)
+  (color 36 color36 202 133 106)
+  (color 37 color37 252 78 90)
+  (color 38 color38 239 155 63)
+  (color 39 color39 215 215 0)
+  (color 40 color40 129 180 78)
+  (color 41 color41 0 221 0)
+  (color 42 color42 0 215 155)
+  (color 43 color43 1 192 233)
+  (color 44 color44 51 152 255)
+  (color 45 color45 100 100 255)
+  (color 46 color46 189 66 255)
+  (color 47 color47 242 0 242)
+  (color 48 color48 255 51 153)
+  (color 49 color49 0 0 255)
+  (color 50 color50 172 172 172)
+  (color 51 color51 169 149 131)
+  (color 52 color52 216 160 139)
+  (color 53 color53 252 122 132)
+  (color 54 color54 242 176 104)
+  (color 55 color55 240 240 0)
+  (color 56 color56 157 197 118)
+  (color 57 color57 38 255 38)
+  (color 58 color58 0 244 177)
+  (color 59 color59 17 214 255)
+  (color 60 color60 98 176 254)
+  (color 61 color61 130 130 255)
+  (color 62 color62 206 115 255)
+  (color 63 color63 255 111 255)
+  (color 64 color64 255 119 187)
+  (color 65 color65 255 0 255)
+  (color 66 color66 217 217 217)
+  (color 67 color67 186 169 154)
+  (color 68 color68 231 182 169)
+  (color 69 color69 253 162 168)
+  (color 70 color70 247 199 147)
+  (color 71 color71 255 255 140)
+  (color 72 color72 192 218 167)
+  (color 73 color73 138 255 138)
+  (color 74 color74 117 255 217)
+  (color 75 color75 145 236 255)
+  (color 76 color76 151 203 255)
+  (color 77 color77 176 176 255)
+  (color 78 color78 223 164 255)
+  (color 79 color79 255 168 255)
+  (color 80 color80 255 176 216)
+  (color 81 color81 0 255 255)
+  (color 82 color82 255 255 255)
+  (color 83 color83 202 189 170)
+  (color 84 color84 235 199 190)
+  (color 85 color85 254 197 201)
+  (color 86 color86 251 216 181)
+  (color 87 color87 255 255 187)
+  (color 88 color88 213 231 194)
+  (color 89 color89 189 255 189)
+  (color 90 color90 176 255 230)
+  (color 91 color91 185 241 255)
+  (color 92 color92 191 223 255)
+  (color 93 color93 198 198 255)
+  (color 94 color94 233 191 255)
+  (color 95 color95 255 198 255)
+  (color 96 color96 255 198 255)
+  (color 97 color97 255 0 0)
+  (color 98 color98 250 120 120)
+  (color 0 background 170 210 255)
+  (color 1 blue 0 0 255)
+  (color 2 green 0 255 0)
+  (color 3 violet 175 0 175)
+  (color 4 red 255 0 0)
+  (color 5 magenta 125 0 125)
+  (color 6 white 255 255 255)
+  (color 7 lgtgray 180 180 180)
+  (color 8 drkgray 120 120 120)
+  (color 9 drkblue 0 0 170)
+  (color 10 drkgreen 0 170 0)
+  (color 11 coral 255 127 0)
+  (color 12 drkred 170 0 0)
+  (color 13 lgtmgnta 255 0 255)
+  (color 14 yellow 255 255 0)
+  (color 15 black 0 0 0)
+  (set_color background black)
+  (set_color via drkgreen)
+  (set_color thru drkgray)
+  (set_color select color82)
+  (set_color highlight color58)
+  (set_color antipad white)
+  (set_color guide color59)
+  (set_color histogram grid color82)
+  (set_color histogram segment red)
+  (set_color histogram peak red)
+  (set_color grid via color82)
+  (set_color grid wiring color82)
+  (set_color grid place color82)
+  (set_color grid manuf color82)
+  (set_color grid major route color82)
+  (set_color grid major place color82)
+  (set_color error clearance yellow)
+  (set_color error length yellow)
+  (set_color error crosstalk white)
+  (set_color error balance white)
+  (set_color error placement white)
+  (set_color routability min green)
+  (set_color routability max red)
+  (set_color iroute target white)
+  (set_color testpoint color24)
+  (set_color protect white)
+  (set_color fix component lgtmgnta)
+  (set_color component front color74)
+  (set_color component back magenta)
+  (set_color site white)
+  (set_color ruler drkgray)
+  (set_color rowcolumn white)
+  (set_color viakeepouts color35)
+  (set_color signal 1 color57)
+  (set_color signal 2 color17)))

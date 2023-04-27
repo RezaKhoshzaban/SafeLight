@@ -1,1107 +1,429 @@
 \t (00:00:01) allegro 17.2 S078 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Tue Apr 25 13:36:59 2023
-\t (00:00:01)         Host=DESKTOP-CK2AQQI User=rezak Pid=21072 CPUs=8
-\t (00:00:01) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\LightSensor\allegro\SAFELIGHT1_4.brd
+\t (00:00:01)     Journal start - Thu Apr 27 18:11:50 2023
+\t (00:00:01)         Host=DESKTOP-CK2AQQI User=rezak Pid=22860 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession rezak C:\SAFELIGHT\LIGHTSENSOR\allegro\SAFELIGHT1_5.brd
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
-\t (00:00:01) Opening existing design...
-\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAFELIGHT1_4
-\d (00:00:01) Design opened: C:/SafeLight/LightSensor/allegro/SAFELIGHT1_4.brd
-\t (00:00:01) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
-\i (00:00:01) trapsize 2872
-\i (00:00:01) trapsize 2956
-\t (00:00:02) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
-\t (00:00:02) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
-\i (00:00:02) trapsize 2352
-\i (00:00:02) trapsize 2352
-\i (00:00:02) etchedit 
-\i (00:00:12) exit 
-\t (00:00:12)     Journal end - Tue Apr 25 13:37:11 2023
-ed "File: ETCHT"
-\i (02:28:02) color -globvis off 
-\i (02:28:02) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
-\i (02:28:02) color -vis 'DRC ERROR CLASS/TOP' 
-\i (02:28:02) color -vis ETCH/TOP 
-\i (02:28:02) color -vis PIN/TOP 
-\i (02:28:02) color -vis 'VIA CLASS/TOP' 
-\i (02:28:02) color -vis 'ANTI ETCH/TOP' 
-\i (02:28:02) color -vis BOUNDARY/TOP 
-\i (02:28:02) color -vis CAVITY/TOP 
-\i (02:28:02) trapsize 1707
-\i (02:28:02) etchedit 
-\i (02:29:28) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (02:29:34) delete 
-\i (02:29:34) etchedit 
-\i (02:29:36) pick grid -52.3928 -85.3635
-\t (02:29:36) last pick:  -52.4000 -85.3500
-\i (02:29:40) setwindow form.find
-\i (02:29:40) FORM find all_on  
-\i (02:29:43) setwindow pcb
-\i (02:29:43) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (02:29:43) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (02:29:47) pick grid -47.2022 -82.4608
-\t (02:29:47) last pick:  -47.2000 -82.4500
-\i (02:29:47) move 
-\t (02:29:47) last pick:  -52.3500 -94.4500
-\t (02:29:47) Moving A1 / ANTENNA_AN043_PATCH_ANTENNA_TI / AN043_PATCH_ANTENNA.
-\t (02:29:47) Pick new location for the element(s).
-\i (02:29:49) prepopup -51.1976 -94.0713
-\i (02:29:51) cancel 
-\i (02:29:51) etchedit 
-\i (02:29:52) delete 
-\t (02:29:52) Selected item not valid for current operation, ignored: Symbol "A1"
-\t (02:29:52) No valid items selected for the current operation, exiting.
-\i (02:29:52) etchedit 
-\i (02:29:54) pick grid -52.2562 -84.9878
-\t (02:29:54) last pick:  -52.2500 -85.0000
-\i (02:29:54) move 
-\t (02:29:54) last pick:  -52.3500 -94.4500
-\t (02:29:54) Moving A1 / ANTENNA_AN043_PATCH_ANTENNA_TI / AN043_PATCH_ANTENNA.
-\t (02:29:54) Pick new location for the element(s).
-\i (02:29:55) prepopup -50.8220 -89.4271
-\i (02:29:55) done 
-\i (02:29:56) etchedit 
-\i (02:30:01) prepopup -52.2562 -82.9048
-\i (02:30:03) pop dyn_option_select '@:@Unplace component' 
-\i (02:30:03) unplace component 
-\i (02:30:03) etchedit 
-\i (02:30:05) done 
-\i (02:30:05) place manual 
-\i (02:30:06) FORM plc_manual placement_list 
-\i (02:30:06) FORM plc_manual categories Components by refdes 
-\i (02:30:06) setwindow form.plc_manual
-\i (02:30:06) FORM plc_manual categories Components by refdes 
-\i (02:30:06) setwindow pcb
-\i (02:30:06) trapsize 1707
-\i (02:30:07) setwindow form.plc_manual
-\i (02:30:07) FORM plc_manual tree 'MULTISEL YES' A1 'Components by refdes' 
-\t (02:30:07) Placing A1 / ANTENNA_AN043_PATCH_ANTENNA_TI / AN043_PATCH_ANTENNA on Top.
-\i (02:30:07) FORM plc_manual tree  A1 'Components by refdes' 
-\i (02:30:11) setwindow pcb
-\i (02:30:11) prepopup -43.1044 -85.6025
-\i (02:30:13) rotate 
-\t (02:30:13) Spin the element(s).
-\i (02:30:14) iangle -90.000
-\t (02:30:14) last angle:  +270.000 Degrees
-\i (02:30:16) zoom in 1 
-\i (02:30:16) setwindow pcb
-\i (02:30:16) zoom in -51.7440 -94.5836
-\i (02:30:16) trapsize 854
-\i (02:30:17) zoom in 1 
-\i (02:30:17) setwindow pcb
-\i (02:30:17) zoom in -52.3245 -94.6006
-\i (02:30:17) trapsize 427
-\i (02:30:25) pick grid -52.3672 -94.4298
-\t (02:30:25) last pick:  -52.3500 -94.4500
-\i (02:30:29) setwindow form.plc_manual
-\i (02:30:29) FORM plc_manual cancel  
-\i (02:30:29) setwindow pcb
-\i (02:30:29) etchedit 
-\i (02:30:32) done 
-\i (02:30:32) place manual 
-\i (02:30:32) FORM plc_manual placement_list 
-\i (02:30:32) FORM plc_manual categories Components by refdes 
-\i (02:30:32) trapsize 427
-\i (02:30:33) setwindow form.plc_manual
-\i (02:30:33) FORM plc_manual tree 'MULTISEL YES' A1 'Components by refdes' 
-\t (02:30:33) Placing A1 / ANTENNA_AN043_PATCH_ANTENNA_TI / AN043_PATCH_ANTENNA on Top.
-\i (02:30:33) FORM plc_manual tree  A1 'Components by refdes' 
-\i (02:30:35) setwindow pcb
-\i (02:30:35) prepopup -50.2329 -91.1857
-\i (02:30:36) rotate 
-\t (02:30:36) Spin the element(s).
-\i (02:30:37) iangle -90.000
-\t (02:30:37) last angle:  +270.000 Degrees
-\i (02:30:42) pick grid -52.3330 -94.4298
-\t (02:30:42) last pick:  -52.3500 -94.4500
-\i (02:30:43) prepopup -51.8720 -94.8652
-\i (02:30:44) done 
-\i (02:30:44) etchedit 
-\i (02:30:49) zoom in 1 
-\i (02:30:49) setwindow pcb
-\i (02:30:49) zoom in -52.2135 -91.8431
-\i (02:30:49) trapsize 213
-\i (02:30:50) zoom in 1 
-\i (02:30:50) setwindow pcb
-\i (02:30:50) zoom in -52.3885 -91.8175
-\i (02:30:50) trapsize 107
-\i (02:30:51) zoom out 1 
-\i (02:30:51) setwindow pcb
-\i (02:30:51) zoom out -52.4781 -91.7769
-\i (02:30:51) trapsize 213
-\i (02:30:55) prepopup -51.4751 -91.1452
-\i (02:31:01) pick grid -51.6544 -92.1142
-\t (02:31:01) last pick:  -51.6500 -92.1000
-\i (02:31:03) prepopup -51.8251 -91.6617
-\i (02:31:16) pick grid -52.5977 -92.9679
-\t (02:31:16) last pick:  -52.6000 -92.9500
-\i (02:31:24) setwindow form.find
-\i (02:31:24) FORM find all_off  
-\i (02:31:24) FORM find clines YES 
-\i (02:31:27) setwindow pcb
-\i (02:31:27) pick grid -52.8111 -93.5484
-\t (02:31:27) last pick:  -52.8000 -93.5500
-\i (02:31:29) delete 
-\i (02:31:29) etchedit 
-\i (02:31:30) pick grid -52.5849 -93.5399
-\t (02:31:30) last pick:  -52.6000 -93.5500
-\i (02:31:31) pick grid -52.6020 -91.4440
-\t (02:31:31) last pick:  -52.6000 -91.4500
-\i (02:31:32) pick grid -52.9307 -91.3715
-\t (02:31:32) last pick:  -52.9500 -91.3500
-\i (02:31:34) delete 
-\i (02:31:34) etchedit 
-\i (02:31:36) delete 
-\i (02:31:40) setwindow form.find
-\i (02:31:40) FORM find shapes NO 
-\i (02:31:42) FORM find clines YES 
-\i (02:31:43) setwindow pcb
-\i (02:31:43) pick grid -52.6020 -93.5143
-\t (02:31:43) last pick:  -52.6000 -93.5000
-\t (02:31:43) Connect Line "Gnd, Etch/Top"
-\i (02:31:45) pick grid -52.6020 -91.4013
-\t (02:31:45) last pick:  -52.6000 -91.4000
-\t (02:31:45) Connect Line "Antenna, Etch/Top"
-\i (02:31:45) prepopup -52.4739 -92.1910
-\i (02:31:46) done 
-\i (02:31:46) etchedit 
-\i (02:31:56) add connect 
-\t (02:31:56) Pick first element.
-\i (02:31:57) pick grid -52.6361 -93.5399
-\t (02:31:57) last pick:  -52.6500 -93.5500
-\t (02:31:57) last pick:  -52.6000 -93.5000
-\t (02:31:57) Target Via is defined from TOP to BOTTOM.
-\t (02:31:57) last pick:  -52.6000 -93.5000
-\i (02:31:57) mouse_pos -53.2252 -93.5143
-\i (02:31:58) pick grid -53.5752 -93.5185
-\t (02:31:58) last pick:  -53.6000 -93.5000
-\t (02:31:58) No DRC errors detected.
-\t (02:31:58) Pick first element.
-\i (02:31:59) pick grid -52.6020 -91.4355
-\t (02:31:59) last pick:  -52.6000 -91.4500
-\t (02:31:59) Pick first element.
-\t (02:31:59) last pick:  -52.6000 -91.4000
-\t (02:31:59) Target Symbol Pin is defined on TOP.
-\t (02:31:59) last pick:  -52.6000 -91.4000
-\i (02:32:00) mouse_pos -54.0874 -91.3544
-\i (02:32:00) pick grid -54.3265 -91.4099
-\t (02:32:00) last pick:  -54.3500 -91.4000
-\t (02:32:00) No DRC errors detected.
-\t (02:32:00) Pick first element.
-\i (02:32:01) prepopup -53.7246 -91.2989
-\i (02:32:02) done 
-\i (02:32:02) etchedit 
-\i (02:32:05) setwindow form.find
-\i (02:32:05) FORM find all_on  
-\i (02:32:07) setwindow pcb
-\i (02:32:07) prepopup -51.7099 -91.1538
-\i (02:32:08) pop dyn_option_select '@:@Assign net' 
-\i (02:32:08) shape assign net 
-\i (02:32:11) setwindow form.mini
-\i (02:32:11) FORM mini netname_list  
-\i (02:32:14) fillin "Antenna"
-\t (02:32:14) Updated nets of 1 of 1 shape(s)
-\t (02:32:14) Assigning selected shape(s) to net: ANTENNA
-\i (02:32:16) setwindow pcb
-\i (02:32:16) prepopup -52.5422 -93.1856
-\i (02:32:18) done 
-\i (02:32:18) etchedit 
-\i (02:32:19) zoom out 1 
-\i (02:32:19) setwindow pcb
-\i (02:32:19) zoom out -52.6062 -92.3575
-\i (02:32:19) trapsize 427
-\i (02:32:20) zoom out 1 
-\i (02:32:20) setwindow pcb
-\i (02:32:20) zoom out -52.6148 -92.3489
-\i (02:32:20) trapsize 854
-\i (02:32:24) save 
-\i (02:32:26) fillin yes 
-\i (02:32:26) etchedit 
-\i (02:32:26) zoom out 1 
-\i (02:32:26) setwindow pcb
-\i (02:32:26) zoom out -51.0440 -91.8368
-\i (02:32:26) trapsize 1707
-\i (02:32:27) zoom out 1 
-\i (02:32:27) setwindow pcb
-\i (02:32:27) zoom out -51.4197 -91.9392
-\i (02:32:27) trapsize 3415
-\i (02:32:28) roam x -96 
-\i (02:32:28) roam x -96
-\i (02:32:28) roam x -96 
-\i (02:32:28) roam x -96
-\i (02:32:30) artwork 
-\i (02:32:38) setwindow form.film_control
-\i (02:32:38) FORM film_control filmtree  OUTLINE 
-\i (02:32:42) FORM film_control filmtree popup 'Display for Visibility' OUTLINE 
-\i (02:32:46) FORM film_control filmtree  BOTTOM 
-\i (02:32:49) FORM film_control filmtree  TOP 
-\i (02:32:51) FORM film_control filmtree  TOP 
-\i (02:32:53) FORM film_control filmtree popup 'Display for Visibility' TOP 
-\i (02:32:56) FORM film_control create  
-\w (02:32:56) No film records selected.
-\i (02:32:59) FORM film_control select_all  
-\i (02:32:59) FORM film_control create  
-\t (02:32:59) Checking db records
-\t (02:32:59)     checking for orphans...
-\t (02:32:59)     Checked 100 percent
-\w (02:32:59) Run batch DRC to correctly regenerate DRC errs.
-
-\t (02:32:59) Done dbdoctor.
-\t (02:32:59) Starting Create artwork films...
-\w (02:33:00) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (02:33:01) Artwork generated with warnings.
-\i (02:33:26) setwindow pcb
-\i (02:33:26) setwindow text
-\i (02:33:26) close
-\i (02:33:28) setwindow form.film_control
-\i (02:33:28) FORM film_control ok  
-\i (02:33:29) setwindow pcb
-\i (02:33:29) etchedit 
-\i (02:33:32) drc update 
-\t (02:33:32) Performing DRC...
-\t (02:33:32) Multithreaded DRC update (8 threads).
-\t (02:33:32) No DRC errors detected.
-\i (02:33:32) etchedit 
-\i (02:33:34) status 
-\i (02:33:34) etchedit 
-\i (02:33:39) setwindow form.status
-\i (02:33:39) FORM status done  
-\i (02:33:42) setwindow pcb
-\i (02:33:42) zoom in 1 
-\i (02:33:42) setwindow pcb
-\i (02:33:42) zoom in -42.9850 -93.7148
-\i (02:33:42) trapsize 1707
-\i (02:33:42) zoom in 1 
-\i (02:33:42) setwindow pcb
-\i (02:33:42) zoom in -42.9167 -94.2271
-\i (02:33:42) trapsize 854
-\i (02:33:45) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (02:33:46) zoom in 1 
-\i (02:33:46) setwindow pcb
-\i (02:33:46) zoom in -50.4122 -92.1610
-\i (02:33:46) trapsize 427
-\i (02:33:48) roam x -96 
-\i (02:33:48) roam x -96
-\i (02:33:53) move 
-\t (02:33:53) last pick:  -52.3500 -94.4500
-\t (02:33:53) Moving A1 / ANTENNA_AN043_PATCH_ANTENNA_TI / AN043_PATCH_ANTENNA.
-\t (02:33:53) Pick new location for the element(s).
-\i (02:33:59) pick grid -52.3077 -94.4745
-\t (02:33:59) last pick:  -52.3000 -94.4500
-\i (02:33:59) etchedit 
-\i (02:34:00) prepopup -51.9491 -94.6709
-\i (02:34:02) pick grid -51.9491 -94.4916
-\t (02:34:02) last pick:  -51.9500 -94.5000
-\i (02:34:05) slide 
-\t (02:34:05) Pick element to slide.
-\i (02:34:06) pick grid -52.6577 -91.4865
-\t (02:34:06) last pick:  -52.6500 -91.5000
-\t (02:34:06) last pick:  -52.6577 -91.4000
-\t (02:34:06) Waiting for the destination pick.
-\i (02:34:07) pick grid -52.7004 -91.4353
-\t (02:34:07) last pick:  -52.7000 -91.4500
-\t (02:34:07) No DRC errors detected.
-\t (02:34:07) Pick another element to slide.
-\i (02:34:08) pick grid -52.6406 -93.5440
-\t (02:34:08) last pick:  -52.6500 -93.5500
-\t (02:34:08) last pick:  -52.6000 -93.5000
-\t (02:34:08) Waiting for the destination pick.
-\i (02:34:11) pick grid -52.5809 -93.5184
-\t (02:34:11) last pick:  -52.6000 -93.5000
-\t (02:34:11) No DRC errors detected.
-\t (02:34:11) Pick another element to slide.
-\i (02:34:12) pick grid -52.6577 -93.5355
-\t (02:34:12) last pick:  -52.6500 -93.5500
-\t (02:34:12) last pick:  -52.6000 -93.5000
-\t (02:34:12) Waiting for the destination pick.
-\i (02:34:13) pick grid -52.5126 -93.5269
-\t (02:34:13) last pick:  -52.5000 -93.5500
-\t (02:34:13) No DRC errors detected.
-\t (02:34:13) Pick another element to slide.
-\i (02:34:14) pick grid -52.3077 -94.6624
-\t (02:34:14) last pick:  -52.3000 -94.6500
-\t (02:34:14) Pick element to slide.
-\i (02:34:15) pick grid -52.7260 -91.4439
-\t (02:34:15) last pick:  -52.7500 -91.4500
-\t (02:34:15) last pick:  -52.7260 -91.4000
-\t (02:34:15) Waiting for the destination pick.
-\t (02:34:15) Start slide location has pre-existing DRC errors.
-\i (02:34:16) pick grid -52.7004 -91.4353
-\t (02:34:16) last pick:  -52.7000 -91.4500
-\t (02:34:16) No DRC errors detected.
-\t (02:34:16) Pick another element to slide.
-\i (02:34:20) pick grid -53.8871 -91.3926
-\t (02:34:20) last pick:  -53.9000 -91.4000
-\t (02:34:20) last pick:  -53.8871 -91.4000
-\t (02:34:20) Waiting for the destination pick.
-\i (02:34:24) pick grid -52.5638 -91.3585
-\t (02:34:24) last pick:  -52.5500 -91.3500
-\t (02:34:24) No DRC errors detected.
-\t (02:34:24) Pick another element to slide.
-\i (02:34:25) pick grid -52.4955 -93.5098
-\t (02:34:25) last pick:  -52.5000 -93.5000
-\t (02:34:25) last pick:  -52.5500 -93.5000
-\t (02:34:25) Waiting for the destination pick.
-\i (02:34:27) pick grid -52.6150 -93.5355
-\t (02:34:27) last pick:  -52.6000 -93.5500
-\t (02:34:27) No DRC errors detected.
-\t (02:34:27) Pick another element to slide.
-\i (02:34:28) pick grid -52.4955 -93.5440
-\t (02:34:28) last pick:  -52.5000 -93.5500
-\t (02:34:28) last pick:  -52.5000 -93.5000
-\t (02:34:28) Waiting for the destination pick.
-\i (02:34:29) pick grid -52.4955 -93.5355
-\t (02:34:29) last pick:  -52.5000 -93.5500
-\t (02:34:29) No DRC errors detected.
-\t (02:34:29) Pick another element to slide.
-\i (02:34:30) pick grid -52.6150 -93.5269
-\t (02:34:30) last pick:  -52.6000 -93.5500
-\t (02:34:30) last pick:  -52.6150 -93.5000
-\t (02:34:30) Waiting for the destination pick.
-\i (02:34:31) pick grid -52.3589 -93.5440
-\t (02:34:31) last pick:  -52.3500 -93.5500
-\t (02:34:31) No DRC errors detected.
-\t (02:34:31) Pick another element to slide.
-\i (02:34:32) zoom in 1 
-\i (02:34:32) setwindow pcb
-\i (02:34:32) zoom in -52.3675 -93.5013
-\i (02:34:32) trapsize 213
-\i (02:34:32) zoom in 1 
-\i (02:34:32) setwindow pcb
-\i (02:34:32) zoom in -52.3675 -93.5013
-\i (02:34:32) trapsize 107
-\i (02:34:32) zoom in 1 
-\i (02:34:32) setwindow pcb
-\i (02:34:32) zoom in -52.3674 -93.5013
-\i (02:34:32) trapsize 53
-\i (02:34:33) pick grid -52.4795 -93.5024
-\t (02:34:33) last pick:  -52.5000 -93.5000
-\t (02:34:33) Waiting for the destination pick.
-\i (02:34:34) pick grid -52.4795 -93.5024
-\t (02:34:34) last pick:  -52.5000 -93.5000
-\t (02:34:34) No DRC errors detected.
-\t (02:34:34) Pick another element to slide.
-\i (02:34:36) delete 
-\i (02:34:37) pick grid -52.4731 -93.5056
-\t (02:34:37) last pick:  -52.4500 -93.5000
-\t (02:34:37) Connect Line "Gnd, Etch/Top"
-\i (02:34:39) prepopup -52.9223 -93.1438
-\i (02:34:39) done 
-\i (02:34:39) etchedit 
-\i (02:34:40) zoom out 1 
-\i (02:34:40) setwindow pcb
-\i (02:34:40) zoom out -52.6353 -93.4437
-\i (02:34:40) trapsize 107
-\i (02:34:41) zoom out 1 
-\i (02:34:41) setwindow pcb
-\i (02:34:41) zoom out -52.6438 -93.4436
-\i (02:34:41) trapsize 213
-\i (02:34:41) zoom out 1 
-\i (02:34:41) setwindow pcb
-\i (02:34:41) zoom out -52.6438 -93.4436
-\i (02:34:41) trapsize 427
-\i (02:34:43) zoom in 1 
-\i (02:34:43) setwindow pcb
-\i (02:34:43) zoom in -53.1474 -91.4033
-\i (02:34:43) trapsize 213
-\i (02:34:43) zoom in 1 
-\i (02:34:43) setwindow pcb
-\i (02:34:43) zoom in -53.1474 -91.4033
-\i (02:34:43) trapsize 107
-\i (02:34:43) zoom in 1 
-\i (02:34:43) setwindow pcb
-\i (02:34:43) zoom in -53.1453 -91.4054
-\i (02:34:43) trapsize 53
-\i (02:34:44) zoom out 1 
-\i (02:34:44) setwindow pcb
-\i (02:34:44) zoom out -53.1410 -91.4107
-\i (02:34:44) trapsize 107
-\i (02:34:44) zoom out 1 
-\i (02:34:44) setwindow pcb
-\i (02:34:44) zoom out -53.1367 -91.4171
-\i (02:34:44) trapsize 213
-\i (02:34:46) add connect 
-\t (02:34:46) Pick first element.
-\i (02:34:48) pick grid -53.0641 -93.5429
-\t (02:34:48) last pick:  -53.0500 -93.5500
-\t (02:34:48) last pick:  -53.0500 -93.5000
-\t (02:34:48) last pick:  -53.0500 -93.5000
-\i (02:34:48) mouse_pos -53.1793 -93.5429
-\i (02:34:48) mouse_pos -53.2775 -93.5387
-\i (02:34:48) mouse_pos -53.2220 -93.6027
-\i (02:34:48) mouse_pos -52.8250 -93.5813
-\i (02:34:49) mouse_pos -52.7738 -93.5813
-\i (02:34:49) pick grid -52.5220 -93.5557
-\t (02:34:49) last pick:  -52.5000 -93.5500
-\t (02:34:49) No DRC errors detected.
-\t (02:34:49) Pick first element.
-\i (02:34:56) prepopup -53.2433 -91.3916
-\i (02:34:56) done 
-\i (02:34:57) etchedit 
-\i (02:34:59) delete 
-\i (02:35:00) pick grid -53.0726 -93.4618
-\t (02:35:00) last pick:  -53.0500 -93.4500
-\t (02:35:00) Connect Line "Gnd, Etch/Top"
-\i (02:35:00) pick grid -53.3714 -91.3574
-\t (02:35:00) last pick:  -53.3500 -91.3500
-\t (02:35:00) Connect Line "Antenna, Etch/Top"
-\i (02:35:01) prepopup -53.2604 -91.9977
-\i (02:35:02) done 
-\i (02:35:02) etchedit 
-\i (02:35:04) pick grid -54.2038 -91.3403
-\t (02:35:04) last pick:  -54.2000 -91.3500
-\i (02:35:04) add connect 
-\t (02:35:04) Pick first element.
-\t (02:35:04) Target Symbol Pin is defined on TOP.
-\t (02:35:04) last pick:  -54.3500 -91.4000
-\i (02:35:04) mouse_pos -52.8250 -91.3702
-\i (02:35:06) pick grid -52.4793 -91.3830
-\t (02:35:06) last pick:  -52.5000 -91.4000
-\t (02:35:06) No DRC errors detected.
-\t (02:35:06) Pick first element.
-\i (02:35:06) etchedit 
-\i (02:35:07) pick grid -53.4482 -93.5088
-\t (02:35:07) last pick:  -53.4500 -93.5000
-\i (02:35:07) add connect 
-\t (02:35:07) Pick first element.
-\t (02:35:07) Target Symbol Pin is defined on TOP.
-\t (02:35:07) last pick:  -53.5500 -93.5000
-\i (02:35:07) mouse_pos -52.8250 -93.5515
-\i (02:35:08) pick grid -52.4793 -93.5600
-\t (02:35:08) last pick:  -52.5000 -93.5500
-\t (02:35:08) No DRC errors detected.
-\t (02:35:08) Pick first element.
-\i (02:35:08) etchedit 
-\i (02:35:09) prepopup -52.5945 -92.6081
-\i (02:35:10) pick grid -52.6329 -92.3776
-\t (02:35:10) last pick:  -52.6500 -92.4000
-\i (02:35:14) prepopup -51.9756 -91.6434
-\i (02:35:16) pop dyn_option_select '@:@Assign net' 
-\i (02:35:16) shape assign net 
-\i (02:35:18) zoom out 1 
-\i (02:35:18) setwindow pcb
-\i (02:35:18) zoom out -51.9329 -92.2880
-\i (02:35:18) trapsize 427
-\i (02:35:18) prepopup -51.3950 -91.7074
-\i (02:35:19) done 
-\i (02:35:19) etchedit 
-\i (02:35:20) zoom out 1 
-\i (02:35:20) setwindow pcb
-\i (02:35:20) zoom out -52.2658 -92.2026
-\i (02:35:20) trapsize 854
-\i (02:35:21) roam x -96 
-\i (02:35:21) roam x -96
-\i (02:35:21) roam x -96 
-\i (02:35:21) roam x -96
-\i (02:35:21) roam x -96 
-\i (02:35:21) roam x -96
-\i (02:35:21) roam x -96 
-\i (02:35:21) roam x -96
-\i (02:35:22) roam x -96 
-\i (02:35:22) roam x -96
-\i (02:35:22) zoom out 1 
-\i (02:35:22) setwindow pcb
-\i (02:35:22) zoom out -61.3229 -91.9976
-\i (02:35:22) trapsize 1707
-\i (02:35:25) roam x -96 
-\i (02:35:25) roam x -96
-\i (02:35:25) roam x -96 
-\i (02:35:25) roam x -96
-\i (02:35:26) roam x -96 
-\i (02:35:26) roam x -96
-\i (02:35:26) roam x -96 
-\i (02:35:26) roam x -96
-\i (02:35:26) roam y 96 
-\i (02:35:26) roam y 96
-\i (02:35:26) roam x -96 
-\i (02:35:26) roam x -96
-\i (02:35:27) roam x -96 
-\i (02:35:27) roam x -96
-\i (02:35:27) roam y -96 
-\i (02:35:27) roam y -96
-\i (02:35:28) roam y -96 
-\i (02:35:28) roam y -96
-\i (02:35:28) roam y -96 
-\i (02:35:28) roam y -96
-\i (02:35:28) zoom out 1 
-\i (02:35:28) setwindow pcb
-\i (02:35:28) zoom out -69.9625 -85.3634
-\i (02:35:28) trapsize 3415
-\i (02:35:29) prepopup -70.1673 -85.3634
-\i (02:35:30) pick grid -82.5974 -68.5623
-\t (02:35:30) last pick:  -82.6000 -68.5500
-\i (02:35:35) drc update 
-\t (02:35:35) Performing DRC...
-\t (02:35:35) Multithreaded DRC update (8 threads).
-\t (02:35:35) No DRC errors detected.
-\i (02:35:36) etchedit 
-\i (02:35:37) QtFillin 
-\i (02:35:38) status 
-\i (02:35:38) etchedit 
-\i (02:35:40) setwindow form.status
-\i (02:35:40) FORM status done  
-\i (02:36:13) setwindow pcb
-\i (02:36:13) xhilite 
-\i (02:36:13) xname_flush 
-\i (02:36:13) done 
-\i (02:36:13) etchedit 
-\i (02:36:21) artwork 
-\i (02:36:28) setwindow form.film_control
-\i (02:36:28) FORM film_control select_all  
-\i (02:36:29) FORM film_control create  
-\t (02:36:29) Checking db records
-\t (02:36:29)     checking for orphans...
-\t (02:36:29)     Checked 100 percent
-\t (02:36:29) Done dbdoctor.
-\t (02:36:29) Starting Create artwork films...
-\w (02:36:29) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (02:36:31) Artwork generated with warnings.
-\i (02:36:36) setwindow pcb
-\i (02:36:36) setwindow text
-\i (02:36:36) close
-\i (02:38:44) zoom in 1 
-\i (02:38:44) setwindow pcb
-\i (02:38:44) zoom in -82.0510 -105.1696
-\i (02:38:44) trapsize 1707
-\i (02:38:46) zoom out 1 
-\i (02:38:46) setwindow pcb
-\i (02:38:46) zoom out -72.1138 -104.9988
-\i (02:38:46) trapsize 3415
-\i (02:38:46) zoom in 1 
-\i (02:38:46) setwindow pcb
-\i (02:38:46) zoom in -72.1137 -104.9989
-\i (02:38:46) trapsize 1707
-\i (02:38:47) zoom out 1 
-\i (02:38:47) setwindow pcb
-\i (02:38:47) zoom out -72.1137 -104.9988
-\i (02:38:47) trapsize 3415
-\i (02:39:07) pick grid -49.1657 -100.6279
-\t (02:39:07) last pick:  -49.1500 -100.6500
-\i (02:39:09) setwindow form.film_control
-\i (02:39:09) FORM film_control cancel  
-\i (02:39:09) setwindow pcb
-\i (02:39:09) etchedit 
-\i (02:39:52) zoom out 1 
-\i (02:39:52) setwindow pcb
-\i (02:39:52) zoom out -51.9659 -104.1793
-\i (02:39:52) trapsize 6830
-\i (02:39:52) zoom in 1 
-\i (02:39:52) setwindow pcb
-\i (02:39:52) zoom in -15.3247 -105.1355
-\i (02:39:52) trapsize 3415
-\i (02:39:53) zoom in 1 
-\i (02:39:53) setwindow pcb
-\i (02:39:53) zoom in -22.8112 -105.1355
-\i (02:39:53) trapsize 1707
-\i (02:39:54) roam x -96 
-\i (02:39:54) roam x -96
-\i (02:39:54) roam x -96 
-\i (02:39:54) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:55) roam x -96 
-\i (02:39:55) roam x -96
-\i (02:39:56) roam x 96 
-\i (02:39:56) roam x 96
-\i (02:39:56) roam x 96 
-\i (02:39:56) roam x 96
-\i (02:39:56) roam x 96 
-\i (02:39:56) roam x 96
-\i (02:39:57) roam x -96 
-\i (02:39:57) roam x -96
-\i (02:39:58) zoom out 1 
-\i (02:39:58) setwindow pcb
-\i (02:39:58) zoom out -84.2365 -101.9938
-\i (02:39:58) trapsize 3415
-\i (02:47:30) zoom in 1 
-\i (02:47:30) setwindow pcb
-\i (02:47:30) zoom in -50.8392 -91.7493
-\i (02:47:30) trapsize 1707
-\i (02:47:30) zoom in 1 
-\i (02:47:30) setwindow pcb
-\i (02:47:30) zoom in -50.8392 -91.7151
-\i (02:47:30) trapsize 854
-\i (02:47:31) zoom in 1 
-\i (02:47:31) setwindow pcb
-\i (02:47:31) zoom in -52.9905 -91.7151
-\i (02:47:31) trapsize 427
-\i (02:47:31) zoom in 1 
-\i (02:47:31) setwindow pcb
-\i (02:47:31) zoom in -52.9905 -91.7151
-\i (02:47:31) trapsize 213
-\i (02:47:32) zoom out 1 
-\i (02:47:32) setwindow pcb
-\i (02:47:32) zoom out -52.6020 -91.9499
-\i (02:47:32) trapsize 427
-\i (02:47:33) zoom out 1 
-\i (02:47:33) setwindow pcb
-\i (02:47:33) zoom out -52.6192 -92.4535
-\i (02:47:33) trapsize 854
-\i (02:47:43) save 
-\i (02:47:44) fillin yes 
-\i (02:47:44) etchedit 
-\i (02:47:52) move 
-\t (02:47:52) Select element(s) to move.
-\i (02:47:54) pick grid -47.9066 -89.0728
-\t (02:47:54) last pick:  -47.9000 -89.0500
-\t (02:47:54) last pick:  -52.3000 -94.4500
-\t (02:47:54) Moving A1 / ANTENNA_AN043_PATCH_ANTENNA_TI / AN043_PATCH_ANTENNA.
-\t (02:47:54) Pick new location for the element(s).
-\i (02:47:56) zoom in 1 
-\i (02:47:56) setwindow pcb
-\i (02:47:56) zoom in -52.6362 -94.4854
-\i (02:47:56) trapsize 427
-\i (02:47:57) zoom in 1 
-\i (02:47:57) setwindow pcb
-\i (02:47:57) zoom in -52.6362 -94.4853
-\i (02:47:57) trapsize 213
-\i (02:47:59) pick grid -52.4142 -94.4767
-\t (02:47:59) last pick:  -52.4000 -94.5000
-\t (02:47:59) DRC errors detected.
-\i (02:47:59) zoom in 1 
-\i (02:47:59) setwindow pcb
-\i (02:47:59) zoom in -52.3630 -94.3188
-\i (02:47:59) trapsize 107
-\i (02:48:00) zoom out 1 
-\i (02:48:00) setwindow pcb
-\i (02:48:00) zoom out -52.2882 -94.2569
-\i (02:48:00) trapsize 213
-\i (02:48:00) zoom out 1 
-\i (02:48:00) setwindow pcb
-\i (02:48:00) zoom out -52.2883 -94.2569
-\i (02:48:00) trapsize 427
-\i (02:48:02) add connect 
-\t (02:48:02) Pick first element.
-\i (02:48:04) pick grid -52.7663 -91.3799
-\t (02:48:04) last pick:  -52.7500 -91.4000
-\t (02:48:04) last pick:  -52.6500 -91.4500
-\t (02:48:04) Target Horizontal Line Segment is defined on TOP.
-\t (02:48:04) last pick:  -52.6500 -91.4500
-\i (02:48:04) mouse_pos -52.7663 -91.3799
-\i (02:48:05) mouse_pos -52.8773 -91.5336
-\i (02:48:05) prepopup -52.8944 -91.5592
-\i (02:48:06) cancel 
-\i (02:48:06) etchedit 
-\i (02:48:07) pick grid -53.5944 -91.4482
-\t (02:48:07) last pick:  -53.6000 -91.4500
-\i (02:48:07) add connect 
-\t (02:48:07) Pick first element.
-\t (02:48:07) last pick:  -52.6500 -91.4500
-\i (02:48:07) mouse_pos -53.5944 -91.4482
-\i (02:48:08) prepopup -53.6371 -91.3714
-\i (02:48:08) cancel 
-\i (02:48:09) etchedit 
-\i (02:48:10) slide 
-\t (02:48:10) Pick element to slide.
-\i (02:48:11) pick grid -53.7139 -91.3799
-\t (02:48:11) last pick:  -53.7000 -91.4000
-\t (02:48:11) last pick:  -53.7139 -91.4000
-\t (02:48:11) Waiting for the destination pick.
-\i (02:48:20) pick grid -53.5688 -91.4397
-\t (02:48:20) last pick:  -53.5500 -91.4500
-\t (02:48:20) No DRC errors detected.
-\t (02:48:20) Pick another element to slide.
-\i (02:48:23) delete 
-\i (02:48:25) pick grid -53.4749 -91.4653
-\t (02:48:25) last pick:  -53.4500 -91.4500
-\t (02:48:25) Connect Line "Antenna, Etch/Top"
-\i (02:48:26) pick grid -53.0907 -93.4544
-\t (02:48:26) last pick:  -53.1000 -93.4500
-\t (02:48:26) Connect Line "Gnd, Etch/Top"
-\i (02:48:27) prepopup -53.6456 -92.1653
-\i (02:48:27) done 
-\i (02:48:27) etchedit 
-\i (02:48:29) add connect 
-\t (02:48:29) Pick first element.
-\i (02:48:30) pick grid -54.1579 -91.4994
-\t (02:48:30) last pick:  -54.1500 -91.5000
-\t (02:48:30) last pick:  -54.3500 -91.4000
-\t (02:48:30) Target Symbol Pin is defined on TOP.
-\t (02:48:30) last pick:  -54.3500 -91.4000
-\i (02:48:30) mouse_pos -52.9114 -91.6189
-\i (02:48:31) pick grid -52.6297 -91.4823
-\t (02:48:31) last pick:  -52.6500 -91.5000
-\t (02:48:31) No DRC errors detected.
-\t (02:48:31) Pick first element.
-\i (02:48:32) pick grid -53.3468 -93.4886
-\t (02:48:32) last pick:  -53.3500 -93.5000
-\t (02:48:32) Pick first element.
-\t (02:48:32) last pick:  -53.5500 -93.5000
-\t (02:48:32) Target Symbol Pin is defined on TOP.
-\t (02:48:32) last pick:  -53.5500 -93.5000
-\i (02:48:32) mouse_pos -52.9114 -93.5569
-\i (02:48:33) pick grid -52.6383 -93.5227
-\t (02:48:33) last pick:  -52.6500 -93.5000
-\t (02:48:33) No DRC errors detected.
-\t (02:48:33) Pick first element.
-\i (02:48:34) prepopup -53.1334 -92.4983
-\i (02:48:34) done 
-\i (02:48:35) etchedit 
-\i (02:48:35) zoom out 1 
-\i (02:48:35) setwindow pcb
-\i (02:48:35) zoom out -51.7162 -93.9325
-\i (02:48:35) trapsize 854
-\i (02:48:36) zoom out 1 
-\i (02:48:36) setwindow pcb
-\i (02:48:36) zoom out -50.8455 -95.1618
-\i (02:48:36) trapsize 1707
-\i (02:48:38) drc update 
-\t (02:48:38) Performing DRC...
-\t (02:48:38) Multithreaded DRC update (8 threads).
-\t (02:48:38) No DRC errors detected.
-\i (02:48:38) etchedit 
-\i (02:48:39) status 
-\i (02:48:39) etchedit 
-\i (02:48:42) setwindow form.status
-\i (02:48:42) FORM status done  
-\i (02:48:42) setwindow pcb
-\i (02:48:42) undo 
-\i (02:48:43) etchedit 
-\i (02:48:43) undo 
-\i (02:48:43) etchedit 
-\i (02:48:43) undo 
-\i (02:48:43) etchedit 
-\i (02:48:44) undo 
-\i (02:48:44) etchedit 
-\i (02:48:44) undo 
-\i (02:48:44) etchedit 
-\i (02:48:44) undo 
-\i (02:48:44) etchedit 
-\i (02:48:44) undo 
-\i (02:48:44) etchedit 
-\i (02:48:48) zoom out 1 
-\i (02:48:48) setwindow pcb
-\i (02:48:48) zoom out -47.6697 -88.4688
-\i (02:48:48) trapsize 3415
-\i (02:48:48) zoom in 1 
-\i (02:48:48) setwindow pcb
-\i (02:48:48) zoom in -49.5136 -90.6542
-\i (02:48:48) trapsize 1707
-\i (02:48:48) zoom in 1 
-\i (02:48:48) setwindow pcb
-\i (02:48:48) zoom in -49.5136 -90.6542
-\i (02:48:48) trapsize 854
-\i (02:48:49) zoom in 1 
-\i (02:48:49) setwindow pcb
-\i (02:48:49) zoom in -49.8892 -90.7907
-\i (02:48:49) trapsize 427
-\i (02:48:51) zoom out 1 
-\i (02:48:51) setwindow pcb
-\i (02:48:51) zoom out -51.5966 -90.7138
-\i (02:48:51) trapsize 854
-\i (02:48:51) zoom out 1 
-\i (02:48:51) setwindow pcb
-\i (02:48:51) zoom out -51.6308 -90.7480
-\i (02:48:51) trapsize 1707
-\i (02:48:52) move 
-\t (02:48:52) Select element(s) to move.
-\i (02:48:54) delete 
-\i (02:48:55) pick grid -53.3041 -91.4993
-\t (02:48:55) last pick:  -53.3000 -91.5000
-\t (02:48:55) Connect Line "Antenna, Etch/Top"
-\i (02:48:57) pick grid -53.0651 -93.4458
-\t (02:48:57) last pick:  -53.0500 -93.4500
-\t (02:48:57) Connect Line "Gnd, Etch/Top"
-\i (02:48:58) prepopup -53.4749 -91.2603
-\i (02:48:58) done 
-\i (02:48:58) etchedit 
-\i (02:49:00) move 
-\t (02:49:00) Select element(s) to move.
-\i (02:49:01) zoom in 1 
-\i (02:49:01) setwindow pcb
-\i (02:49:01) zoom in -54.5676 -89.8602
-\i (02:49:01) trapsize 854
-\i (02:49:01) zoom in 1 
-\i (02:49:01) setwindow pcb
-\i (02:49:01) zoom in -54.4310 -90.0139
-\i (02:49:01) trapsize 427
-\i (02:49:02) pick grid -51.7333 -91.1493
-\t (02:49:02) last pick:  -51.7500 -91.1500
-\t (02:49:02) last pick:  -52.4000 -94.5000
-\t (02:49:02) Moving A1 / ANTENNA_AN043_PATCH_ANTENNA_TI / AN043_PATCH_ANTENNA.
-\t (02:49:02) Pick new location for the element(s).
-\i (02:49:05) zoom out 1 
-\i (02:49:05) setwindow pcb
-\i (02:49:05) zoom out -51.2723 -91.1579
-\i (02:49:05) trapsize 854
-\i (02:49:06) zoom in 1 
-\i (02:49:06) setwindow pcb
-\i (02:49:06) zoom in -51.8357 -94.5727
-\i (02:49:06) trapsize 427
-\i (02:49:08) zoom in 1 
-\i (02:49:08) setwindow pcb
-\i (02:49:08) zoom in -52.1430 -94.5300
-\i (02:49:08) trapsize 213
-\i (02:49:13) pick grid -52.3223 -94.4702
-\t (02:49:13) last pick:  -52.3000 -94.4500
-\i (02:49:15) add connect 
-\t (02:49:15) Pick first element.
-\i (02:49:16) pick grid -54.2133 -91.4865
-\t (02:49:16) last pick:  -54.2000 -91.5000
-\t (02:49:16) last pick:  -54.3500 -91.4000
-\t (02:49:16) Target Symbol Pin is defined on TOP.
-\t (02:49:16) last pick:  -54.3500 -91.4000
-\i (02:49:16) mouse_pos -52.6851 -91.3157
-\i (02:49:17) pick grid -52.5229 -91.3541
-\t (02:49:17) last pick:  -52.5000 -91.3500
-\t (02:49:17) No DRC errors detected.
-\t (02:49:17) Pick first element.
-\i (02:49:18) pick grid -53.4876 -93.5226
-\t (02:49:18) last pick:  -53.5000 -93.5000
-\t (02:49:18) Pick first element.
-\t (02:49:18) last pick:  -53.5500 -93.5000
-\t (02:49:18) Target Symbol Pin is defined on TOP.
-\t (02:49:18) last pick:  -53.5500 -93.5000
-\i (02:49:18) mouse_pos -52.8175 -93.5396
-\i (02:49:19) pick grid -52.6723 -93.5055
-\t (02:49:19) last pick:  -52.6500 -93.5000
-\t (02:49:19) No DRC errors detected.
-\t (02:49:19) Pick first element.
-\i (02:49:19) prepopup -52.6638 -93.5055
-\i (02:49:20) done 
-\i (02:49:20) etchedit 
-\i (02:49:20) zoom out 1 
-\i (02:49:20) setwindow pcb
-\i (02:49:20) zoom out -52.6254 -93.5098
-\i (02:49:20) trapsize 427
-\i (02:49:21) zoom out 1 
-\i (02:49:21) setwindow pcb
-\i (02:49:21) zoom out -52.6253 -93.5097
-\i (02:49:21) trapsize 854
-\i (02:49:21) zoom out 1 
-\i (02:49:21) setwindow pcb
-\i (02:49:21) zoom out -52.6254 -93.5097
-\i (02:49:21) trapsize 1707
-\i (02:49:22) save 
-\i (02:49:24) fillin yes 
-\i (02:49:24) etchedit 
-\i (02:49:26) zoom out 1 
-\i (02:49:26) setwindow pcb
-\i (02:49:26) zoom out -61.4698 -88.8656
-\i (02:49:26) trapsize 3415
-\i (02:49:28) zoom in 1 
-\i (02:49:28) setwindow pcb
-\i (02:49:28) zoom in -51.2935 -73.2938
-\i (02:49:28) trapsize 1707
-\i (02:49:29) zoom in 1 
-\i (02:49:29) setwindow pcb
-\i (02:49:29) zoom in -51.2935 -73.2938
-\i (02:49:29) trapsize 854
-\i (02:49:29) zoom in 1 
-\i (02:49:29) setwindow pcb
-\i (02:49:29) zoom in -51.2934 -73.2938
-\i (02:49:29) trapsize 427
-\i (02:49:33) artwork 
-\i (02:49:35) setwindow form.film_control
-\i (02:49:35) FORM film_control filmtree 'MULTISEL YES' OUTLINE 
-\i (02:49:35) FORM film_control filmtree  OUTLINE 
-\i (02:49:37) FORM film_control create  
-\t (02:49:37) Checking db records
-\t (02:49:37)     checking for orphans...
-\t (02:49:37)     Checked 100 percent
-\w (02:49:37) Run batch DRC to correctly regenerate DRC errs.
-
-\t (02:49:37) Done dbdoctor.
-\t (02:49:37) Starting Create artwork films...
-\w (02:49:37) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (02:49:38) Artwork generated with warnings.
-\i (02:53:28) setwindow pcb
-\i (02:53:28) setwindow text
-\i (02:53:28) close
-\i (02:53:30) setwindow form.film_control
-\i (02:53:30) FORM film_control select_all  
-\i (02:53:31) FORM film_control create  
-\t (02:53:31) Starting Create artwork films...
-\w (02:53:31) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (02:53:32) Artwork generated with warnings.
-\i (02:54:09) setwindow pcb
-\i (02:54:09) setwindow text
-\i (02:54:09) close
-\i (02:54:11) setwindow form.film_control
-\i (02:54:11) FORM film_control cancel  
-\i (02:54:11) setwindow pcb
-\i (02:54:11) etchedit 
-\i (02:54:20) nctape_full 
-\i (02:54:23) setwindow form.nc_drill
-\i (02:54:23) FORM nc_drill execute  
-\w (02:54:23) WARNING(SPMHMF-269): Design contains slot holes that cannot be drilled. They can be processed by NC Route instead.
-\t (02:54:23) Starting Generating NC Drill...
-\i (02:54:26) FORM nc_drill close  
-\i (02:54:26) setwindow pcb
-\i (02:54:26) etchedit 
-\i (03:02:43) zoom fit 
-\i (03:02:43) trapsize 1703
-\i (03:02:47) artwork 
-\i (03:02:50) setwindow form.film_control
-\i (03:02:50) FORM film_control filmtree 'MULTISEL YES' SS_TOP 
-\i (03:02:50) FORM film_control filmtree  SS_TOP 
-\i (03:02:54) FORM film_control filmtree popup 'Display for Visibility' SS_TOP 
-\i (03:03:01) FORM film_control cancel  
-\i (03:03:01) setwindow pcb
-\i (03:03:01) etchedit 
-\i (03:03:39) setwindow form.find
-\i (03:03:39) FORM find all_off  
-\i (03:03:53) setwindow pcb
-\i (03:03:53) move 
-\t (03:03:53) Select element(s) to move.
-\i (03:04:03) pick grid -88.9959 -76.5153
-\t (03:04:03) last pick:  -89.0000 -76.5000
-\t (03:04:03) last pick:  -88.9000 -79.3500
-\t (03:04:03) Moving BJT1 / MMBT3904_SOT95P240X120-3N_MMBT3 / SOT95P240X120-3N.
-\t (03:04:03) Pick new location for the element(s).
-\i (03:04:04) prepopup -87.7698 -78.1841
-\i (03:04:06) oops 
-\t (03:04:06) last pick:  -89.0000 -76.5000
-\i (03:04:06) prepopup -88.9278 -76.5834
-\i (03:04:11) prepopup -89.2002 -73.4160
-\i (03:04:11) done 
-\i (03:04:11) etchedit 
-\i (03:07:27) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILKSCREENT"
-\i (03:07:27) color -globvis off 
-\i (03:07:27) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
-\i (03:07:27) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
-\i (03:07:27) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
-\i (03:07:27) color -vis 'DEVICE TYPE/SILKSCREEN_TOP' 
-\i (03:07:27) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
-\i (03:07:27) color -vis 'REF DES/SILKSCREEN_TOP' 
-\i (03:07:27) color -vis TOLERANCE/SILKSCREEN_TOP 
-\i (03:07:27) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
-\i (03:07:27) trapsize 1703
-\i (03:07:27) etchedit 
-\i (03:07:30) artwork 
-\i (03:07:33) setwindow form.film_control
-\i (03:07:33) FORM film_control filmtree  'BOARD GEOMETRY/DESIGN_OUTLINE' SS_TOP 
-\i (03:07:35) FORM film_control filmtree  SS_TOP 
-\i (03:07:42) FORM film_control filmtree popup 'Display for Visibility' SS_TOP 
-\i (03:07:46) FORM film_control filmtree popup 'Display for Artwork Check' SS_TOP 
-\i (03:07:47) FORM film_control filmtree 'MULTISEL YES' SS_TOP 
-\i (03:07:49) FORM film_control create  
-\t (03:07:49) Checking db records
-\t (03:07:49)     checking for orphans...
-\t (03:07:49)     Checked 100 percent
-\w (03:07:49) Run batch DRC to correctly regenerate DRC errs.
-
-\t (03:07:49) Done dbdoctor.
-\t (03:07:49) Starting Create artwork films...
-\w (03:07:49) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (03:07:50) Artwork generated with warnings.
-\i (03:08:15) setwindow pcb
-\i (03:08:15) setwindow text
-\i (03:08:15) close
-\i (03:08:16) setwindow form.film_control
-\i (03:08:16) FORM film_control cancel  
-\i (03:08:16) setwindow pcb
-\i (03:08:16) etchedit 
-\i (03:14:10) xhilite 
-\i (03:14:11) xname_flush 
-\i (03:14:11) done 
-\i (03:14:11) etchedit 
-\i (03:14:25) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (03:14:31) color -globvis off 
-\i (03:14:31) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
-\i (03:14:31) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
-\i (03:14:31) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
-\i (03:14:31) color -vis 'DEVICE TYPE/SILKSCREEN_TOP' 
-\i (03:14:31) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
-\i (03:14:31) color -vis 'REF DES/SILKSCREEN_TOP' 
-\i (03:14:31) color -vis TOLERANCE/SILKSCREEN_TOP 
-\i (03:14:31) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
-\i (03:14:31) trapsize 1703
-\i (03:14:31) etchedit 
-\i (03:14:38) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ASSEMBLYT"
-\i (03:14:38) color -globvis off 
-\i (03:14:38) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
-\i (03:14:38) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_TOP' 
-\i (03:14:38) color -vis 'REF DES/ASSEMBLY_TOP' 
-\i (03:14:38) trapsize 1703
-\i (03:14:38) etchedit 
-\i (03:15:13) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: PASTEMASKT"
-\i (03:15:13) color -globvis off 
-\i (03:15:13) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
-\i (03:15:14) color -vis 'DRC ERROR CLASS/PASTEMASK_TOP' 
-\i (03:15:14) color -vis PIN/PASTEMASK_TOP 
-\i (03:15:14) color -vis 'VIA CLASS/PASTEMASK_TOP' 
-\i (03:15:14) trapsize 1703
-\i (03:15:14) etchedit 
-\i (03:15:17) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILKSCREENT"
-\i (03:15:17) color -globvis off 
-\i (03:15:17) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
-\i (03:15:17) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
-\i (03:15:17) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
-\i (03:15:17) color -vis 'DEVICE TYPE/SILKSCREEN_TOP' 
-\i (03:15:17) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
-\i (03:15:17) color -vis 'REF DES/SILKSCREEN_TOP' 
-\i (03:15:17) color -vis TOLERANCE/SILKSCREEN_TOP 
-\i (03:15:17) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
-\i (03:15:17) trapsize 1703
-\i (03:15:17) etchedit 
-\i (03:16:21) xhilite 
-\i (03:16:22) xname_flush 
-\i (03:16:22) done 
-\i (03:16:22) etchedit 
-\i (03:16:59) artwork 
-\i (03:17:03) setwindow form.film_control
-\i (03:17:03) FORM film_control filmtree 'MULTISEL YES' SS_TOP 
-\i (03:17:03) FORM film_control filmtree  SS_TOP 
-\i (03:17:04) FORM film_control create  
-\t (03:17:04) Checking db records
-\t (03:17:04)     checking for orphans...
-\t (03:17:04)     Checked 100 percent
-\w (03:17:04) Run batch DRC to correctly regenerate DRC errs.
-
-\t (03:17:04) Done dbdoctor.
-\t (03:17:04) Starting Create artwork films...
-\w (03:17:04) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (03:17:05) Artwork generated with warnings.
-\i (03:18:40) setwindow pcb
-\i (03:18:40) setwindow text
-\i (03:18:40) close
-\i (03:18:56) setwindow form.film_control
-\i (03:18:56) FORM film_control undefined_line_width 0.0100 
-\i (03:18:59) FORM film_control create  
-\t (03:18:59) Starting Create artwork films...
-\w (03:18:59) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (03:19:00) Artwork generated with warnings.
-\i (03:19:10) setwindow pcb
-\i (03:19:10) setwindow text
-\i (03:19:10) close
-\i (03:19:20) setwindow form.film_control
-\i (03:19:20) FORM film_control undefined_line_width 0.100 
-\i (03:19:20) FORM film_control create  
-\t (03:19:20) Starting Create artwork films...
-\w (03:19:20) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (03:19:21) Artwork generated with warnings.
-\i (03:19:29) setwindow pcb
-\i (03:19:29) setwindow text
-\i (03:19:29) close
-\i (03:20:08) setwindow form.film_control
-\i (03:20:08) FORM film_control select_all  
-\i (03:20:10) FORM film_control create  
-\t (03:20:10) Starting Create artwork films...
-\w (03:20:10) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (03:20:11) Artwork generated with warnings.
-\i (03:20:23) setwindow pcb
-\i (03:20:23) setwindow text
-\i (03:20:23) close
-\i (03:35:26) exit 
-\e (03:35:26) Do you want to save the changes you made to C:/SafeLight/LightSensor/allegro/SAFELIGHT1_4_NS.brd?
-\i (03:35:28) fillin yes 
-\t (03:35:28)     Journal end - Tue Apr 25 14:43:25 2023
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAFELIGHT1_5
+\d (00:00:03) Design opened: C:/SAFELIGHT/LIGHTSENSOR/allegro/SAFELIGHT1_5.brd
+\i (00:00:04) trapsize 3570
+\i (00:00:04) trapsize 3675
+\i (00:00:04) trapsize 2596
+\i (00:00:04) trapsize 2924
+\i (00:00:04) etchedit 
+\i (00:00:11) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -72.7834 -96.3203
+\i (00:00:14) trapsize 1462
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -72.7833 -96.3203
+\i (00:00:14) trapsize 731
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out -71.9061 -98.3085
+\i (00:00:20) trapsize 1462
+\i (00:00:23) done 
+\i (00:00:23) place manual 
+\i (00:00:24) FORM plc_manual placement_list 
+\i (00:00:24) FORM plc_manual categories Components by refdes 
+\i (00:00:24) trapsize 1462
+\i (00:00:25) setwindow form.plc_manual
+\i (00:00:25) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:00:25) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:25) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:00:26) FORM plc_manual cancel  
+\i (00:00:27) setwindow pcb
+\i (00:00:27) etchedit 
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in -73.3389 -99.3610
+\i (00:00:28) trapsize 731
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in -73.3389 -99.3464
+\i (00:00:28) trapsize 365
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in -73.3389 -99.3464
+\i (00:00:28) trapsize 183
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in -73.3389 -99.3391
+\i (00:00:28) trapsize 91
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out -72.7889 -99.0869
+\i (00:00:29) trapsize 183
+\i (00:00:30) roam x 96 
+\i (00:00:30) roam x 96
+\i (00:00:30) roam x 96 
+\i (00:00:30) roam x 96
+\i (00:00:30) roam x 96 
+\i (00:00:30) roam x 96
+\i (00:00:32) setwindow form.find
+\i (00:00:32) FORM find all_on  
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out -71.6449 -97.8880
+\i (00:00:37) trapsize 365
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out -71.6449 -97.8880
+\i (00:00:37) trapsize 731
+\i (00:00:38) roam y -96 
+\i (00:00:38) roam y -96
+\i (00:00:38) roam x 96 
+\i (00:00:38) roam x 96
+\i (00:00:38) roam x 96 
+\i (00:00:38) roam x 96
+\i (00:00:40) delete 
+\i (00:00:43) setwindow form.find
+\i (00:00:43) FORM find all_on  
+\i (00:00:45) setwindow pcb
+\i (00:00:45) pick grid -71.5389 -97.4445
+\t (00:00:45) last pick:  -71.5500 -97.4500
+\t (00:00:45) Symbol "Led1"
+\i (00:00:46) prepopup -71.5389 -97.4445
+\i (00:00:47) done 
+\i (00:00:47) etchedit 
+\i (00:00:50) done 
+\i (00:00:50) place manual 
+\i (00:00:50) FORM plc_manual placement_list 
+\i (00:00:50) FORM plc_manual categories Components by refdes 
+\i (00:00:50) trapsize 731
+\i (00:00:51) setwindow form.plc_manual
+\i (00:00:51) FORM plc_manual tree 'MULTISEL YES' LED1 'Components by refdes' 
+\t (00:00:51) Placing LED1 / LED_0603_LED_GEN / 0603_LED on Top.
+\i (00:00:52) FORM plc_manual tree  LED1 'Components by refdes' 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) prepopup -71.4219 -97.3421
+\i (00:00:55) cancel 
+\i (00:00:56) etchedit 
+\i (00:00:59) done 
+\i (00:00:59) place manual 
+\i (00:01:00) FORM plc_manual placement_list 
+\i (00:01:00) FORM plc_manual categories Components by refdes 
+\i (00:01:00) trapsize 731
+\i (00:01:05) setwindow form.plc_manual
+\i (00:01:05) FORM plc_manual categories Package symbols 
+\i (00:01:44) FORM plc_manual advanced_settings  
+\i (00:01:45) FORM plc_manual library YES 
+\i (00:01:48) FORM plc_manual placement_list  
+\i (00:01:50) FORM plc_manual tree  1206RF_WV_12D 'Package symbols' 
+\w (00:01:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:54) FORM plc_manual tree  LATCON100RHTM2OESW110010 'Package symbols' 
+\w (00:01:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:54) FORM plc_manual tree  LATCON100RHTM2OESW110014 'Package symbols' 
+\w (00:01:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:55) FORM plc_manual tree  LATCON100RHTM2OESW110016 'Package symbols' 
+\w (00:01:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:55) FORM plc_manual tree  LATCON100RHTM2OESW110020 'Package symbols' 
+\w (00:01:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:55) FORM plc_manual tree  LATCON100RHTM2OESW110024 'Package symbols' 
+\w (00:01:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:55) FORM plc_manual tree  LATCON100RHTM2OESW110026 'Package symbols' 
+\w (00:01:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:55) FORM plc_manual tree  LATCON100RHTM2OESW110030 'Package symbols' 
+\w (00:01:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:56) FORM plc_manual tree  LATCON100RHTM2OESW110034 'Package symbols' 
+\w (00:01:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:56) FORM plc_manual tree  LATCON100RHTM2OESW110040 'Package symbols' 
+\w (00:01:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:56) FORM plc_manual tree  LATCON100RHTM2OESW110050 'Package symbols' 
+\w (00:01:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:56) FORM plc_manual tree  LATCON100RHTM2OESW110060 'Package symbols' 
+\w (00:01:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:56) FORM plc_manual tree  LATCON100RHTM2OESW110064 'Package symbols' 
+\w (00:01:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:56) FORM plc_manual tree  LATCON100RHTM2OESW1100HELP 'Package symbols' 
+\w (00:01:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:56) FORM plc_manual tree  LATCON100RHTM2OEW110010 'Package symbols' 
+\w (00:01:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:57) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:57) FORM plc_manual tree  LATCON100RHTM2OEW110014 'Package symbols' 
+\w (00:01:57) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:57) FORM plc_manual tree  LATCON100RHTM2OEW110016 'Package symbols' 
+\w (00:01:57) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:57) FORM plc_manual tree  LATCON100RHTM2OEW110020 'Package symbols' 
+\w (00:01:57) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:57) FORM plc_manual tree  LATCON100RHTM2OEW110024 'Package symbols' 
+\w (00:01:57) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100RHTM2OEW110026 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100RHTM2OEW110030 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100RHTM2OEW110034 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100RHTM2OEW110040 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100RHTM2OEW110050 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100RHTM2OEW110060 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100RHTM2OEW110064 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100VHTM2OESW35010 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100VHTM2OESW35014 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100VHTM2OESW35016 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:58) FORM plc_manual tree  LATCON100VHTM2OESW35020 'Package symbols' 
+\w (00:01:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OESW35024 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OESW35026 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OESW35030 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OESW35034 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OESW35040 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OESW35050 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OESW35060 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OESW35064 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OESW350HELP 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35010 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35014 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35016 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35020 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35024 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35026 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35030 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35034 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35040 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35050 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35060 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW35064 'Package symbols' 
+\w (00:01:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:59) FORM plc_manual tree  LATCON100VHTM2OEW350HELP 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCC20 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCC24 'Package symbols' 
+\i (00:02:00) FORM plc_manual tree  LCC28 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCC32 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCC44 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCC48 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCC52 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCC68 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCCS18 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCCS22 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCCS24 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCCS28 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LCCS32 'Package symbols' 
+\w (00:02:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:00) FORM plc_manual tree  LED_APHD1608LVBCD 'Package symbols' 
+\i (00:02:01) FORM plc_manual tree  LATCON100RHTM2OESW110010 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110014 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110016 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110020 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110024 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110026 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110030 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110034 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110040 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110050 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110060 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW110064 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OESW1100HELP 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OEW110010 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OEW110014 'Package symbols' 
+\i (00:02:08) FORM plc_manual tree  LATCON100RHTM2OEW110016 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100RHTM2OEW110020 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100RHTM2OEW110024 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100RHTM2OEW110026 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100RHTM2OEW110030 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100RHTM2OEW110034 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100RHTM2OEW110040 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100RHTM2OEW110050 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100RHTM2OEW110060 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100RHTM2OEW110064 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35010 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35014 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35016 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35020 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35024 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35026 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35030 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35034 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35040 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35050 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35060 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW35064 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OESW350HELP 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35010 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35014 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35016 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35020 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35024 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35026 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35030 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35034 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35040 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35050 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35060 'Package symbols' 
+\i (00:02:09) FORM plc_manual tree  LATCON100VHTM2OEW35064 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LATCON100VHTM2OEW350HELP 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCC20 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCC24 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCC28 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCC32 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCC44 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCC48 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCC52 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCC68 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCCS18 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCCS22 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCCS24 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCCS28 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LCCS32 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LED_APHD1608LVBCD 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LATCON100RHTM2OESW110010 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LATCON100RHTM2OESW110014 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LATCON100RHTM2OESW110016 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LATCON100RHTM2OESW110020 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LATCON100RHTM2OESW110024 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LATCON100RHTM2OESW110026 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LATCON100RHTM2OESW110030 'Package symbols' 
+\i (00:02:10) FORM plc_manual tree  LATCON100RHTM2OESW110034 'Package symbols' 
+\i (00:02:11) FORM plc_manual tree  LATCON100RHTM2OESW110040 'Package symbols' 
+\i (00:02:11) FORM plc_manual tree  LATCON100RHTM2OESW110050 'Package symbols' 
+\i (00:02:11) FORM plc_manual tree  LATCON100RHTM2OESW110060 'Package symbols' 
+\i (00:02:11) FORM plc_manual tree  LATCON100RHTM2OESW110064 'Package symbols' 
+\i (00:02:11) FORM plc_manual tree  LATCON100RHTM2OESW1100HELP 'Package symbols' 
+\i (00:02:11) FORM plc_manual tree  LATCON100RHTM2OEW110010 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110014 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110016 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110020 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110024 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110026 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110030 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110034 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110040 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110050 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110060 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100RHTM2OEW110064 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35010 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35014 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35016 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35020 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35024 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35026 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35030 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35034 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35040 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35050 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35060 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW35064 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OESW350HELP 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OEW35010 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OEW35014 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OEW35016 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OEW35020 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OEW35024 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OEW35026 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OEW35030 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OEW35034 'Package symbols' 
+\i (00:02:12) FORM plc_manual tree  LATCON100VHTM2OEW35040 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LATCON100VHTM2OEW35050 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LATCON100VHTM2OEW35060 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LATCON100VHTM2OEW35064 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LATCON100VHTM2OEW350HELP 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCC20 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCC24 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCC28 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCC32 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCC44 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCC48 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCC52 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCC68 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCCS18 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCCS22 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCCS24 'Package symbols' 
+\i (00:02:13) FORM plc_manual tree  LCCS28 'Package symbols' 
+\i (00:02:14) FORM plc_manual tree  LCCS32 'Package symbols' 
+\i (00:02:14) FORM plc_manual tree  LED_APHD1608LVBCD 'Package symbols' 
+\i (00:02:18) FORM plc_manual tree 'MULTISEL YES' LED_APHD1608LVBCD 'Package symbols' 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) prepopup -71.5535 -97.2983
+\i (00:02:26) rotate 
+\t (00:02:26) Spin the element(s).
+\i (00:02:27) iangle 90.000
+\t (00:02:27) last angle:  +90.000 Degrees
+\i (00:02:30) zoom in 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom in -72.0359 -97.3568
+\i (00:02:30) trapsize 365
+\i (00:02:30) zoom in 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom in -72.0359 -97.3714
+\i (00:02:30) trapsize 183
+\i (00:02:33) pick grid -72.0395 -97.3750
+\t (00:02:33) last pick:  -72.0500 -97.3500
+\i (00:02:37) prepopup -70.8882 -98.0548
+\i (00:02:39) cancel 
+\i (00:02:39) etchedit 
+\i (00:02:40) zoom out 1 
+\i (00:02:40) setwindow pcb
+\i (00:02:40) zoom out -71.6338 -97.3202
+\i (00:02:40) trapsize 365
+\i (00:02:41) prepopup -72.9350 -96.5965
+\i (00:02:44) undo 
+\i (00:02:44) trapsize 731
+\i (00:02:44) etchedit 
+\i (00:02:44) undo 
+\i (00:02:44) trapsize 731
+\i (00:02:44) etchedit 
+\i (00:02:45) undo 
+\i (00:02:45) trapsize 731
+\i (00:02:45) etchedit 
+\i (00:02:45) undo 
+\i (00:02:45) trapsize 731
+\i (00:02:45) etchedit 
+\i (00:02:45) undo 
+\i (00:02:46) trapsize 1462
+\i (00:02:46) etchedit 
+\i (00:02:48) undo 
+\i (00:02:48) trapsize 1462
+\i (00:02:48) etchedit 
+\i (00:02:51) exit 
+\e (00:02:51) Do you want to save the changes you made to SAFELIGHT1_5.brd?
+\i (00:02:52) fillin no 
+\t (00:02:53)     Journal end - Thu Apr 27 18:14:42 2023

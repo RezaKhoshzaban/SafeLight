@@ -1,17 +1,40 @@
-\t (00:00:02) allegro 17.2 S078 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Tue Apr 25 13:35:37 2023
-\t (00:00:02)         Host=DESKTOP-CK2AQQI User=rezak Pid=20228 CPUs=8
-\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\an043_patch_antenna.dra
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:02) Opening existing design...
-\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged an043_patch_antenna
-\d (00:00:02) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/an043_patch_antenna.dra
-\i (00:00:03) trapsize 527
-\i (00:00:03) trapsize 543
-\i (00:00:03) trapsize 527
-\i (00:00:03) trapsize 412
-\i (00:00:03) trapsize 448
-\i (00:00:03) etchedit 
-\i (00:00:11) exit 
-\t (00:00:12)     Journal end - Tue Apr 25 13:35:46 2023
+\t (00:00:01) allegro 17.2 S078 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Apr 27 18:10:39 2023
+\t (00:00:01)         Host=DESKTOP-CK2AQQI User=rezak Pid=22432 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\LED_APHD1608LVBCD.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged LED_APHD1608LVBCD
+\d (00:00:03) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/LED_APHD1608LVBCD.dra
+\i (00:00:04) trapsize 474
+\i (00:00:04) trapsize 488
+\i (00:00:04) trapsize 474
+\i (00:00:04) trapsize 371
+\i (00:00:04) trapsize 371
+\i (00:00:04) etchedit 
+\i (00:00:06) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:00:09) refresh padstack 
+\i (00:00:10) setwindow form.rf_pad
+\i (00:00:10) FORM rf_pad execute  
+\t (00:00:10) Starting Refreshing padstacks...
+\t (00:00:11) Opening existing design...
+\i (00:00:11) setwindow pcb
+\i (00:00:11) trapsize 371
+\i (00:00:11) trapsize 379
+\i (00:00:11) trapsize 371
+\i (00:00:11) trapsize 390
+\i (00:00:13) setwindow form.rf_pad
+\i (00:00:13) FORM rf_pad cancel  
+\i (00:00:13) setwindow pcb
+\i (00:00:13) etchedit 
+\i (00:00:14) prepopup -0.8639 0.0423
+\i (00:00:15) pop dyn_option_select '@:@Show element' 
+\i (00:00:15) show element 
+\i (00:00:15) etchedit 
+\i (00:00:17) setwindow text
+\i (00:00:17) close
+\i (00:00:19) exit 
+\e (00:00:19) Do you want to save the changes you made to C:/SafeLight/MyLib/FOOTPRINTS/LED_APHD1608LVBCD.dra?
+\i (00:00:21) fillin no 
+\t (00:00:21)     Journal end - Thu Apr 27 18:11:00 2023

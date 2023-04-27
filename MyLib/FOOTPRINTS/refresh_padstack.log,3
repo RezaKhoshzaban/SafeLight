@@ -4,12 +4,12 @@
 (                                                                     )
 (    Drawing          : an043_patch_antenna.dra                       )
 (    Software Version : 17.2S078                                      )
-(    Date/Time        : Thu Apr 20 12:15:55 2023                      )
+(    Date/Time        : Thu Apr 20 12:17:41 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Thu Apr 20 12:15:55 2023				Page     1
+Thu Apr 20 12:17:41 2023				Page     1
 
 
 ------ Pad Stack Refresh Options ------
@@ -43,8 +43,12 @@ PADPATH =  .
 
 ------ Pad Stack Refresh Messages ------
 
-WARNING(SPMHNI-253): Unable to find pad stack, 'SMD_RECT_0D5_0D9_ANTENNA_NO_MASKS', in directory search path.
+'SMD_RECT_0D5_0D9_ANTENNA'  pad stack refresh starting.
 
-WARNING(SPMHNI-253): Unable to find pad stack, 'SMD_RECT_0D5_0D5_ANTENNA_NO_MASKS', in directory search path.
+     'SMD_RECT_0D5_0D9_ANTENNA'  pad stack refreshed successfully.
+     
+'SMD_RECT_0D5_0D5_ANTENNA'  pad stack refresh starting.
 
-WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.
+     'SMD_RECT_0D5_0D5_ANTENNA'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : SOT95P240X120-3N.dra                          )
+(    Drawing          : an043_patch_antenna.dra                       )
 (    Software Version : 17.2S078                                      )
-(    Date/Time        : Wed Apr 19 17:11:12 2023                      )
+(    Date/Time        : Thu Apr 20 12:13:26 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Wed Apr 19 17:11:12 2023				Page     1
+Thu Apr 20 12:13:26 2023				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/SOT95P240X120-3N.dra'
+Input design  = 'C:/SafeLight/MyLib/FOOTPRINTS/an043_patch_antenna.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -43,8 +43,12 @@ PADPATH =  .
 
 ------ Pad Stack Refresh Messages ------
 
-'S_R100T140M100_140P100_140'  pad stack refresh starting.
+'SMD_RECT_0D5_0D5_ANTENNA_NO_MASKS'  pad stack refresh starting.
 
-     'S_R100T140M100_140P100_140'  pad stack refreshed successfully.
+     'SMD_RECT_0D5_0D5_ANTENNA_NO_MASKS'  pad stack refreshed successfully.
+     
+'SMD_RECT_0D5_0D9_ANTENNA_NO_MASKS'  pad stack refresh starting.
+
+     'SMD_RECT_0D5_0D9_ANTENNA_NO_MASKS'  pad stack refreshed successfully.
      
 Completed refreshing all pad stacks successfully.

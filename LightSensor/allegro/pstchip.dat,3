@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Apr-24-2023 at 10:56:56}
+{ Using PSTWRITER 17.2.0 d001Apr-27-2023 at 18:11:48}
 primitive 'ANTENNA_AN043_PATCH_ANTENNA_TI';
   pin
     '+':
@@ -48,7 +48,7 @@ primitive 'AT-1127-ST-2-R_XDCR_AT-1127-ST-';
     VALUE='AT-1127-ST-2-R';
   end_body;
 end_primitive;
-primitive 'CAP_0402_C_12P';
+primitive 'CAP_0402_C_12PF';
   pin
     'A':
       PIN_NUMBER='(1)';
@@ -60,7 +60,7 @@ primitive 'CAP_0402_C_12P';
   body
     PART_NAME='CAP';
     JEDEC_TYPE='0402_C';
-    VALUE='12p';
+    VALUE='12pF';
   end_body;
 end_primitive;
 primitive 'CAP_0603_C_100NF';
@@ -76,21 +76,6 @@ primitive 'CAP_0603_C_100NF';
     PART_NAME='CAP';
     JEDEC_TYPE='0603_C';
     VALUE='100nF';
-  end_body;
-end_primitive;
-primitive 'CAP_0402_C_12PF';
-  pin
-    'A':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'B':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP';
-    JEDEC_TYPE='0402_C';
-    VALUE='12pF';
   end_body;
 end_primitive;
 primitive 'CAP_0402_C_1.2PF';

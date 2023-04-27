@@ -45,8 +45,9 @@
     (BOM_Mode "1")
     (BOM_Report_File "C:\SAFELIGHT\LIGHTSENSOR\Reports\SAFELIGHT.BOM")
     (BOM_Merge_Include "FALSE")
-    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
-    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPackage")
     (BOM_Include_File "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
@@ -93,7 +94,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Output Board File" "allegro\SAFELIGHT1_3.brd")
+    ("Allegro Netlist Output Board File" "allegro\SAFELIGHT1_5.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -104,7 +105,7 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
     ("Allegro Netlist Input Board File"
-       "C:\SafeLight\LightSensor\allegro\SAFELIGHT1_3_NS.brd"))
+       "C:\SafeLight\LightSensor\allegro\SAFELIGHT1_4_GPE.brd"))
   (Folder "Outputs"
     (File ".\safelight.xrf"
       (Type "Report"))
@@ -231,9 +232,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn")
-      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\safelight.dsn")
+      (Path "Design Resources" ".\safelight.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Outputs"))
     (HierarchyView)
@@ -256,7 +256,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1375 104 439")
-        (Scroll "-68 396")
+        (Scroll "-68 379")
         (Zoom "112")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
@@ -266,7 +266,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1401 130 465")
-        (Scroll "-68 363")
+        (Scroll "-68 396")
         (Zoom "112")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
