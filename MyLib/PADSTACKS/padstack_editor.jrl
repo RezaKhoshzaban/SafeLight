@@ -1,16 +1,13 @@
 \t (00:00:00) padstack_editor 17.2 S078 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Wed Apr 26 14:20:34 2023
-\t (00:00:00)         Host=DESKTOP-CK2AQQI User=rezak Pid=12796 CPUs=8
-\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\padstack_editor.exe C:\SafeLight\MyLib\PADSTACKS\via_sf.pad
+\t (00:00:00)     Journal start - Fri Apr 28 20:36:27 2023
+\t (00:00:00)         Host=DESKTOP-CK2AQQI User=rezak Pid=8992 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\padstack_editor.exe C:\SafeLight\MyLib\PADSTACKS\s_r100t140m100_140p100_140.pad
 \t (00:00:00) 
-\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
-\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
-\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
-\d (00:00:10) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
-\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
-\d (00:00:13) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
-\d (00:00:13) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
-\d (00:00:15) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
-\d (00:00:16) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
-\d (00:00:17) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
-\t (00:00:23)     Journal end - Wed Apr 26 14:20:57 2023
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:03:21) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:03:21) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:03:23) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:04:17) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:06:54) QtFillin Cancel
+\d (01:25:52) QtFillin No
+\t (01:25:52)     Journal end - Fri Apr 28 22:02:20 2023

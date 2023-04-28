@@ -2,9 +2,9 @@
 (                                                                     )
 (    ARTWORK LOG                                                      )
 (                                                                     )
-(    Drawing          : SAFELIGHT1_4_GPE.brd                          )
+(    Drawing          : SAFELIGHT1_5.brd                              )
 (    Software Version : 17.2S078                                      )
-(    Date/Time        : Thu Apr 27 11:01:13 2023                      )
+(    Date/Time        : Thu Apr 27 18:31:00 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -39,7 +39,7 @@
 
 ================================================================
      PROCESSING FILM < TOP >
-     TO FILE < C:/SafeLight/LightSensor/allegro/TOP.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -68,7 +68,6 @@
   CIRCLE     0.05543                                  DARK 
   CIRCLE     0.06600                                  DARK 
   SQUARE     0.01969                     0.000 NO     DARK 
-  SQUARE     0.03150                     0.000 NO     DARK 
   SQUARE     0.04000                     0.000 NO     DARK 
   SQUARE     0.07874                     0.000 NO     DARK 
   SQUARE     0.11024                     0.000 NO     DARK 
@@ -77,6 +76,7 @@
   RECTANGLE  0.01969     x 0.02362       0.000 NO     DARK 
   RECTANGLE  0.01969     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.02165     x 0.05118      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03150       0.000 NO     DARK 
   RECTANGLE  0.02756     x 0.03740       0.000 NO     DARK 
   RECTANGLE  0.02756     x 0.03740      90.000 NO     DARK 
   RECTANGLE  0.02756     x 0.05118       0.000 NO     DARK 
@@ -101,7 +101,7 @@
 
 ================================================================
      PROCESSING FILM < BOTTOM >
-     TO FILE < C:/SafeLight/LightSensor/allegro/BOTTOM.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -139,7 +139,7 @@
 
 ================================================================
      PROCESSING FILM < OUTLINE >
-     TO FILE < C:/SafeLight/LightSensor/allegro/OUTLINE.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/OUTLINE.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -166,7 +166,7 @@
 
 ================================================================
      PROCESSING FILM < PM_BOTTOM >
-     TO FILE < C:/SafeLight/LightSensor/allegro/PM_BOTTOM.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/PM_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -193,7 +193,7 @@
 
 ================================================================
      PROCESSING FILM < PM_TOP >
-     TO FILE < C:/SafeLight/LightSensor/allegro/PM_TOP.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/PM_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -221,12 +221,12 @@
   RECTANGLE  0.01772     x 0.02165       0.000 NO     DARK 
   RECTANGLE  0.01772     x 0.02165      90.000 NO     DARK 
   RECTANGLE  0.01969     x 0.04921      90.000 NO     DARK 
-  RECTANGLE  0.02362     x 0.02756      90.000 NO     DARK 
   RECTANGLE  0.02559     x 0.03543       0.000 NO     DARK 
   RECTANGLE  0.02559     x 0.03543      90.000 NO     DARK 
   RECTANGLE  0.02559     x 0.04921       0.000 NO     DARK 
   RECTANGLE  0.02559     x 0.04921      90.000 NO     DARK 
   RECTANGLE  0.02559     x 0.05315      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03150       0.000 NO     DARK 
   RECTANGLE  0.03346     x 0.01772      90.000 NO     DARK 
   RECTANGLE  0.03937     x 0.05512       0.000 NO     DARK 
   RECTANGLE  0.04646     x 0.02362      90.000 NO     DARK 
@@ -245,7 +245,7 @@
 
 ================================================================
      PROCESSING FILM < SM_BOTTOM >
-     TO FILE < C:/SafeLight/LightSensor/allegro/SM_BOTTOM.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/SM_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -280,7 +280,7 @@
 
 ================================================================
      PROCESSING FILM < SM_TOP >
-     TO FILE < C:/SafeLight/LightSensor/allegro/SM_TOP.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/SM_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -307,7 +307,6 @@
   CIRCLE     0.06331                                  DARK 
   CIRCLE     0.07387                                  DARK 
   SQUARE     0.01969                     0.000 NO     DARK 
-  SQUARE     0.03150                     0.000 NO     DARK 
   SQUARE     0.04000                     0.000 NO     DARK 
   SQUARE     0.07874                     0.000 NO     DARK 
   SQUARE     0.11024                     0.000 NO     DARK 
@@ -322,6 +321,7 @@
   RECTANGLE  0.02756     x 0.05118      90.000 NO     DARK 
   RECTANGLE  0.02756     x 0.05512      90.000 NO     DARK 
   RECTANGLE  0.03543     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.03937       0.000 NO     DARK 
   RECTANGLE  0.04724     x 0.06299       0.000 NO     DARK 
   RECTANGLE  0.05433     x 0.01772      90.000 NO     DARK 
   RECTANGLE  0.05433     x 0.03150      90.000 NO     DARK 
@@ -340,7 +340,7 @@
 
 ================================================================
      PROCESSING FILM < SS_BOTTOM >
-     TO FILE < C:/SafeLight/LightSensor/allegro/SS_BOTTOM.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/SS_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -367,7 +367,7 @@
 
 ================================================================
      PROCESSING FILM < SS_TOP >
-     TO FILE < C:/SafeLight/LightSensor/allegro/SS_TOP.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/SS_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -406,7 +406,7 @@
 
 ================================================================
      PROCESSING FILM < AS_TOP >
-     TO FILE < C:/SafeLight/LightSensor/allegro/AS_TOP.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/AS_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -435,7 +435,7 @@
 
 ================================================================
      PROCESSING FILM < AS_BOTTOM >
-     TO FILE < C:/SafeLight/LightSensor/allegro/AS_BOTTOM.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/AS_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -462,7 +462,7 @@
 
 ================================================================
      PROCESSING FILM < SE_TOP >
-     TO FILE < C:/SafeLight/LightSensor/allegro/SE_TOP.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/SE_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -497,7 +497,6 @@
   CIRCLE     0.05543                                  DARK 
   CIRCLE     0.06600                                  DARK 
   SQUARE     0.01969                     0.000 NO     DARK 
-  SQUARE     0.03150                     0.000 NO     DARK 
   SQUARE     0.04000                     0.000 NO     DARK 
   SQUARE     0.07874                     0.000 NO     DARK 
   SQUARE     0.11024                     0.000 NO     DARK 
@@ -506,6 +505,7 @@
   RECTANGLE  0.01969     x 0.02362       0.000 NO     DARK 
   RECTANGLE  0.01969     x 0.02362      90.000 NO     DARK 
   RECTANGLE  0.02165     x 0.05118      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03150       0.000 NO     DARK 
   RECTANGLE  0.02756     x 0.03740       0.000 NO     DARK 
   RECTANGLE  0.02756     x 0.03740      90.000 NO     DARK 
   RECTANGLE  0.02756     x 0.05118       0.000 NO     DARK 
@@ -530,7 +530,7 @@
 
 ================================================================
      PROCESSING FILM < SE_BOTTOM >
-     TO FILE < C:/SafeLight/LightSensor/allegro/SE_BOTTOM.art > ...
+     TO FILE < C:/SAFELIGHT/LIGHTSENSOR/allegro/SE_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :

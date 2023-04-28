@@ -1,40 +1,76 @@
 \t (00:00:01) allegro 17.2 S078 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Thu Apr 27 18:10:39 2023
-\t (00:00:01)         Host=DESKTOP-CK2AQQI User=rezak Pid=22432 CPUs=8
-\t (00:00:01) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\LED_APHD1608LVBCD.dra
+\t (00:00:01)     Journal start - Fri Apr 28 20:35:53 2023
+\t (00:00:01)         Host=DESKTOP-CK2AQQI User=rezak Pid=17220 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\MyLib\FOOTPRINTS\SOT95P240X120-3N.dra
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
 \t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged LED_APHD1608LVBCD
-\d (00:00:03) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/LED_APHD1608LVBCD.dra
-\i (00:00:04) trapsize 474
-\i (00:00:04) trapsize 488
-\i (00:00:04) trapsize 474
-\i (00:00:04) trapsize 371
-\i (00:00:04) trapsize 371
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SOT95P240X120-3N
+\d (00:00:03) Design opened: C:/SafeLight/MyLib/FOOTPRINTS/SOT95P240X120-3N.dra
+\i (00:00:03) trapsize 960
+\i (00:00:04) trapsize 988
+\i (00:00:04) trapsize 960
+\i (00:00:04) trapsize 751
+\i (00:00:04) trapsize 751
 \i (00:00:04) etchedit 
-\i (00:00:06) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
-\i (00:00:09) refresh padstack 
-\i (00:00:10) setwindow form.rf_pad
-\i (00:00:10) FORM rf_pad execute  
-\t (00:00:10) Starting Refreshing padstacks...
-\t (00:00:11) Opening existing design...
-\i (00:00:11) setwindow pcb
-\i (00:00:11) trapsize 371
-\i (00:00:11) trapsize 379
-\i (00:00:11) trapsize 371
-\i (00:00:11) trapsize 390
-\i (00:00:13) setwindow form.rf_pad
-\i (00:00:13) FORM rf_pad cancel  
-\i (00:00:13) setwindow pcb
-\i (00:00:13) etchedit 
-\i (00:00:14) prepopup -0.8639 0.0423
-\i (00:00:15) pop dyn_option_select '@:@Show element' 
-\i (00:00:15) show element 
-\i (00:00:15) etchedit 
-\i (00:00:17) setwindow text
-\i (00:00:17) close
-\i (00:00:19) exit 
-\e (00:00:19) Do you want to save the changes you made to C:/SafeLight/MyLib/FOOTPRINTS/LED_APHD1608LVBCD.dra?
-\i (00:00:21) fillin no 
-\t (00:00:21)     Journal end - Thu Apr 27 18:11:00 2023
+\i (00:00:09) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:00:10) roam x -96 
+\i (00:00:10) roam x -96
+\i (00:00:10) roam x -96 
+\i (00:00:10) roam x -96
+\i (00:00:10) roam x -96 
+\i (00:00:10) roam x -96
+\i (00:00:10) roam x -96 
+\i (00:00:10) roam x -96
+\i (00:00:11) roam x -96 
+\i (00:00:11) roam x -96
+\i (00:00:14) prepopup 0.0555 1.1376
+\i (00:00:16) pop dyn_option_select '@:@Show element' 
+\i (00:00:17) show element 
+\i (00:00:17) etchedit 
+\i (00:00:25) setwindow text
+\i (00:00:25) close
+\i (00:25:49) setwindow form.find
+\i (00:25:49) FORM find all_on  
+\i (00:25:58) setwindow pcb
+\i (00:25:58) zoom in 1 
+\i (00:25:58) setwindow pcb
+\i (00:25:58) zoom in -1.1158 -0.6193
+\i (00:25:58) trapsize 375
+\i (00:25:59) zoom in 1 
+\i (00:25:59) setwindow pcb
+\i (00:25:59) zoom in -1.1158 -0.6193
+\i (00:25:59) trapsize 188
+\i (00:25:59) zoom in 1 
+\i (00:25:59) setwindow pcb
+\i (00:25:59) zoom in -1.1158 -0.6192
+\i (00:25:59) trapsize 94
+\i (00:26:01) zoom out 1 
+\i (00:26:01) setwindow pcb
+\i (00:26:01) zoom out -1.0989 -0.8707
+\i (00:26:01) trapsize 188
+\i (00:26:01) zoom out 1 
+\i (00:26:01) setwindow pcb
+\i (00:26:01) zoom out -1.0989 -0.8707
+\i (00:26:01) trapsize 375
+\i (00:26:13) zoom in 1 
+\i (00:26:13) setwindow pcb
+\i (00:26:13) zoom in -0.6260 -0.5929
+\i (00:26:13) trapsize 188
+\i (00:26:13) zoom in 1 
+\i (00:26:13) setwindow pcb
+\i (00:26:13) zoom in -0.6259 -0.5929
+\i (00:26:13) trapsize 94
+\i (00:26:17) zoom out 1 
+\i (00:26:17) setwindow pcb
+\i (00:26:17) zoom out -0.2580 -0.6717
+\i (00:26:17) trapsize 188
+\i (00:26:18) zoom out 1 
+\i (00:26:18) setwindow pcb
+\i (00:26:18) zoom out -0.2579 -0.6717
+\i (00:26:18) trapsize 375
+\i (00:26:31) pick grid -2.0149 1.9788
+\t (00:26:31) last pick:  -1.9050 1.9050
+\i (00:56:17) trapsize 541
+\i (01:03:02) exit 
+\t (01:03:02)     Journal end - Fri Apr 28 21:38:55 2023
