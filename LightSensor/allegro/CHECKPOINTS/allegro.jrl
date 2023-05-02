@@ -1,0 +1,15 @@
+\t (00:00:02) allegro 17.2 S078 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Apr 29 14:15:30 2023
+\t (00:00:02)         Host=DESKTOP-CK2AQQI User=rezak Pid=14052 CPUs=8
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\LightSensor\allegro\CHECKPOINTS\SAFELIGHT1_5(final).brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Starting new design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAFELIGHT1_5(final)
+\i (00:00:05) trapsize 856
+\i (00:00:05) trapsize 882
+\i (00:00:05) trapsize 623
+\i (00:00:05) trapsize 994
+\i (00:00:05) etchedit 
+\i (00:00:06) exit 
+\t (00:00:07)     Journal end - Sat Apr 29 14:15:35 2023

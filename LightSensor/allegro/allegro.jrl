@@ -1,159 +1,160 @@
-\t (00:00:00) allegro 17.2 S078 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Fri Apr 28 21:40:06 2023
-\t (00:00:00)         Host=DESKTOP-CK2AQQI User=rezak Pid=11536 CPUs=8
-\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\LightSensor\allegro\SAFELIGHT1_5.brd
-\t (00:00:00) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAFELIGHT1_5
-\d (00:00:03) Design opened: C:/SafeLight/LightSensor/allegro/SAFELIGHT1_5.brd
-\i (00:00:03) trapsize 413
-\i (00:00:04) trapsize 433
-\i (00:00:04) trapsize 255
-\i (00:00:04) trapsize 255
-\i (00:00:04) etchedit 
-\i (00:00:21) trapsize 183
-\i (00:00:21) zoom out 1 
-\i (00:00:21) setwindow pcb
-\i (00:00:21) zoom out -62.9870 -76.3858
-\i (00:00:21) trapsize 365
-\i (00:00:22) zoom out 1 
-\i (00:00:22) setwindow pcb
-\i (00:00:22) zoom out -62.9869 -76.3858
-\i (00:00:22) trapsize 731
-\i (00:00:22) zoom out 1 
-\i (00:00:22) setwindow pcb
-\i (00:00:22) zoom out -62.9869 -76.3857
-\i (00:00:22) trapsize 1462
-\i (00:00:22) roam y 96 
-\i (00:00:22) roam y 96
-\i (00:00:23) roam y 96 
-\i (00:00:23) roam y 96
-\i (00:00:23) zoom in 1 
-\i (00:00:23) setwindow pcb
-\i (00:00:23) zoom in -59.1275 -90.3834
-\i (00:00:23) trapsize 731
-\i (00:00:24) roam x 96 
-\i (00:00:24) roam x 96
-\i (00:00:24) roam x 96 
-\i (00:00:24) roam x 96
-\i (00:00:24) roam x 96 
-\i (00:00:24) roam x 96
-\i (00:00:24) roam y 96 
-\i (00:00:24) roam y 96
-\i (00:00:25) roam y 96 
-\i (00:00:25) roam y 96
-\i (00:00:27) zoom in 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom in -54.9312 -93.2049
-\i (00:00:27) trapsize 365
-\i (00:00:28) roam x -96 
-\i (00:00:28) roam x -96
-\i (00:00:28) roam x -96 
-\i (00:00:28) roam x -96
-\i (00:00:29) roam x 96 
-\i (00:00:29) roam x 96
-\i (00:00:36) roam x -96 
-\i (00:00:36) roam x -96
-\i (00:00:36) roam x -96 
-\i (00:00:36) roam x -96
-\i (00:01:28) roam x -96 
-\i (00:01:28) roam x -96
-\i (00:01:28) roam x -96 
-\i (00:01:28) roam x -96
-\i (00:01:59) roam x -96 
-\i (00:01:59) roam x -96
-\i (00:02:57) zoom out 1 
-\i (00:02:57) setwindow pcb
-\i (00:02:57) zoom out -63.8563 -93.2268
-\i (00:02:57) trapsize 731
-\i (00:02:57) zoom out 1 
-\i (00:02:57) setwindow pcb
-\i (00:02:57) zoom out -63.8563 -93.2267
-\i (00:02:57) trapsize 1462
-\i (00:02:58) zoom in 1 
-\i (00:02:58) setwindow pcb
-\i (00:02:58) zoom in -63.8563 -93.2268
-\i (00:02:58) trapsize 731
-\i (00:06:26) xhilite 
-\i (00:06:27) xname_flush 
-\i (00:06:27) done 
-\i (00:06:27) etchedit 
-\i (00:06:35) xhilite 
-\i (00:06:35) xname_flush 
-\i (00:06:35) done 
-\i (00:06:36) etchedit 
-\i (00:22:01) exit 
-\e (00:22:01) Do you want to save the changes you made to SAFELIGHT1_5.brd?
-\i (00:22:06) fillin no 
-\t (00:22:06)     Journal end - Fri Apr 28 22:02:12 2023
-9) roam x -96 
-\i (00:00:09) roam x -96
-\i (00:00:09) roam x -96 
-\i (00:00:09) roam x -96
-\i (00:00:09) roam x -96 
-\i (00:00:09) roam x -96
-\i (00:00:09) roam x -96 
-\i (00:00:09) roam x -96
-\i (00:00:09) roam x -96 
-\i (00:00:09) roam x -96
-\i (00:00:10) roam x -96 
-\i (00:00:10) roam x -96
-\i (00:00:10) roam x -96 
-\i (00:00:10) roam x -96
-\i (00:00:10) roam x -96 
-\i (00:00:10) roam x -96
-\i (00:00:13) drag_start grid -61.4001 -91.3739
-\i (00:00:13) move 
-\t (00:00:13) last pick:  -61.5000 -91.9000
-\t (00:00:13) Moving C12 / CAP_0402_C_1.2PF / 0402_C.
-\t (00:00:13) Pick new location for the element(s).
-\i (00:00:13) drag_stop grid -61.9868 -90.5690
-\i (00:00:13) etchedit 
-\i (00:00:14) undo 
-\i (00:00:14) trapsize 682
-\i (00:00:14) etchedit 
-\i (00:00:20) roam x 96 
-\i (00:00:20) roam x 96
-\i (00:00:20) roam x 96 
-\i (00:00:20) roam x 96
-\i (00:00:21) roam x 96 
-\i (00:00:21) roam x 96
-\i (00:00:21) roam x 96 
-\i (00:00:21) roam x 96
-\i (00:00:21) roam x 96 
-\i (00:00:21) roam x 96
-\i (00:00:21) roam x 96 
-\i (00:00:21) roam x 96
-\i (00:00:21) roam x 96 
-\i (00:00:21) roam x 96
-\i (00:00:21) roam x 96 
-\i (00:00:21) roam x 96
-\i (00:00:21) roam x 96 
-\i (00:00:21) roam x 96
-\i (00:00:21) roam x 96 
-\i (00:00:21) roam x 96
-\i (00:00:21) roam x -96 
-\i (00:00:21) roam x -96
-\i (00:00:22) roam x -96 
-\i (00:00:22) roam x -96
-\i (00:00:22) roam x -96 
-\i (00:00:22) roam x -96
-\i (00:00:22) roam x -96 
-\i (00:00:22) roam x -96
-\i (00:00:22) roam x -96 
-\i (00:00:22) roam x -96
-\i (00:00:22) roam x -96 
-\i (00:00:22) roam x -96
-\i (00:00:22) roam x -96 
-\i (00:00:22) roam x -96
-\i (00:00:22) roam x -96 
-\i (00:00:22) roam x -96
-\i (00:00:22) roam x -96 
-\i (00:00:22) roam x -96
-\i (00:00:22) roam x -96 
-\i (00:00:22) roam x -96
-\i (00:15:21) exit 
-\e (00:15:22) Do you want to save the changes you made to AllComponents.brd?
-\i (00:15:31) fillin no 
-\t (00:15:31)     Journal end - Fri Apr 28 22:02:16 2023
+\t (00:00:07) allegro 17.2 S078 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Sat Apr 29 14:13:18 2023
+\t (00:00:07)         Host=DESKTOP-CK2AQQI User=rezak Pid=5164 CPUs=8
+\t (00:00:07) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\SafeLight\LightSensor\allegro\SAFELIGHT1_5.brd
+\t (00:00:07) 
+   (00:00:07) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged SAFELIGHT1_5
+\d (00:00:08) Design opened: C:/SafeLight/LightSensor/allegro/SAFELIGHT1_5.brd
+\i (00:00:08) trapsize 251
+\i (00:00:08) trapsize 259
+\i (00:00:09) trapsize 183
+\i (00:00:09) trapsize 183
+\i (00:00:09) etchedit 
+\i (00:00:13) zoom fit 
+\i (00:00:13) trapsize 1733
+\i (00:00:16) trapsize 2422
+\i (00:00:23) trapsize 1733
+\i (00:00:29) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ASSEMBLY BOTTOM"
+\i (00:00:29) color -globvis off 
+\i (00:00:29) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:29) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_BOTTOM' 
+\i (00:00:29) color -vis 'REF DES/ASSEMBLY_BOTTOM' 
+\i (00:00:29) trapsize 1733
+\i (00:00:29) etchedit 
+\i (00:00:32) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ASSEMBLY TOP"
+\i (00:00:32) color -globvis off 
+\i (00:00:32) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:32) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_TOP' 
+\i (00:00:32) color -vis 'REF DES/ASSEMBLY_TOP' 
+\i (00:00:32) trapsize 1733
+\i (00:00:32) etchedit 
+\i (00:00:38) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ASSEMBLYB"
+\i (00:00:38) color -globvis off 
+\i (00:00:38) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:38) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_BOTTOM' 
+\i (00:00:38) color -vis 'REF DES/ASSEMBLY_BOTTOM' 
+\i (00:00:38) trapsize 1733
+\i (00:00:38) etchedit 
+\i (00:00:40) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ETCHB"
+\i (00:00:40) color -globvis off 
+\i (00:00:40) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:40) color -vis 'DRC ERROR CLASS/BOTTOM' 
+\i (00:00:40) color -vis ETCH/BOTTOM 
+\i (00:00:40) color -vis PIN/BOTTOM 
+\i (00:00:40) color -vis 'VIA CLASS/BOTTOM' 
+\i (00:00:40) color -vis 'ANTI ETCH/BOTTOM' 
+\i (00:00:40) color -vis BOUNDARY/BOTTOM 
+\i (00:00:40) color -vis CAVITY/BOTTOM 
+\i (00:00:40) trapsize 1733
+\i (00:00:40) etchedit 
+\i (00:00:44) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: ETCHT"
+\i (00:00:44) color -globvis off 
+\i (00:00:44) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:44) color -vis 'DRC ERROR CLASS/TOP' 
+\i (00:00:44) color -vis ETCH/TOP 
+\i (00:00:44) color -vis PIN/TOP 
+\i (00:00:44) color -vis 'VIA CLASS/TOP' 
+\i (00:00:44) color -vis 'ANTI ETCH/TOP' 
+\i (00:00:44) color -vis BOUNDARY/TOP 
+\i (00:00:44) color -vis CAVITY/TOP 
+\i (00:00:44) trapsize 1733
+\i (00:00:44) etchedit 
+\i (00:00:48) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: PASTEMASKB"
+\i (00:00:48) color -globvis off 
+\i (00:00:48) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:48) color -vis 'DRC ERROR CLASS/PASTEMASK_BOTTOM' 
+\i (00:00:48) color -vis PIN/PASTEMASK_BOTTOM 
+\i (00:00:48) color -vis 'VIA CLASS/PASTEMASK_BOTTOM' 
+\i (00:00:48) trapsize 1733
+\i (00:00:48) etchedit 
+\i (00:00:50) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILK ETCH BOTTOM"
+\i (00:00:50) color -globvis off 
+\i (00:00:50) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:50) color -vis 'BOARD GEOMETRY/SILKSCREEN_BOTTOM' 
+\i (00:00:50) color -vis 'COMPONENT VALUE/SILKSCREEN_BOTTOM' 
+\i (00:00:50) color -vis 'DEVICE TYPE/SILKSCREEN_BOTTOM' 
+\i (00:00:50) color -vis 'DRC ERROR CLASS/BOTTOM' 
+\i (00:00:50) color -vis ETCH/BOTTOM 
+\i (00:00:50) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_BOTTOM' 
+\i (00:00:50) color -vis PIN/BOTTOM 
+\i (00:00:50) color -vis 'REF DES/SILKSCREEN_BOTTOM' 
+\i (00:00:50) color -vis TOLERANCE/SILKSCREEN_BOTTOM 
+\i (00:00:50) color -vis 'USER PART NUMBER/SILKSCREEN_BOTTOM' 
+\i (00:00:50) color -vis 'VIA CLASS/BOTTOM' 
+\i (00:00:50) color -vis 'ANTI ETCH/BOTTOM' 
+\i (00:00:50) color -vis BOUNDARY/BOTTOM 
+\i (00:00:50) color -vis CAVITY/BOTTOM 
+\i (00:00:50) trapsize 1733
+\i (00:00:50) etchedit 
+\i (00:00:52) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: PASTEMASKT"
+\i (00:00:52) color -globvis off 
+\i (00:00:52) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:52) color -vis 'DRC ERROR CLASS/PASTEMASK_TOP' 
+\i (00:00:52) color -vis PIN/PASTEMASK_TOP 
+\i (00:00:52) color -vis 'VIA CLASS/PASTEMASK_TOP' 
+\i (00:00:52) trapsize 1733
+\i (00:00:52) etchedit 
+\i (00:00:55) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILK ETCH TOP"
+\i (00:00:55) color -globvis off 
+\i (00:00:55) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:55) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+\i (00:00:55) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
+\i (00:00:55) color -vis 'DEVICE TYPE/SILKSCREEN_TOP' 
+\i (00:00:55) color -vis 'DRC ERROR CLASS/TOP' 
+\i (00:00:55) color -vis ETCH/TOP 
+\i (00:00:55) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:00:55) color -vis PIN/TOP 
+\i (00:00:56) color -vis 'REF DES/SILKSCREEN_TOP' 
+\i (00:00:56) color -vis TOLERANCE/SILKSCREEN_TOP 
+\i (00:00:56) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:00:56) color -vis 'VIA CLASS/TOP' 
+\i (00:00:56) color -vis 'ANTI ETCH/TOP' 
+\i (00:00:56) color -vis BOUNDARY/TOP 
+\i (00:00:56) color -vis CAVITY/TOP 
+\i (00:00:56) trapsize 1733
+\i (00:00:56) etchedit 
+\i (00:00:57) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILKSCREENT"
+\i (00:00:57) color -globvis off 
+\i (00:00:57) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:58) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+\i (00:00:58) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
+\i (00:00:58) color -vis 'DEVICE TYPE/SILKSCREEN_TOP' 
+\i (00:00:58) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:00:58) color -vis 'REF DES/SILKSCREEN_TOP' 
+\i (00:00:58) color -vis TOLERANCE/SILKSCREEN_TOP 
+\i (00:00:58) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:00:58) trapsize 1733
+\i (00:00:58) etchedit 
+\i (00:01:00) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: TOP"
+\i (00:01:00) color -globvis off 
+\i (00:01:00) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:01:00) color -vis ETCH/BOND_BOTTOM 
+\i (00:01:00) color -vis ETCH/BOND_TOP 
+\i (00:01:00) color -vis MANUFACTURING/AUTOSILK_BOTTOM 
+\i (00:01:00) color -vis MANUFACTURING/AUTOSILK_TOP 
+\i (00:01:00) color -vis MANUFACTURING/PROBE_BOTTOM 
+\i (00:01:00) color -vis MANUFACTURING/PROBE_TOP 
+\i (00:01:00) color -vis MANUFACTURING/NCDRILL_LEGEND 
+\i (00:01:00) color -vis MANUFACTURING/PHOTOPLOT_OUTLINE 
+\i (00:01:00) color -vis PIN/TOP 
+\i (00:01:00) color -vis BOUNDARY/MULTI_USER_LOCK 
+\i (00:01:00) color -vis 'RIGID FLEX/ZONE_OUTLINE' 
+\i (00:01:00) trapsize 1733
+\i (00:01:00) etchedit 
+\i (00:01:02) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:01:09) drc update 
+\t (00:01:09) Performing DRC...
+\t (00:01:09) Multithreaded DRC update (8 threads).
+\t (00:01:09) No DRC errors detected.
+\i (00:01:09) etchedit 
+\i (00:01:10) status 
+\i (00:01:10) etchedit 
+\i (00:01:12) setwindow form.status
+\i (00:01:12) FORM status done  
+\i (00:01:14) setwindow pcb
+\i (00:01:14) exit 
+\e (00:01:14) Do you want to save the changes you made to SAFELIGHT1_5.brd?
+\i (00:01:17) fillin no 
+\t (00:01:17)     Journal end - Sat Apr 29 14:14:29 2023

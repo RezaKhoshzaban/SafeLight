@@ -232,24 +232,22 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn")
-      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn"
-         "SafeLight")
-      (Path "Design Resources" "c:\safelight\lightsensor\safelight.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\safelight.dsn")
+      (Path "Design Resources" ".\safelight.dsn" "SafeLight")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\safelight.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 239 439 117 391"))
+        (Placement "44 2 3 -1 -1 -8 -31 239 439 117 391"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1349 78 413")
-        (Scroll "-154 357")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1349 78 413")
+        (Scroll "-68 388")
         (Zoom "112")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
@@ -259,7 +257,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1375 104 439")
-        (Scroll "-68 16")
+        (Scroll "-68 396")
         (Zoom "112")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
@@ -269,7 +267,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1401 130 465")
-        (Scroll "-68 16")
+        (Scroll "-68 396")
         (Zoom "112")
         (Occurrence "/"))
       (Path "C:\SAFELIGHT\LIGHTSENSOR\SAFELIGHT.DSN")
